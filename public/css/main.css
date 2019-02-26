@@ -1,0 +1,214 @@
+body {
+    font-family: 'ChronicaPro';
+    color: #000307;
+}
+html, body, #app {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar {
+    font-family: 'Avenir';
+    background: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-brand {
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: .8em;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: .5rem;
+    margin: .5rem 0 0 0;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000;
+    border-color: #707070;
+}
+
+.footer {
+    font-family: 'Avenir';
+    background: url(../img/footer.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+    text-align: center;
+    color: #033E62;
+}
+.footer .gradient {
+    position: relative;
+    padding-bottom: 150px;
+    margin-bottom: 100px;
+}
+.footer .gradient:before {
+    content: '';
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 40%,rgba(255, 255, 255, 0) 100%);
+}
+.footer .contact {
+    margin: 40px 0;
+    font-size: .9rem;
+}
+.footer .contact span {
+    display: block;
+}
+.footer .social img {
+    margin: 0 10px;
+}
+.footer .social:before, .footer .social:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+    background: #033E62;
+}
+.footer .social:after {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.footer .copyright {
+    background: #fff;
+}
+.footer .copyright span {
+    display: inline-block;
+    font-size: .8rem;
+    padding: 10px 0;
+}
+
+@media (min-width:992px){
+    
+    .navbar {
+        background: rgba(255, 255, 255, 0.75);
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0 .5rem;
+    }
+    
+    .dropdown-menu {
+        padding: 0;
+        margin: .5rem 0 0 .5rem;
+        border-radius: 0;
+        background-color: rgba(1, 18, 56, 0.8);
+    }
+    .dropdown-item {
+        color: #fff;
+        padding: .6rem 1.5rem .4rem 1.5rem;
+    }
+    .dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active {
+        color: #ffffff;
+        text-decoration: none;
+        background-color: rgba(0, 16, 57, 0.8);
+    }
+    
+}
+
+@media (min-width: 768px){
+        
+    .footer .gradient {
+        margin-bottom: 300px;
+    }
+    .footer .contact {
+        font-size: 1rem;
+    }
+    .footer .contact span {
+        display: inline-block;
+    }
+    .footer .contact span:before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        width: 7px;
+        height: 7px;
+        background: #033E62;
+        border-radius: 50%;
+        margin: 0 35px;
+    }
+    .footer .social:before, .footer .social:after {
+        width: 80px;
+        margin-right: 40px;
+    }
+    .footer .social:after {
+        margin-left: 40px;
+    }
+}
+
+@font-face {
+    font-family: 'ChronicaPro';
+    font-style: normal;
+    font-weight: 200;
+    src: local('fonts/ChronicaPro-Light'), url('../fonts/ChronicaPro-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'ChronicaPro';
+    font-style: normal;
+    font-weight: 300;
+    src: local('fonts/ChronicaPro-Book'), url('../fonts/ChronicaPro-Book.woff') format('woff');
+}
+@font-face {
+    font-family: 'ChronicaPro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('fonts/ChronicaPro-Regular'), url('../fonts/ChronicaPro-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'ChronicaPro';
+    font-style: normal;
+    font-weight: 500;
+    src: local('ChronicaPro-Medium'), url('../fonts/ChronicaPro-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'ChronicaPro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('ChronicaPro-Bold'), url('../fonts/ChronicaPro-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'ChronicaPro';
+    font-style: normal;
+    font-weight: 800;
+    src: local('ChronicaPro-Black'), url('../fonts/ChronicaPro-Black.woff') format('woff');
+}
+@font-face {
+    font-family: 'ChronicaPro';
+    font-style: italic;
+    font-weight: 800;
+    src: local('ChronicaProBlackIt'), url('../fonts/ChronicaProBlackIt.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 300;
+    src: local('AvenirLTStd-Light'), url('../fonts/AvenirLTStd-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    src: local('AvenirLTStd-Book'), url('../fonts/AvenirLTStd-Book.woff') format('woff');
+}
+@font-face {
+    font-family: 'Barbershop in Thailand';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Barbershop in Thailand'), url('../fonts/BarbershopinThailand.woff') format('woff');
+}
+@font-face {
+    font-family: 'Blacksword';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Blacksword'), url('../fonts/Blacksword.woff') format('woff');
+}

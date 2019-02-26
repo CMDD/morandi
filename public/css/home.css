@@ -1,0 +1,154 @@
+.slide-home {
+    position: relative;
+    background-image: url(../img/slide-example.jpg);
+    background-size: cover;
+    background-position: center right 30%;
+    height: 100%;
+}
+.slide-home:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: radial-gradient(farthest-side at 20% 50%, white, #ffffff9e, #ffffff00);
+}
+.slide-home h2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    -webkit-transform: translate3d(0,-50%,0);
+            transform: translate3d(0,-50%,0);
+    font-family: 'ChronicaPro';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 0 0 60px 0;
+    color: #011238;
+    text-shadow: 0 0 20px #fff;
+}
+.slide-home h2 span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: 'Barbershop in Thailand';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1;
+    color: #F8680A;
+}
+.slide-home .go-to {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 50px;
+    margin-left: -25px;
+    cursor: pointer;
+}
+
+h2.subtitle {
+    position: relative;
+    margin: 40px auto 20px auto;
+    padding: 0 125px 35px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 25px;
+    color: #011238;
+}
+h2.subtitle span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 'Barbershop in Thailand';
+    text-transform: none;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.project-box {
+    margin: 25px 10px;
+}
+.project-box img {
+    max-width: 100%;
+    height: auto;
+}
+.project-box .info {
+    background: rgba(222, 218, 218, 0.42);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.project-box .logo {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 20px;
+    width: 100%;
+}
+.project-box .logo img {
+    max-width: 130px;
+}
+.project-box .desc {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    font-size: .8rem;
+}
+.project-box .desc p {
+    margin-bottom: .5rem;
+}
+.project-box .desc p:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width:992px){
+    
+    h2.subtitle {
+        padding: 0 130px 40px 0;
+        font-size: 30px;
+    }
+    h2.subtitle span {
+        font-size: 55px;
+    }
+    
+}
+
+@media (min-width: 768px){
+    
+    .slide-home:before {
+        background-image: radial-gradient(farthest-side at 10% 50%, white, #ffffff70, #ffffff00);
+    }
+    
+    .slide-home h2 {
+        font-size: 50px;
+        padding: 0 70px 80px 0;
+    }
+    .slide-home h2 span {
+        font-size: 75px;
+        right: 0;
+        left: auto;
+    }
+    
+}
+
+@media (min-width: 576px){
+    
+    .project-box .info {
+        padding-bottom: 0;
+    }
+    
+    .project-box .logo {
+        width: 40%;
+    }
+    
+    .project-box .desc {
+        width: 60%;
+        font-size: .9rem;
+        text-align: left;
+    }
+    
+    .project-box .desc p {
+        margin-bottom: 1rem;
+    }
+    
+}
