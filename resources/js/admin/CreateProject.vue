@@ -23,7 +23,7 @@
     <section class="content container-fluid">
       <!-- Main content -->
       <section class="content">
-    <form @submit.prevent="crearProducto">
+    <form @submit.prevent="crearProject">
       <div class="row">
         <!-- left column -->
         <div class="col-md-7">
@@ -34,11 +34,12 @@
             </div>
             <!-- /.box-header -->
             <!-- form start -->
-            <form @submit.prevent="createProduct">
+            <form @submit.prevent="createProject">
               <div class="box-body">
+                
                 <div class="form-group col-md-6">
-                  <label for="exampleInputEmail1">Imagen <small id="emailHelp" class="form-text text-muted">Tamaño 689 x 689</small></label>
-                  <input type="file" id="file" required ref="file" @change="img"  class="form-control">
+                  <label for="exampleInputEmail1">Nombre</label>
+                  <input type="text" class="form-control" required    placeholder="Ingresar nombre del proyecto">
                 </div>
                 <div class="form-group col-md-6">
                   <label for="exampleInputEmail1">Area</label>
@@ -53,16 +54,17 @@
                   <select class="form-control" >
                     <option  value="">Seleccione...</option>
                     <option  value="">En venta</option>
-                    <option  value="">Vendidos</option>
+                    <option  value="">Realizado</option>
                   </select>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="exampleInputEmail1">Logo <small id="emailHelp" class="form-text text-muted">Tamaño 689 x 689</small></label>
-                  <input type="file" id="file" required ref="file" @change="img"  class="form-control">
+                  <label for="exampleInputEmail1">Imagen <small id="emailHelp" class="form-text text-muted">Tamaño 899 x 567</small></label>
+                  <input type="file" id="file" required ref="image" @change="image"  class="form-control">
                 </div>
-                
-
-
+                <div class="form-group col-md-6">
+                  <label for="exampleInputEmail1">Logo <small id="emailHelp" class="form-text text-muted">Tamaño 689 x 689</small></label>
+                  <input type="file"  required ref="logo" @change="logo"  class="form-control">
+                </div>
 
                 <!-- <div class="form-group col-md-6">
                   <label>Marca</label>
@@ -163,7 +165,7 @@
   <!-- /.box -->
 </div>
 <div class="col-md-5">
-<form @submit.prevent="createSubcategory">
+<form>
 <!-- Horizontal Form -->
 <div class="box box-dark">
 <div class="box-header with-border">
@@ -175,12 +177,12 @@
 
   <div class="form-group col-md-6">
     <label for="exampleInputEmail1">Video </label>
-    <input type="file" id="file" required ref="file" @change="img"  class="form-control">
+    <input type="file" id="file" required ref="file"   class="form-control">
     <small id="emailHelp" class="form-text text-muted">Tamaño 689 x 689</small>
   </div>
   <div class="form-group col-md-6">
     <label for="exampleInputEmail1">Imagen </label>
-    <input type="file" id="file" required ref="file" @change="img"  class="form-control">
+    <input type="file" id="file" required ref="file"   class="form-control">
     <small id="emailHelp" class="form-text text-muted">Tamaño 689 x 689</small>
   </div>
 
@@ -220,19 +222,14 @@ toastr.options ={
         data(){
           return{
             enviando:false,
-            marcas:[],
-            categories:[],
-            subcategories:[],
-            sitios:'',
             form:{
-              marca:'',
-              name:'',
-              subcategory:'',
-              category:'',
+              area:'',
+              lugar:'',
               image:'',
-              archivo:'',
-              description:''
-            },
+              logo:'',
+              estado:'',
+              nombre:'' 
+            }
 
           }
         },
@@ -241,50 +238,42 @@ toastr.options ={
 
         },
         methods:{
-          getCategories(){
-            axios.get('api/categories/'+this.form.marca).then(res =>{
-                this.categories = res.data;
-            });
-
+          image(event){
+            this.form.image = this.$refs.image.files[0];
+            console.log(this.form.image);
+            
           },
-          getsubcategory(){
-            axios.get('api/subcategories/'+this.form.category).then(res =>{
-                this.subcategories = res.data;
-            });
-
+          logo(event){
+            this.form.logo = this.$refs.logo.files[0];
+            console.log(this.form.logo);
+            
           },
-          img(event){
-            this.form.image = this.$refs.file.files[0];
-          },
-          archivo(event){
-            this.form.archivo = this.$refs.archivo.files[0];
-          },
-          createProduct(){
+          createProject(){
             let fd = new FormData();
-            fd.append('marca',this.form.marca);
-            fd.append('name',this.form.name);
-            fd.append('subcategory',this.form.subcategory);
-            fd.append('category',this.form.category);
+            fd.append('area',this.form.area);
+            fd.append('lugar',this.form.lugar);
             fd.append('image',this.form.image);
-            fd.append('archivo',this.form.archivo);
-            fd.append('description',this.form.description);
+            fd.append('logo',this.form.logo);
+            fd.append('nombre',this.form.nombre);
+            fd.append('estado',this.form.estado);
 
-            axios.post('api/product/create',
+            axios.post('api/project/create',
                 fd,{
                   headers: {
                     'Content-Type': 'multipart/form-data'
                   }
               }).then(res=>{
+                console.log(res.data);
+                
                 this.form = {
-                  marca:'',
-                  name:'',
-                  subcategory:'',
-                  category:'',
+                  area:'',
+                  lugar:'',
                   image:'',
-                  archivo:'',
-                  description:''
+                  logo:'',
+                  nombre:'',
+                  estado:''
                 }
-              toastr.success('Producto creado correctamente');
+              toastr.success('Proyecto creado correctamente');
 
             });
 

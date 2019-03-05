@@ -38,14 +38,6 @@ Vue.component('project-senior', require('./web/proyectos/SeniorSuite.vue').defau
  let router = new Router({
        routes:[
          {
-           path:'/',
-           component: require ('./web/Home.vue').default
-         },
-         {
-           path:'/proyecto-senior',
-           component: require ('./web/proyectos/SeniorSuite.vue').default
-         },
-         {
            path:'/admin-dashboard',
            component: require ('./admin/Dashboard.vue').default
          },

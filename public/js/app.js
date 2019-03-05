@@ -1970,6 +1970,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 toastr__WEBPACK_IMPORTED_MODULE_0___default.a.options = {
   "closeButton": true,
@@ -1983,69 +1985,51 @@ toastr__WEBPACK_IMPORTED_MODULE_0___default.a.options = {
   data: function data() {
     return {
       enviando: false,
-      marcas: [],
-      categories: [],
-      subcategories: [],
-      sitios: '',
       form: {
-        marca: '',
-        name: '',
-        subcategory: '',
-        category: '',
+        area: '',
+        lugar: '',
         image: '',
-        archivo: '',
-        description: ''
+        logo: '',
+        estado: '',
+        nombre: ''
       }
     };
   },
   created: function created() {},
   methods: {
-    getCategories: function getCategories() {
+    image: function image(event) {
+      this.form.image = this.$refs.image.files[0];
+      console.log(this.form.image);
+    },
+    logo: function logo(event) {
+      this.form.logo = this.$refs.logo.files[0];
+      console.log(this.form.logo);
+    },
+    createProject: function createProject() {
       var _this = this;
 
-      axios.get('api/categories/' + this.form.marca).then(function (res) {
-        _this.categories = res.data;
-      });
-    },
-    getsubcategory: function getsubcategory() {
-      var _this2 = this;
-
-      axios.get('api/subcategories/' + this.form.category).then(function (res) {
-        _this2.subcategories = res.data;
-      });
-    },
-    img: function img(event) {
-      this.form.image = this.$refs.file.files[0];
-    },
-    archivo: function archivo(event) {
-      this.form.archivo = this.$refs.archivo.files[0];
-    },
-    createProduct: function createProduct() {
-      var _this3 = this;
-
       var fd = new FormData();
-      fd.append('marca', this.form.marca);
-      fd.append('name', this.form.name);
-      fd.append('subcategory', this.form.subcategory);
-      fd.append('category', this.form.category);
+      fd.append('area', this.form.area);
+      fd.append('lugar', this.form.lugar);
       fd.append('image', this.form.image);
-      fd.append('archivo', this.form.archivo);
-      fd.append('description', this.form.description);
-      axios.post('api/product/create', fd, {
+      fd.append('logo', this.form.logo);
+      fd.append('nombre', this.form.nombre);
+      fd.append('estado', this.form.estado);
+      axios.post('api/project/create', fd, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
       }).then(function (res) {
-        _this3.form = {
-          marca: '',
-          name: '',
-          subcategory: '',
-          category: '',
+        console.log(res.data);
+        _this.form = {
+          area: '',
+          lugar: '',
           image: '',
-          archivo: '',
-          description: ''
+          logo: '',
+          nombre: '',
+          estado: ''
         };
-        toastr__WEBPACK_IMPORTED_MODULE_0___default.a.success('Producto creado correctamente');
+        toastr__WEBPACK_IMPORTED_MODULE_0___default.a.success('Proyecto creado correctamente');
       });
     }
   }
@@ -2221,31 +2205,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({});
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {};
+  }
+});
 
 /***/ }),
 
@@ -34312,7 +34276,7 @@ var render = function() {
             on: {
               submit: function($event) {
                 $event.preventDefault()
-                return _vm.crearProducto($event)
+                return _vm.crearProject($event)
               }
             }
           },
@@ -34328,22 +34292,13 @@ var render = function() {
                       on: {
                         submit: function($event) {
                           $event.preventDefault()
-                          return _vm.createProduct($event)
+                          return _vm.createProject($event)
                         }
                       }
                     },
                     [
                       _c("div", { staticClass: "box-body" }, [
-                        _c("div", { staticClass: "form-group col-md-6" }, [
-                          _vm._m(3),
-                          _vm._v(" "),
-                          _c("input", {
-                            ref: "file",
-                            staticClass: "form-control",
-                            attrs: { type: "file", id: "file", required: "" },
-                            on: { change: _vm.img }
-                          })
-                        ]),
+                        _vm._m(3),
                         _vm._v(" "),
                         _vm._m(4),
                         _vm._v(" "),
@@ -34355,10 +34310,21 @@ var render = function() {
                           _vm._m(7),
                           _vm._v(" "),
                           _c("input", {
-                            ref: "file",
+                            ref: "image",
                             staticClass: "form-control",
                             attrs: { type: "file", id: "file", required: "" },
-                            on: { change: _vm.img }
+                            on: { change: _vm.image }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group col-md-6" }, [
+                          _vm._m(8),
+                          _vm._v(" "),
+                          _c("input", {
+                            ref: "logo",
+                            staticClass: "form-control",
+                            attrs: { type: "file", required: "" },
+                            on: { change: _vm.logo }
                           })
                         ])
                       ]),
@@ -34382,77 +34348,60 @@ var render = function() {
                 ])
               ]),
               _vm._v(" "),
-              _vm._m(8),
+              _vm._m(9),
               _vm._v(" "),
               _c("div", { staticClass: "col-md-5" }, [
-                _c(
-                  "form",
-                  {
-                    on: {
-                      submit: function($event) {
-                        $event.preventDefault()
-                        return _vm.createSubcategory($event)
-                      }
-                    }
-                  },
-                  [
-                    _c("div", { staticClass: "box box-dark" }, [
-                      _vm._m(9),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "box-body" }, [
-                        _c("div", { staticClass: "form-group col-md-6" }, [
-                          _c(
-                            "label",
-                            { attrs: { for: "exampleInputEmail1" } },
-                            [_vm._v("Video ")]
-                          ),
-                          _vm._v(" "),
-                          _c("input", {
-                            ref: "file",
-                            staticClass: "form-control",
-                            attrs: { type: "file", id: "file", required: "" },
-                            on: { change: _vm.img }
-                          }),
-                          _vm._v(" "),
-                          _c(
-                            "small",
-                            {
-                              staticClass: "form-text text-muted",
-                              attrs: { id: "emailHelp" }
-                            },
-                            [_vm._v("Tamaño 689 x 689")]
-                          )
+                _c("form", [
+                  _c("div", { staticClass: "box box-dark" }, [
+                    _vm._m(10),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "box-body" }, [
+                      _c("div", { staticClass: "form-group col-md-6" }, [
+                        _c("label", { attrs: { for: "exampleInputEmail1" } }, [
+                          _vm._v("Video ")
                         ]),
                         _vm._v(" "),
-                        _c("div", { staticClass: "form-group col-md-6" }, [
-                          _c(
-                            "label",
-                            { attrs: { for: "exampleInputEmail1" } },
-                            [_vm._v("Imagen ")]
-                          ),
-                          _vm._v(" "),
-                          _c("input", {
-                            ref: "file",
-                            staticClass: "form-control",
-                            attrs: { type: "file", id: "file", required: "" },
-                            on: { change: _vm.img }
-                          }),
-                          _vm._v(" "),
-                          _c(
-                            "small",
-                            {
-                              staticClass: "form-text text-muted",
-                              attrs: { id: "emailHelp" }
-                            },
-                            [_vm._v("Tamaño 689 x 689")]
-                          )
-                        ])
+                        _c("input", {
+                          ref: "file",
+                          staticClass: "form-control",
+                          attrs: { type: "file", id: "file", required: "" }
+                        }),
+                        _vm._v(" "),
+                        _c(
+                          "small",
+                          {
+                            staticClass: "form-text text-muted",
+                            attrs: { id: "emailHelp" }
+                          },
+                          [_vm._v("Tamaño 689 x 689")]
+                        )
                       ]),
                       _vm._v(" "),
-                      _c("div", { staticClass: "box-footer" })
-                    ])
-                  ]
-                )
+                      _c("div", { staticClass: "form-group col-md-6" }, [
+                        _c("label", { attrs: { for: "exampleInputEmail1" } }, [
+                          _vm._v("Imagen ")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          ref: "file",
+                          staticClass: "form-control",
+                          attrs: { type: "file", id: "file", required: "" }
+                        }),
+                        _vm._v(" "),
+                        _c(
+                          "small",
+                          {
+                            staticClass: "form-text text-muted",
+                            attrs: { id: "emailHelp" }
+                          },
+                          [_vm._v("Tamaño 689 x 689")]
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "box-footer" })
+                  ])
+                ])
               ])
             ])
           ]
@@ -34492,13 +34441,17 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "exampleInputEmail1" } }, [
-      _vm._v("Imagen "),
-      _c(
-        "small",
-        { staticClass: "form-text text-muted", attrs: { id: "emailHelp" } },
-        [_vm._v("Tamaño 689 x 689")]
-      )
+    return _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("label", { attrs: { for: "exampleInputEmail1" } }, [_vm._v("Nombre")]),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "form-control",
+        attrs: {
+          type: "text",
+          required: "",
+          placeholder: "Ingresar nombre del proyecto"
+        }
+      })
     ])
   },
   function() {
@@ -34547,8 +34500,21 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("option", { attrs: { value: "" } }, [_vm._v("En venta")]),
         _vm._v(" "),
-        _c("option", { attrs: { value: "" } }, [_vm._v("Vendidos")])
+        _c("option", { attrs: { value: "" } }, [_vm._v("Realizado")])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "exampleInputEmail1" } }, [
+      _vm._v("Imagen "),
+      _c(
+        "small",
+        { staticClass: "form-text text-muted", attrs: { id: "emailHelp" } },
+        [_vm._v("Tamaño 899 x 567")]
+      )
     ])
   },
   function() {
@@ -34833,19 +34799,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "web-home" }, [
-      _c("div", { staticClass: "slide-home" }, [
-        _c("h2", [
-          _vm._v("Tenemos el lugar"),
-          _c("br"),
-          _vm._v("donde siempre haz "),
-          _c("span", [_vm._v("soñado vivir")])
-        ]),
-        _vm._v(" "),
-        _c("img", { staticClass: "go-to", attrs: { src: "img/arrow.svg" } })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "container-fluid", attrs: { id: "projects" } }, [
+    return _c(
+      "div",
+      { staticClass: "container-fluid", attrs: { id: "projects" } },
+      [
         _c("div", { staticClass: "row" }, [
           _c("h2", { staticClass: "subtitle" }, [
             _vm._v("Proyectos "),
@@ -34857,17 +34814,26 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-lg-6" }, [
             _c("div", { staticClass: "project-box" }, [
               _c("a", { attrs: { href: "#" } }, [
-                _c("img", { attrs: { src: "img/img-01.jpg" } })
+                _c("img", { attrs: { src: "images/bosque/home.jpg" } })
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "info" }, [
                 _c("div", { staticClass: "logo" }, [
-                  _c("img", { attrs: { src: "img/brand-01.svg" } })
+                  _c("img", {
+                    staticStyle: { width: "30%" },
+                    attrs: { src: "images/bosque/logo_home.png" }
+                  })
                 ]),
                 _c("div", { staticClass: "desc" }, [
-                  _c("p", [_vm._v("Suites con áreas desde 35 m2")]),
-                  _vm._v(" "),
-                  _c("p", [_vm._v("Guaymaral, Cundinamarca")])
+                  _c("p", [
+                    _vm._v("Casas campestres de 145m2 y 189m2 "),
+                    _c("br"),
+                    _vm._v("Desde: 694.000.000 "),
+                    _c("br"),
+                    _vm._v(
+                      "Vereda chuntame, barrio santa inés , sobre la vía cajicá tabio"
+                    )
+                  ])
                 ])
               ])
             ])
@@ -34968,43 +34934,8 @@ var staticRenderFns = [
             ])
           ])
         ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "container-fluid footer" }, [
-        _c("div", { staticClass: "row gradient" }, [
-          _c("div", { staticClass: "col" }, [
-            _c("img", {
-              staticClass: "logo",
-              attrs: { src: "img/logo-footer.svg", width: "90" }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "contact" }, [
-              _vm._v("Oficina Calle 117 No. 11A-62 - Bogotá, Colombia"),
-              _c("span", [_vm._v("Teléfono +57 (1) 213 0105")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "social" }, [
-              _c("a", { attrs: { href: "#" } }, [
-                _c("img", { attrs: { src: "img/instagram.svg" } })
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [
-                _c("img", { attrs: { src: "img/facebook.svg" } })
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "row copyright" }, [
-          _c("div", { staticClass: "col" }, [
-            _c("span", [
-              _vm._v("Copyright © 2019 Morandi Construcciones - Created by "),
-              _c("img", { attrs: { src: "img/3anglesgroup.svg" } })
-            ])
-          ])
-        ])
-      ])
-    ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -50570,12 +50501,6 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('create-project', __webpack
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   routes: [{
-    path: '/',
-    component: __webpack_require__(/*! ./web/Home.vue */ "./resources/js/web/Home.vue").default
-  }, {
-    path: '/proyecto-senior',
-    component: __webpack_require__(/*! ./web/proyectos/SeniorSuite.vue */ "./resources/js/web/proyectos/SeniorSuite.vue").default
-  }, {
     path: '/admin-dashboard',
     component: __webpack_require__(/*! ./admin/Dashboard.vue */ "./resources/js/admin/Dashboard.vue").default
   }, {
