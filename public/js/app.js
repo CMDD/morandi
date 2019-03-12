@@ -2204,7 +2204,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {};
@@ -34813,7 +34812,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-lg-6" }, [
             _c("div", { staticClass: "project-box" }, [
-              _c("a", { attrs: { href: "#" } }, [
+              _c("a", { attrs: { href: "proyecto/bosque" } }, [
                 _c("img", { attrs: { src: "images/bosque/home.jpg" } })
               ]),
               _vm._v(" "),
@@ -34841,18 +34840,25 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-6" }, [
             _c("div", { staticClass: "project-box" }, [
-              _c("a", { attrs: { href: "#" } }, [
-                _c("img", { attrs: { src: "img/img-01.jpg" } })
+              _c("a", { attrs: { href: "proyecto/caney" } }, [
+                _c("img", { attrs: { src: "images/caney/caney_home.jpg" } })
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "info" }, [
                 _c("div", { staticClass: "logo" }, [
-                  _c("img", { attrs: { src: "img/brand-01.svg" } })
+                  _c("img", {
+                    staticStyle: { width: "30%" },
+                    attrs: { src: "images/caney/logo_home.png" }
+                  })
                 ]),
                 _c("div", { staticClass: "desc" }, [
-                  _c("p", [_vm._v("Suites con áreas desde 35 m2")]),
-                  _vm._v(" "),
-                  _c("p", [_vm._v("Guaymaral, Cundinamarca")])
+                  _c("p", [
+                    _vm._v("Casas de 96,33m2 "),
+                    _c("br"),
+                    _vm._v("Desde: 409.000.000 "),
+                    _c("br"),
+                    _vm._v("Ubicado en chía en la vereda bojacá ")
+                  ])
                 ])
               ])
             ])

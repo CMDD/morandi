@@ -10,7 +10,7 @@
             </div>
             <div class="col-lg-4">
                 <h3>Tu Nuevo hogar , en donde la mejor decoración entra por la ventana</h3>
-                <p>Ubicado estratégicamente en el sector residencial de chico-navarra. Rodeado de un paisaje urbano y zonas verdes que invitan a disfrutar de la ciudad.<br>Es un edificio de 6 pisos, con 19 apartamentos a partir del 2do nivel y terraza panorámica en el séptimo, ascensor y zona para gimnasio. 4 tipos de apartamentos en cada nivel en los que se destacan modernos espacios abiertos, ventanas piso techo y vista exterior en todos los apartamentos.</p>
+                <p>Se encuentra ubicado contiguo a la zona forestal de Cajicá, lo que garantiza la protección de un ambiente natural para ser disfrutado visualmente y en donde se puede practicar senderismo, ciclomontañismo y cabalgatas.</p>
             </div>
         </div>
         <div class="row align-items-center list-video">
@@ -34,11 +34,17 @@
         </div>
         <div class="row">
             <div class="col icons-list">
-                <div class="icons"><img src="/img/icon-terraza.svg"><span>Terraza</span></div>
-                <div class="icons"><img src="/img/icon-piscina.svg"><span>Piscina</span></div>
-                <div class="icons"><img src="/img/icon-lobby.svg"><span>Lobby</span></div>
-                <div class="icons"><img src="/img/icon-piscina.svg"><span>Piscina</span></div>
-                <div class="icons"><img src="/img/icon-oratorio.svg"><span>Oratorio</span></div>
+                <div class="icons"><img src="/images/bosque/icons/bioparque09.jpg"><span>Bioparque</span></div>
+                <div class="icons"><img src="/images/bosque/icons/cancha de tennis05.jpg"><span>Cancha de tennis</span></div>
+                <div class="icons"><img src="/images/bosque/icons/cancha multiple06.jpg"><span>Cancha multiple</span></div>
+                <div class="icons"><img src="/images/bosque/icons/circuito de trote07.jpg"><span>Circuito de trote</span></div>
+                <div class="icons"><img src="/images/bosque/icons/piscina adultos03.jpg"><span>Piscina adultos</span></div>
+                <div class="icons"><img src="/images/bosque/icons/piscina niños04.jpg"><span>Piscina niños</span></div>
+                <div class="icons"><img src="/images/bosque/icons/salon de actividades-52.jpg"><span>Salon de actividades</span></div>
+                <div class="icons"><img src="/images/bosque/icons/salon social 01.jpg"><span>Salon social</span></div>
+                <div class="icons"><img src="/images/bosque/icons/sendero ecologico08.jpg"><span>Sendero ecològico</span></div>
+                <div class="icons"><img src="/images/bosque/icons/terraza02.jpg"><span>Terraza</span></div>
+                
                 
                 
 
@@ -97,50 +103,22 @@
                 </div>
                 
                 <div id="tipo1" class="tab-content active">
-                    <p>casa anis</p>
                     <img src="/img/modelo-1.jpg">
                     <table>
-                        <tr><td>Habitaciones</td><td>3</td></tr>
-                        <tr><td>Baños</td><td>3</td></tr>
+                        <tr><td>Habitaciones</td><td>2 + family room</td></tr>
+                        <tr><td>Baños</td><td>2</td></tr>
                         <tr><td>&nbsp;</td></tr>
-                        <tr><td>Area</td><td>124.3 m2</td></tr>
-                        <tr><td>Area terraza</td><td>6.5 m2</td></tr>
-                        <tr><td>Area total</td><td>130.3 m2</td></tr>
+                        <tr><td>Area total</td><td>145 m2</td></tr>
                         <tr><td>&nbsp;</td></tr>
-                        <tr><td colspan="2"><a href="#">Descarga PDF del brochure</a></td></tr>
-                        <tr><td colspan="2"><a href="#">Descarga PDF de las plantas</a></td></tr>
+                        <tr><td colspan="2"><a download="Brochure" href="/images/bosque/brochure.pdf">Descarga PDF del brochure</a></td></tr>
+                        <tr><td colspan="2"><a download="Plantas" href="/images/bosque/plantas.pdf">Descarga PDF de las plantas</a></td></tr>
                     </table>
-                    <h3>Disponibles</h3>
                     
-                    <div class="floors">
-                        <span class="vacant">201</span><span class="sold">202</span><span>203</span><span class="vacant">204</span>
-                        <span class="vacant">301</span><span>302</span><span class="sold">303</span><span class="vacant">304</span>
-                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span>
-                        <span class="vacant">501</span><span class="sold">502</span><span>503</span><span class="sold">504</span>
-                        <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span class="sold">604</span>
-                        
-                    </div>
-                    <div class="floors">
-                        <span class="vacant">201</span><span class="sold">202</span><span>203</span><span class="vacant">204</span>
-                        <span class="vacant">301</span><span>302</span><span class="sold">303</span><span class="vacant">304</span>
-                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span>
-                        <span class="vacant">501</span><span class="sold">502</span><span>503</span><span class="sold">504</span>
-                        <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span class="sold">604</span>
-                        
-                    </div>
-                    <div class="floors">
-                        <span class="vacant">201</span><span class="sold">202</span><span>203</span><span class="vacant">204</span>
-                        <span class="vacant">301</span><span>302</span><span class="sold">303</span><span class="vacant">304</span>
-                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span>
-                        <span class="vacant">501</span><span class="sold">502</span><span>503</span><span class="sold">504</span>
-                        <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span class="sold">604</span>
-                        <div class="about"><div class="vacant">Disponible</div><div class="sold">Vendido</div></div>
-                    </div>
                 </div>
                 <div id="tipo2" class="tab-content">
                     <img src="/img/modelo-1.jpg">
                     <table>
-                        <tr><td>Habitaciones</td><td>3</td></tr>
+                        <tr><td>Habitaciones</td><td>3 + family room</td></tr>
                         <tr><td>Baños</td><td>3</td></tr>
                         <tr><td>&nbsp;</td></tr>
                         <tr><td>Area</td><td>124.3 m2</td></tr>
@@ -150,39 +128,42 @@
                         <tr><td colspan="2"><a href="#">Descarga PDF del brochure</a></td></tr>
                         <tr><td colspan="2"><a href="#">Descarga PDF de las plantas</a></td></tr>
                     </table>
-                    <h3>Disponibles</h3>
-                    <div class="floors">
-                        <span class="vacant">201</span><span class="sold">202</span><span>203</span><span class="vacant">204</span>
-                        <span class="vacant">301</span><span>302</span><span class="sold">303</span><span class="vacant">304</span>
-                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span>
-                        <span class="vacant">501</span><span class="sold">502</span><span>503</span><span class="sold">504</span>
-                        <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span class="sold">604</span>
-                        <div class="about"><div class="vacant">Disponible</div><div class="sold">Vendido</div></div>
+                   
+                    
+                </div>
+                <h3>Disponibles</h3>
+                
+                <div class="floors">
+                    <span class="vacant">201</span><span class="sold">202</span><span>203</span><span class="vacant">204</span>
+                    <span class="vacant">301</span><span>302</span><span class="sold">303</span><span class="vacant">304</span>
+                    <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span>
+                    <span class="vacant">501</span><span class="sold">502</span><span>503</span><span class="sold">504</span>
+                    <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span
+                        class="sold">604</span>
+                
+                </div>
+                <div class="floors">
+                    <span class="vacant">201</span><span class="sold">202</span><span>203</span><span class="vacant">204</span>
+                    <span class="vacant">301</span><span>302</span><span class="sold">303</span><span class="vacant">304</span>
+                    <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span>
+                    <span class="vacant">501</span><span class="sold">502</span><span>503</span><span class="sold">504</span>
+                    <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span
+                        class="sold">604</span>
+                
+                </div>
+                <div class="floors">
+                    <span class="vacant">201</span><span class="sold">202</span><span>203</span><span class="vacant">204</span>
+                    <span class="vacant">301</span><span>302</span><span class="sold">303</span><span class="vacant">304</span>
+                    <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span>
+                    <span class="vacant">501</span><span class="sold">502</span><span>503</span><span class="sold">504</span>
+                    <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span
+                        class="sold">604</span>
+                    <div class="about">
+                        <div class="vacant">Disponible</div>
+                        <div class="sold">Vendido</div>
                     </div>
                 </div>
-                <div id="tipo3" class="tab-content">
-                    <img src="/img/modelo-1.jpg">
-                    <table>
-                        <tr><td>Habitaciones</td><td>3</td></tr>
-                        <tr><td>Baños</td><td>3</td></tr>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td>Area</td><td>124.3 m2</td></tr>
-                        <tr><td>Area terraza</td><td>6.5 m2</td></tr>
-                        <tr><td>Area total</td><td>130.3 m2</td></tr>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td colspan="2"><a href="#">Descarga PDF del brochure</a></td></tr>
-                        <tr><td colspan="2"><a href="#">Descarga PDF de las plantas</a></td></tr>
-                    </table>
-                    <h3>Disponibles</h3>
-                    <div class="floors">
-                        <span class="vacant">201</span><span class="sold">202</span><span>203</span><span class="vacant">204</span>
-                        <span class="vacant">301</span><span>302</span><span class="sold">303</span><span class="vacant">304</span>
-                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span>
-                        <span class="vacant">501</span><span class="sold">502</span><span>503</span><span class="sold">504</span>
-                        <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span class="sold">604</span>
-                        <div class="about"><div class="vacant">Disponible</div><div class="sold">Vendido</div></div>
-                    </div>
-                </div>
+                
             </div>
         </div>
         <div class="row align-items-center contact">

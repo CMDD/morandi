@@ -6,7 +6,7 @@
           <div class="row">
               <div class="col-lg-6">
                   <div class="project-box">
-                      <a href="#"><img src="images/bosque/home.jpg"></a>
+                      <a href="proyecto/bosque"><img src="images/bosque/home.jpg"></a>
                       <div class="info">
                           <div class="logo">
                               <img style="width:30%;" src="images/bosque/logo_home.png">
@@ -19,13 +19,12 @@
               </div>
               <div class="col-lg-6">
                   <div class="project-box">
-                      <a href="#"><img src="img/img-01.jpg"></a>
+                      <a href="proyecto/caney"><img src="images/caney/caney_home.jpg"></a>
                       <div class="info">
                           <div class="logo">
-                              <img src="img/brand-01.svg">
+                              <img style="width:30%;" src="images/caney/logo_home.png">
                           </div><div class="desc">
-                              <p>Suites con áreas desde 35 m2</p>
-                              <p>Guaymaral, Cundinamarca</p>
+                               <p>Casas de 96,33m2 <br>Desde: 409.000.000 <br>Ubicado en chía en la vereda bojacá </p>
                           </div>
                       </div>
                   </div>
