@@ -1,157 +1,237 @@
 @extends('layouts.web')
 @section('content')
-    <div class="cover" style="background-image: url(/img/cover-example-01.jpg);">
-        <img class="logo" src="/img/brand-02.svg">
+    <div class="cover" style="background-image: url(/images/senior/banner.jpg);">
+        <img class="logo" src="/images/senior/logo_home.png">
     </div>
     <div class="container-fluid">
-        <div class="row align-items-center my-3">
-            <div class="col-lg-7">
-                <img src="/img/draw.png">
+        <div class="row align-items-center my-5">
+            <div class="col-lg-7 col-xl-6 subtitle">
+                <h3><span class="top">La elegancia y el confort </span> de vivir en un lugar <span class="bottom">diseñado para ti</span>
+                </h3>
             </div>
-            <div class="col-lg-4">
-                <h3 class="subtitle"><span class="top">Disfruta de un lugar</span> privilegiado <span class="bottom">en la ciudad</span></h3>
-                <p>Ubicado estratégicamente en el sector residencial de chico-navarra. Rodeado de un paisaje urbano y zonas verdes que invitan a disfrutar de la ciudad.<br>Es un edificio de 6 pisos, con 19 apartamentos a partir del 2do nivel y terraza panorámica en el séptimo, ascensor y zona para gimnasio. 4 tipos de apartamentos en cada nivel en los que se destacan modernos espacios abiertos, ventanas piso techo y vista exterior en todos los apartamentos.</p>
+            <div class="col-lg-5 col-xl-4 description">
+                <p>Proyecto Residencial enfocado en el adulto mayor activo e independiente, donde la única condición para habitarlo es ser mayor de 50 años.
+                    Se encuentra ubicado cerca de la ciudad de Bogotá, en una zona afortunada de Guaymaral con un entorno único, natural y tranquilo, como solo lo ofrece la sabana norte.
+                    Nuestra propuesta logra entender las necesidades de personas que buscan un lugar tranquilo, elegante, con todas las comodidades y espacios de recreación y socialización que promueven su independencia y autonomía.
+                </p>
             </div>
         </div>
-        <div class="row align-items-center list-video">
-            <div class="col-md-4 list">
-                <h3>SITIOS DE INTERÉS</h3>
-                <ul>
-                    <li>Sala de reuniones</li>
-                    <li>Sala de juegos*</li>
-                    <li>Biblioteca y zona de computo*</li>
-                    <li>Restaurante</li>
-                    <li>Oratorio*</li>
-                    <li>Piscina</li>
-                    <li>Gimnasio*</li>
-                    <li>Sauna</li>
-                    <li>Turco</li>
-                </ul>
-            </div>
-            <div class="col-md-8 p-0">
+        <div class="row">
+            <div class="col p-0 full-img">
+                <!--<img src="img/img-proyecto-01.jpg">-->
                 <div class="video-embed">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lDU9mnCvuoQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lDU9mnCvuoQ" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col icons-list">
-                <div class="icons"><img src="/img/icon-lobby.svg"><span>Lobby</span></div>
-                <div class="icons"><img src="/img/icon-piscina.svg"><span>Piscina</span></div>
-                <div class="icons"><img src="/img/icon-oratorio.svg"><span>Oratorio</span></div>
-                <div class="icons"><img src="/img/icon-terraza.svg"><span>Terraza</span></div>
-                <div class="icons"><img src="/img/icon-gimnasio.svg"><span>Gimnasio</span></div>
-                <div class="icons"><img src="/img/icon-lobby.svg"><span>Lobby</span></div>
-                <div class="icons"><img src="/img/icon-piscina.svg"><span>Piscina</span></div>
-                <div class="icons"><img src="/img/icon-oratorio.svg"><span>Oratorio</span></div>
-                <div class="icons"><img src="/img/icon-terraza.svg"><span>Terraza</span></div>
-                <div class="icons"><img src="/img/icon-gimnasio.svg"><span>Gimnasio</span></div>
-                <div class="icons"><img src="/img/icon-lobby.svg"><span>Lobby</span></div>
-                <div class="icons"><img src="/img/icon-piscina.svg"><span>Piscina</span></div>
-
-            </div>
-        </div>
-        <div class="row maps py-3">
-            <div class="col">
-                <img src="/img/google-maps.svg"><p>Encuentra este proyecto en Google Maps</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col p-0">
-                <div class="gallery grid">
-                    <div class="grid-size"></div>
-                    <div class="grid-gutter"></div>
-                    <div class="grid-item grid-first"><a href="/img/cover-example-01.jpg" style="background-image: url(/img/cover-example-01.jpg);"></a></div>
-                    <div class="grid-item grid-h2"><a href="/img/cover-example-01.jpg" style="background-image: url(/img/cover-example-01.jpg);"></a></div>
-                    <div class="grid-item"><a href="/img/img-01.jpg" style="background-image: url(/img/img-01.jpg);"></a></div>
-                    <div class="grid-item grid-w2 grid-h2"><a href="/img/slide-example.jpg" style="background-image: url(/img/slide-example.jpg);"></a></div>
-                    <div class="grid-item grid-w2 grid-h2"><a href="/img/video-cover-example.jpg" style="background-image: url(/img/video-cover-example.jpg);"></a></div>
-                    <div class="gallery-hide">
-                        <a href="/img/brand-02.svg"></a>
-                    </div>
+            <div class="col-md-6 py-5 items">
+                <h3>En Bosque Montaña <span>podrás disfrutar de</span></h3>
+                <div class="slide-items">
+                    <div><img src="/img/icon-terraza.svg"><span>Terraza</span></div>
+                    <div><img src="/img/icon-piscina.svg"><span>Piscina</span></div>
+                    <div><img src="/img/icon-gimnasio.svg"><span>Gimnasio</span></div>
+                    <div><img src="/img/icon-lobby.svg"><span>Lobby</span></div>
+                    <div><img src="/img/icon-oratorio.svg"><span>Oratorio</span></div>
                 </div>
             </div>
+            <div class="col-md-6 py-5 sites">
+                <h3>Sitios de <span>interés</span></h3>
+                <ul>
+                    <li><img src="/img/icon-lobby.svg">Universidad de la Sabana</li>
+                    <li><img src="/img/icon-gimnasio.svg">Universidad Manuela Beltrán</li>
+                    <li><img src="/img/icon-lobby.svg">Universidad Militar</li>
+                    <li><img src="/img/icon-lobby.svg">Puente del Común </li>
+                    <li><img src="/img/icon-oratorio.svg">Parque Jaime Duque</li>
+                    <li><img src="/img/icon-piscina.svg">Catedral de sal de Zipaquirá</li>
+                </ul>
+                <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
+                        Maps</span></a>
+            </div>
         </div>
+        <div class="row gallery">
+            <div class="col-sm-8 gallery-1">
+                <div class="gallery-item he1"><a href="/images/senior/galeria/1.jpg"
+                        style="background-image: url(/images/senior/galeria/1.jpg);"></a></div>
+                <div class="gallery-item wi2l he2"><a href="/images/senior/galeria/3.jpg"
+                        style="background-image: url(/images/senior/galeria/3.jpg);"></a></div>
+                <div class="gallery-item wi2r he2"><a href="/images/senior/galeria/4.jpg"
+                        style="background-image: url(/images/senior/galeria/4.jpg);"></a></div>
+            </div>
+            <div class="col-sm-4 gallery-2">
+                <div class="gallery-item he2"><a href="/images/senior/galeria/5.jpg" style="background-image: url(/images/senior/galeria/5.jpg);"></a>
+                </div>
+                <div class="gallery-item he3"><a href="/images/senior/galeria/6.jpg" style="background-image: url(/images/senior/galeria/6.jpg);"></a>
+                </div>
+                <div class="gallery-item he4"><a href="/images/senior/galeria/7.jpg"
+                        style="background-image: url(/images/senior/galeria/7.jpg);"></a></div>
+            </div>
+            <div class="gallery-hide">
+                <a href="/images/senior/galeria/8.jpg"></a>
+                <a href="/images/senior/galeria/8.jpg"></a>
+            </div>
+        </div>
+    
+    
         <div class="row">
             <div class="col models">
-                <h3>Tipos de apartamentos</h3>
-                <p>Selecciona un tipo de apartamento para ver la disponibilidad</p>
-                <div class="tabs">
+                <h3>Disponibles</h3>
+                <p>Selecciona un tipo de suite para ver la disponibilidad</p>
+                <div class="tabs ">
                     <span data-tab="tipo1" class="active">1</span>
                     <span data-tab="tipo2">2</span>
                     <span data-tab="tipo3">3</span>
+                    <span data-tab="urbanismo">Urbanismo</span>
                 </div>
                 <div id="tipo1" class="tab-content active">
-                    <img src="/img/modelo-1.jpg">
+                    <img src="/images/senior/planta1.png">
                     <table>
-                        <tr><td>Habitaciones</td><td>3</td></tr>
-                        <tr><td>Baños</td><td>3</td></tr>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td>Area</td><td>124.3 m2</td></tr>
-                        <tr><td>Area terraza</td><td>6.5 m2</td></tr>
-                        <tr><td>Area total</td><td>130.3 m2</td></tr>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td colspan="2"><a href="#">Descarga PDF del brochure</a></td></tr>
-                        <tr><td colspan="2"><a href="#">Descarga PDF de las plantas</a></td></tr>
+                        <tr> 
+                            <td>Habitaciones</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Baños</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Area Construida</td>
+                            <td>37m2 y 60m2</td>
+                        </tr>
+                        <tr>
+                            <td>Area Privada</td>
+                            <td>6.5 m2</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Precio desde:</strong></td>
+                            <td><strong>$195.457.000</strong></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a href="#">Descarga PDF del brochure</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a href="#">Descarga PDF de las plantas</a></td>
+                        </tr>
                     </table>
-                    <h3>Disponibles</h3>
-                    <div class="floors">
-                        <span class="vacant">201</span><span class="sold">202</span><span>203</span><span class="vacant">204</span>
-                        <span class="vacant">301</span><span>302</span><span class="sold">303</span><span class="vacant">304</span>
-                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span>
-                        <span class="vacant">501</span><span class="sold">502</span><span>503</span><span class="sold">504</span>
-                        <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span class="sold">604</span>
-                        <div class="about"><div class="vacant">Disponible</div><div class="sold">Vendido</div></div>
-                    </div>
+                    @include('partials.bosque_disponible')
                 </div>
                 <div id="tipo2" class="tab-content">
-                    <img src="/img/modelo-1.jpg">
+                    <img src="/images/senior/planta2.png">
                     <table>
-                        <tr><td>Habitaciones</td><td>3</td></tr>
-                        <tr><td>Baños</td><td>3</td></tr>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td>Area</td><td>124.3 m2</td></tr>
-                        <tr><td>Area terraza</td><td>6.5 m2</td></tr>
-                        <tr><td>Area total</td><td>130.3 m2</td></tr>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td colspan="2"><a href="#">Descarga PDF del brochure</a></td></tr>
-                        <tr><td colspan="2"><a href="#">Descarga PDF de las plantas</a></td></tr>
+                        <tr>
+                            <td>Habitaciones</td>
+                            <td>3 + Family Room</td>
+                        </tr>
+                        <tr>
+                            <td>Baños</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Area Construida</td>
+                            <td>180 m2</td>
+                        </tr>
+                        <tr>
+                            <td>Area Privada</td>
+                            <td>6.5 m2</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Precio desde:</strong></td>
+                            <td><strong>$694.000.000</strong></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a href="#">Descarga PDF del brochure</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a href="#">Descarga PDF de las plantas</a></td>
+                        </tr>
                     </table>
-                    <h3>Disponibles</h3>
-                    <div class="floors">
-                        <span class="vacant">201</span><span class="sold">202</span><span>203</span><span class="vacant">204</span>
-                        <span class="vacant">301</span><span>302</span><span class="sold">303</span><span class="vacant">304</span>
-                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span>
-                        <span class="vacant">501</span><span class="sold">502</span><span>503</span><span class="sold">504</span>
-                        <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span class="sold">604</span>
-                        <div class="about"><div class="vacant">Disponible</div><div class="sold">Vendido</div></div>
-                    </div>
+                    
+                    
                 </div>
                 <div id="tipo3" class="tab-content">
-                    <img src="/img/modelo-1.jpg">
+                    <img src="/images/senior/planta3.png">
                     <table>
-                        <tr><td>Habitaciones</td><td>3</td></tr>
-                        <tr><td>Baños</td><td>3</td></tr>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td>Area</td><td>124.3 m2</td></tr>
-                        <tr><td>Area terraza</td><td>6.5 m2</td></tr>
-                        <tr><td>Area total</td><td>130.3 m2</td></tr>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td colspan="2"><a href="#">Descarga PDF del brochure</a></td></tr>
-                        <tr><td colspan="2"><a href="#">Descarga PDF de las plantas</a></td></tr>
+                        <tr>
+                            <td>Habitaciones</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Baños</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Area Construida</td>
+                            <td>124.3 m2</td>
+                        </tr>
+                        <tr>
+                            <td>Area Privada</td>
+                            <td>6.5 m2</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Precio desde:</strong></td>
+                            <td><strong>$195.457.000</strong></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a href="#">Descarga PDF del brochure</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a href="#">Descarga PDF de las plantas</a></td>
+                        </tr>
                     </table>
                     <h3>Disponibles</h3>
                     <div class="floors">
-                        <span class="vacant">201</span><span class="sold">202</span><span>203</span><span class="vacant">204</span>
-                        <span class="vacant">301</span><span>302</span><span class="sold">303</span><span class="vacant">304</span>
+                        <span class="vacant">201</span><span class="sold">202</span><span>203</span><span
+                            class="vacant">204</span>
+                        <span class="vacant">301</span><span>302</span><span class="sold">303</span><span
+                            class="vacant">304</span>
                         <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span>
-                        <span class="vacant">501</span><span class="sold">502</span><span>503</span><span class="sold">504</span>
-                        <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span class="sold">604</span>
-                        <div class="about"><div class="vacant">Disponible</div><div class="sold">Vendido</div></div>
+                        <span class="vacant">501</span><span class="sold">502</span><span>503</span><span
+                            class="sold">504</span>
+                        <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span
+                            class="sold">604</span>
+                        <div class="about">
+                            <div class="vacant">Disponible</div>
+                            <div class="sold">Vendido</div>
+                        </div>
                     </div>
+                </div>
+                <div id="urbanismo" class="tab-content">
+                    <img src="/images/bosque/BM_GENERAL -BROCH.jpg">
+                   
                 </div>
             </div>
         </div>
+    
+    
         <div class="row align-items-center contact">
             <div class="col-md-6 image">
                 <img src="/img/contacto.png">
@@ -164,12 +244,12 @@
                     <input type="email" placeholder="EMAIL">
                     <input type="tel" placeholder="TEL/CEL">
                     <label>¿Como te enteraste del proyecto?
-                    <select>
-                        <option></option>
-                        <option>Redes sociales</option>
-                        <option>Pagina web</option>
-                        <option>Revistas</option>
-                    </select>
+                        <select>
+                            <option></option>
+                            <option>Redes sociales</option>
+                            <option>Pagina web</option>
+                            <option>Revistas</option>
+                        </select>
                     </label>
                     <label><input type="checkbox"> Acepto política de tratamiento de datos</label>
                     <input type="submit" class="btn" value="Enviar">
@@ -180,7 +260,8 @@
             <div class="col p-0 work">
                 <div class="box">
                     <h3>Avance de obra</h3>
-                    <p>Ingresa para ver le progreso de tu futura vivienda, conoce los pormenores de la obra y mira las fotos de los avances en este proyecto.</p>
+                    <p>Ingresa para ver le progreso de tu futura vivienda, conoce los pormenores de la obra y mira las fotos
+                        de los avances en este proyecto.</p>
                     <a href="#">Entrar</a>
                 </div>
             </div>
@@ -192,10 +273,14 @@
 @push('styles')
 <link rel="stylesheet" href="/css/proyecto.css" type='text/css' media='all'>
 <link rel="stylesheet" href="/css/magnific-popup.css" type='text/css' media='all'>
+<style>
+.tabs-bosque span{
+    width: 135px;
+    font-size: 21px;
+}
+</style>
 @endpush
 @push('scripts')
-<script type="text/javascript" src="/js/main.js"></script>
-<script type="text/javascript" src="/js/isotope.min.js"></script>
-<script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
+
 
 @endpush

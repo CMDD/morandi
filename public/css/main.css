@@ -12,32 +12,93 @@ img {
 }
 
 .navbar {
-    font-family: 'Avenir';
-    background: rgba(255, 255, 255, 0.95);
-    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1030;
+    padding: .5rem 1rem;
+    font-weight: 500;
+    font-style: italic;
 }
 .navbar-brand {
-    padding: 0;
+    position: absolute;
+    z-index: 10;
+    left: 1rem;
+    top: 0;
+    width: 110px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    background: #fff;
 }
-.navbar-light .navbar-nav .nav-link {
-    color: #000;
-    font-size: .8em;
+.navbar-light .navbar-text a {
+    color: #011238;
+    margin-right: 10px;
+}
+.navbar-light .navbar-text a.icon {
+    margin: 0 0 0 10px;
+}
+.navbar .menu-float {
+    position: fixed;
+    z-index: 9;
+    top: 62px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.88);
+    -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+    -webkit-transform: translateX(100%);
+    -moz-transform:    translateX(100%);
+    -ms-transform:     translateX(100%);
+    -o-transform:      translateX(100%);
+    transform:         translateX(100%);
+}
+.navbar .menu-float.opened {
+    -webkit-transform: translateX(0);
+    -moz-transform:    translateX(0);
+    -ms-transform:     translateX(0);
+    -o-transform:      translateX(0);
+    transform:         translateX(0);
+}
+.menu-float ul {
+    list-style: none;
+    padding: 4rem 1rem 0 1rem;
+    margin: 0;
+    text-align: right;
+}
+.menu-float a {
+    display: block;
+    color: #011238;
     text-transform: uppercase;
     border: 1px solid transparent;
-    padding: .5rem;
-    margin: .5rem 0 0 0;
+    padding: 5px 0;
 }
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #000;
-    border-color: #707070;
+.menu-float a:hover, .menu-float a.active {
+    color: #011238;
+    text-decoration: underline;
+}
+
+.menu-float ul.sub {
+    padding: 0 0 15px 0;
+}
+.menu-float ul.sub a {
+    font-size: .9rem;
+    line-height: 1.1rem;
+}
+.menu-float .has-children >a:after {
+    content: ' +';
+}
+.menu-float .has-children.show >a:after {
+    content: ' -';
+}
+.menu-float .has-children:not(.show) .sub {
+    display: none;
 }
 
 .footer {
-    font-family: 'Avenir';
     background: url(../img/footer.jpg);
     background-size: cover;
     background-position: center;
@@ -54,19 +115,31 @@ img {
     content: '';
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
-    background: linear-gradient(to bottom, rgb(255, 255, 255) 40%,rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 60%,rgba(255, 255, 255, 0) 100%);
 }
 .footer .contact {
     margin: 40px 0;
     font-size: .9rem;
+    font-style: italic;
+    font-weight: 300;
+}
+.footer .contact strong {
+    font-weight: 800;
 }
 .footer .contact span {
     display: block;
 }
-.footer .social img {
+.footer .social span {
+    display: block;
+    font-size: .9rem;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footer .social-icons img {
     margin: 0 10px;
 }
-.footer .social:before, .footer .social:after {
+.footer .social-icons:before, .footer .social-icons:after {
     content: '';
     display: inline-block;
     vertical-align: middle;
@@ -75,67 +148,73 @@ img {
     margin-right: 20px;
     background: #033E62;
 }
-.footer .social:after {
+.footer .social-icons:after {
     margin-left: 20px;
     margin-right: 0;
 }
 .footer .copyright {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
 }
 .footer .copyright span {
     display: inline-block;
+    font-weight: 300;
     font-size: .8rem;
     padding: 10px 0;
 }
 
-@media (min-width:992px){
+@media (min-width: 576px){
     
     .navbar {
-        background: rgba(255, 255, 255, 0.75);
+        padding: .5rem 2rem;
     }
-    
-    .navbar-light .navbar-nav .nav-link {
-        margin: 0 .5rem;
+    .navbar-brand {
+        left: 2rem;
+        width: 120px;
+        padding: 10px 20px;
     }
-    
-    .dropdown-menu {
-        padding: 0;
-        margin: .5rem 0 0 .5rem;
-        border-radius: 0;
-        background-color: rgba(1, 18, 56, 0.8);
+    .navbar-light .navbar-text a {
+        margin-right: 20px;
     }
-    .dropdown-item {
-        color: #fff;
-        padding: .6rem 1.5rem .4rem 1.5rem;
+    .navbar-light .navbar-text a.icon {
+        margin: 0 0 0 20px;
     }
-    .dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active {
-        color: #ffffff;
-        text-decoration: none;
-        background-color: rgba(0, 16, 57, 0.8);
+    .navbar .menu-float {
+        width: 300px;
+    }
+    .menu-float ul {
+        padding: 2rem 2rem 0 2rem;
     }
     
 }
 
 @media (min-width: 768px){
-        
+    
     .footer .gradient {
         margin-bottom: 300px;
     }
     .footer .contact {
         font-size: 1rem;
+        text-align: left;
+    }
+    .footer .to-r {
+        text-align: right;
+        padding-right: 40px;
+        align-self: center;
     }
     .footer .contact span {
-        display: inline-block;
+        padding-left: 25px;
+        position: relative;
     }
     .footer .contact span:before {
         content: '';
-        display: inline-block;
-        vertical-align: middle;
+        position: absolute;
+        top: 50%;
+        left: -18px;
+        margin-top: -4px;
         width: 7px;
         height: 7px;
         background: #033E62;
         border-radius: 50%;
-        margin: 0 35px;
     }
     .footer .social:before, .footer .social:after {
         width: 80px;
@@ -144,25 +223,32 @@ img {
     .footer .social:after {
         margin-left: 40px;
     }
+    
 }
 
 @font-face {
     font-family: 'ChronicaPro';
     font-style: normal;
     font-weight: 200;
-    src: local('fonts/ChronicaPro-Light'), url('../fonts/ChronicaPro-Light.woff') format('woff');
+    src: local('ChronicaPro-Light'), url('../fonts/ChronicaPro-Light.woff') format('woff');
 }
 @font-face {
     font-family: 'ChronicaPro';
     font-style: normal;
     font-weight: 300;
-    src: local('fonts/ChronicaPro-Book'), url('../fonts/ChronicaPro-Book.woff') format('woff');
+    src: local('ChronicaPro-Book'), url('../fonts/ChronicaPro-Book.woff') format('woff');
+}
+@font-face {
+    font-family: 'ChronicaPro';
+    font-style: italic;
+    font-weight: 300;
+    src: local('ChronicaProBookIt'), url('../fonts/ChronicaProBookIt.woff') format('woff');
 }
 @font-face {
     font-family: 'ChronicaPro';
     font-style: normal;
     font-weight: 400;
-    src: local('fonts/ChronicaPro-Regular'), url('../fonts/ChronicaPro-Regular.woff') format('woff');
+    src: local('ChronicaPro-Regular'), url('../fonts/ChronicaPro-Regular.woff') format('woff');
 }
 @font-face {
     font-family: 'ChronicaPro';
@@ -172,9 +258,21 @@ img {
 }
 @font-face {
     font-family: 'ChronicaPro';
+    font-style: italic;
+    font-weight: 500;
+    src: local('ChronicaProMediumIt'), url('../fonts/ChronicaProMediumIt.woff') format('woff');
+}
+@font-face {
+    font-family: 'ChronicaPro';
     font-style: normal;
     font-weight: 700;
     src: local('ChronicaPro-Bold'), url('../fonts/ChronicaPro-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'ChronicaPro';
+    font-style: italic;
+    font-weight: 700;
+    src: local('ChronicaPro-BoldIt'), url('../fonts/ChronicaPro-BoldIt.woff') format('woff');
 }
 @font-face {
     font-family: 'ChronicaPro';
@@ -189,26 +287,8 @@ img {
     src: local('ChronicaProBlackIt'), url('../fonts/ChronicaProBlackIt.woff') format('woff');
 }
 @font-face {
-    font-family: 'Avenir';
-    font-style: normal;
-    font-weight: 300;
-    src: local('AvenirLTStd-Light'), url('../fonts/AvenirLTStd-Light.woff') format('woff');
-}
-@font-face {
-    font-family: 'Avenir';
-    font-style: normal;
-    font-weight: 400;
-    src: local('AvenirLTStd-Book'), url('../fonts/AvenirLTStd-Book.woff') format('woff');
-}
-@font-face {
     font-family: 'Barbershop in Thailand';
     font-style: normal;
     font-weight: 400;
     src: local('Barbershop in Thailand'), url('../fonts/BarbershopinThailand.woff') format('woff');
-}
-@font-face {
-    font-family: 'Blacksword';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Blacksword'), url('../fonts/Blacksword.woff') format('woff');
 }

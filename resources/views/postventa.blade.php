@@ -63,7 +63,6 @@
 <link rel="stylesheet" href="/css/magnific-popup.css" type='text/css' media='all'>
 @endpush
 @push('scripts')
-<script type="text/javascript" src="/js/main.js"></script>
 <script type="text/javascript" src="/js/isotope.min.js"></script>
 <script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
 

@@ -24,6 +24,9 @@ class ProjectController extends Controller
             case 'bosque':
                 return view('proyectos.bosque');
                 break;
+            case 'senior':
+                return view('proyectos.senior');
+                break;
             case 'caney':
 
                 return view('proyectos.caney');

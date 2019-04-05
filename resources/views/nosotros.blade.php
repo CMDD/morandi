@@ -61,8 +61,6 @@
 @endpush
 
 @push('scripts')
-
-<script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
 
  @endpush   

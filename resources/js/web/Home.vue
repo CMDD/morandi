@@ -31,20 +31,19 @@
               </div>
               <div class="col-lg-6">
                   <div class="project-box">
-                      <a href="#"><img src="img/img-01.jpg"></a>
+                      <a href="#"><img src="images/senior/imagen_home.jpg"></a>
                       <div class="info">
                           <div class="logo">
                               <img src="img/brand-01.svg">
                           </div><div class="desc">
-                              <p>Suites con áreas desde 35 m2</p>
-                              <p>Guaymaral, Cundinamarca</p>
+                              <p>Suite de 37m2 y 60m2 <br>Desde: 195.457.000 <br>Vía Guaymaral, Vereda la balsa, sector las juntas, Chía – Cundinamarca.</p>
                           </div>
                       </div>
                   </div>
               </div>
               <div class="col-lg-6">
                   <div class="project-box">
-                      <a href="#"><img src="img/img-01.jpg"></a>
+                      <a href="#"><img src="images/senior/imagen_home.jpg"></a>
                       <div class="info">
                           <div class="logo">
                               <img src="img/brand-01.svg">

@@ -295,11 +295,6 @@ svg.bottom {
     
 }
 
-@media (min-width:992px){
-    
-    
-}
-
 @media (min-width:1200px){
     .circle {
         width: 500px;
@@ -311,6 +306,3 @@ svg.bottom {
         background-size: 80px;
     }
 }
-
-
-
