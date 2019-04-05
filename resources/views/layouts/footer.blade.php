@@ -1,7 +1,7 @@
 <div class="container-fluid footer">
             <div class="row gradient">
                 <div class="col">
-                    <img class="logo" src="/img/logo-footer.svg" width="90">
+                    <!-- <img class="logo" src="/img/logo-footer.svg" width="90"> -->
                     <div class="row contact">
                         <div class="col-12 col-md-6 to-r">
                             <strong>Oficina</strong> Calle 117 No. 11A-62 - Bogotá, Colombia
