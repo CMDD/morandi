@@ -42,7 +42,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div>
+                        <!-- <div>
                             <div class="box" style="background-image: url(img/proyecto-home-1.jpg);">
                                 <div class="info">
                                     <div class="brand">
@@ -53,7 +53,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
