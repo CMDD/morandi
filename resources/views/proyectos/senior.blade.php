@@ -215,7 +215,7 @@
     
     
         <div class="row align-items-center contact">
-            <div class="col-md-6 image">
+            <div class="col-md-6 image" data-aos="fade-right">
                 <img src="/img/contact.png">
             </div>
             <div class="col-md-6 form">
