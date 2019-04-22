@@ -4,7 +4,7 @@
     <img class="go-to" src="img/arrow.svg">
 </div>
 <div id="projects" class="container-fluid">
-            <div class="row">
+            <div class="row" data-aos="zoom-in">
                 <h2 class="subtitle">Proyectos en <span>venta</span></h2>
             </div>
             <div class="row">
