@@ -31,7 +31,7 @@
                     <li class="has-children"><a href="#">Proyectos</a>
                         <ul class="sub">
                             <li><a href="/proyecto/bosque">Bosque Montaña</a></li>
-                            <li><a href="{{url('proyecto/senior')}}">Senior Suite</a></li>
+                            <li><a href="{{url('proyecto/senior')}}">Senior Suites</a></li>
                             
                         </ul>
                     </li>

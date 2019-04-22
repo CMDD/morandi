@@ -34,7 +34,7 @@
                     <div><img src="/images/senior/icons/Lobby38.jpg"><span>Lobby</span></div>
                     <div><img src="/images/senior/icons/Auditorio39.jpg"><span>Auditorio</span></div>
                     <div><img src="/images/senior/icons/Terraza40.jpg"><span>Terraza</span></div>
-                    <div><img src="/images/senior/icons/Salón de reuniones 41.jpg"><span>Salón de reuniones</span></div>
+                    <div><img src="/images/senior/icons/Salon de reuniones 41.jpg"><span>Salón de reuniones</span></div>
                     <div><img src="/images/senior/icons/Sala de juegos42.jpg"><span>Sala de juegos</span></div>
                     <div><img src="/images/senior/icons/restaurante44.jpg"><span>Restaurante</span></div>
                     <div><img src="/images/senior/icons/oratorio45.jpg"><span>Oratorio</span></div>
