@@ -32,7 +32,7 @@ $(document).ready(function () {
     if ($('.slide-projects').length){
         $('.slide-projects').slick({
             autoplay: true,
-            autoplaySpeed: 3000,
+            autoplaySpeed: 1500,
             speed: 1000,
             adaptiveHeight: true,
             accessibility: false,
