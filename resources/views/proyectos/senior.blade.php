@@ -40,10 +40,10 @@
             <div class="col-md-6 py-5 sites">
                 <h3>Sitios de <span>interés</span></h3>
                 <ul>
-                    <li><img src="/images/senior/si/restaurante.png">Restaurante Andres Carne de Res</li>
-                    <li><img src="/images/senior/si/universidad.png">Universidad de la Sabana</li>
-                    <li><img src="/images/senior/si/centro comercial.png">Centro Comercial Fontanar</li>
-                    <li><img src="/img/icon-lobby.svg">Clínica Marly</li>
+                    <li><img src="/images/senior/icons/restaurante.png">Restaurante Andres Carne de Res</li>
+                    <li><img src="/images/senior/icons/universidad.png">Universidad de la Sabana</li>
+                    <li><img src="/images/senior/icons/centro comercial.png">Centro Comercial Fontanar</li>
+                    <li><img src="/images/senior/icons/clinica.png">Clínica Marly</li>
                     
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
