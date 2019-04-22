@@ -132,6 +132,7 @@ svg.bottom {
 .history h2 span {
     font-weight: 800;
 }
+
 .slide-history {
     background-image: url(../img/history.jpg);
     background-size: cover;
@@ -175,7 +176,6 @@ svg.bottom {
 .slick-prev:focus, .slick-next:focus {
     outline: none;
 }
-
 .slide-history .box {
     position: relative;
     background: rgba(255, 255, 255, 0.4);
@@ -229,7 +229,6 @@ svg.bottom {
         width: 400px;
         height: 400px;
     }
-    
     .circle >div {
         font-size: 40px;
         padding: 20px 10px 20px 70px;
@@ -240,16 +239,13 @@ svg.bottom {
         padding: 80px 40px 40px 40px;
         margin: 0 10% 100px 10%;
     }
-    
     .slick-prev, .slick-next {
         top: 50%;
         bottom: auto;
     }
-    
     .slick-prev {
         left: 2%;
     }
-    
     .slick-next {
         right: 2%;
     }
@@ -261,13 +257,11 @@ svg.bottom {
     .cover:before {
         background-image: radial-gradient(farthest-side at 0% 70%, rgb(255, 255, 255), rgba(255, 255, 255, 0.53), rgba(255, 255, 255, 0));
     }
-    
     .cover .text {
         top: 50%;
         -webkit-transform: translate3d(0,-50%,0);
                 transform: translate3d(0,-50%,0);
     }
-    
     .cover h2 {
         font-size: 50px;
         padding: 0 100px 10px 0;
@@ -282,7 +276,6 @@ svg.bottom {
         background-position: center left 10px;
         background-size: 70px;
     }
-    
     .circle span:not(.count) {
         font-size: 15px;
     }
@@ -296,6 +289,7 @@ svg.bottom {
 }
 
 @media (min-width:1200px){
+    
     .circle {
         width: 500px;
         height: 500px;
@@ -305,4 +299,5 @@ svg.bottom {
         padding: 20px 20px 20px 120px;
         background-size: 80px;
     }
+    
 }

@@ -64,6 +64,25 @@
 
 @push('styles')
 <link rel="stylesheet" href="css/home.css" type='text/css' media='all'>
+
+<style>
+.slide-projects .brand-bosque {
+    background: #e2dede94; 
+}
+.slide-projects .brand-senior {
+    background: #000; 
+}
+
+.slide-projects .text-bosque {  
+    background: rgb(167, 78, 1, 0.81);
+}
+.slide-projects .text-senior {  
+    background: rgba(193, 164, 88, 0.6);
+}
+a{
+    color:black !important;
+}
+</style>
 @endpush
 
 @push('scripts')

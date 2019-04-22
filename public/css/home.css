@@ -1,6 +1,3 @@
-a{
-    color: #000 !important;
-}
 .slide-home {
     position: relative;
     background-image: url(../img/cover-home.jpg);
@@ -42,8 +39,8 @@ h2.subtitle span {
     background-position: center;
     height: 350px;
     overflow: hidden;
-    -webkit-transition: all .3s ease;
-            transition: all .3s ease;
+    -webkit-transition: all .8s ease .4s;
+            transition: all .8s ease .4s;
 }
 
 .slide-projects .info {
@@ -52,8 +49,8 @@ h2.subtitle span {
     left: 0;
     right: 0;
     transform: translateY(0);
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all .8s ease .4s;
+    transition: all .8s ease .4s;
     display: flex;
     flex-direction: column;
 }
@@ -62,14 +59,8 @@ h2.subtitle span {
     align-self: center;
     z-index: 1;
     max-width: 150px;
-    /* background: #000; */
+    background: #000;
     text-align: center;
-}
-.slide-projects .brand-bosque {
-    background: #e2dede94; 
-}
-.slide-projects .brand-senior {
-    background: #000; 
 }
 .slide-projects .brand img {
     margin: auto;
@@ -82,18 +73,12 @@ h2.subtitle span {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-between;
     font-style: italic;
     font-weight: 300;
     font-size: .9rem;
-}
-.slide-projects .text-bosque {  
-    background: rgb(167, 78, 1, 0.81);
-}
-.slide-projects .text-senior {  
     background: rgba(193, 164, 88, 0.6);
 }
-
 .slide-projects .text strong {
     font-weight: 700;
 }

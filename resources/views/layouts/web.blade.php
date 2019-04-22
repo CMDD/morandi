@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/main.css" type='text/css' media='all'>
     <link rel="stylesheet" href="/css/magnific-popup.css" type='text/css' media='all'>
     <link rel="stylesheet" href="/css/slick.css" type='text/css' media='all'>
+    <link rel="stylesheet" href="/css/aos.css" type='text/css' media='all'>
     @stack('styles')
     
 </head>
@@ -49,6 +50,7 @@
             <script type="text/javascript" src="/js/main.js"></script>
               <script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
             <script type="text/javascript" src="/js/slick.min.js"></script>
+            <script type="text/javascript" src="/js/aos.js"></script>
             <script src="/js/app.js"></script>
             @stack('scripts')
 

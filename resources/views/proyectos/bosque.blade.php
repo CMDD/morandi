@@ -245,7 +245,7 @@
                     <input type="tel" placeholder="TEL/CEL">
                     <label>¿Como te enteraste del proyecto?
                         <select>
-                            <option></option>
+                            <option>Selecciona...</option>
                             <option>Redes sociales</option>
                             <option>Pagina web</option>
                             <option>Revistas</option>

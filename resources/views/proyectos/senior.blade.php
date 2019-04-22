@@ -5,11 +5,11 @@
     </div>
     <div class="container-fluid">
         <div class="row align-items-center my-5">
-            <div class="col-lg-7 col-xl-6 subtitle">
+            <div class="col-lg-7 col-xl-6 subtitle" data-aos-delay="100" data-aos="zoom-out-right">
                 <h3><span class="top">La elegancia y el confort </span> de vivir en un lugar <span class="bottom">diseñado para ti</span>
                 </h3>
             </div>
-            <div class="col-lg-5 col-xl-4 description">
+            <div class="col-lg-5 col-xl-4 description" data-aos-delay="200" data-aos="zoom-in-up">
                 <p>Proyecto Residencial enfocado en el adulto mayor activo e independiente, donde la única condición para habitarlo es ser mayor de 50 años.
                     Se encuentra ubicado cerca de la ciudad de Bogotá, en una zona afortunada de Guaymaral con un entorno único, natural y tranquilo, como solo lo ofrece la sabana norte.
                     Nuestra propuesta logra entender las necesidades de personas que buscan un lugar tranquilo, elegante, con todas las comodidades y espacios de recreación y socialización que promueven su independencia y autonomía.
@@ -28,7 +28,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 py-5 items">
-                <h3>En Bosque Montaña <span>podrás disfrutar de</span></h3>
+                <h3>En Senior Suites <span>podrás disfrutar de</span></h3>
                 <div class="slide-items">
                     <div><img src="/img/icon-terraza.svg"><span>Terraza</span></div>
                     <div><img src="/img/icon-piscina.svg"><span>Piscina</span></div>
@@ -40,12 +40,11 @@
             <div class="col-md-6 py-5 sites">
                 <h3>Sitios de <span>interés</span></h3>
                 <ul>
-                    <li><img src="/img/icon-lobby.svg">Universidad de la Sabana</li>
-                    <li><img src="/img/icon-gimnasio.svg">Universidad Manuela Beltrán</li>
-                    <li><img src="/img/icon-lobby.svg">Universidad Militar</li>
-                    <li><img src="/img/icon-lobby.svg">Puente del Común </li>
-                    <li><img src="/img/icon-oratorio.svg">Parque Jaime Duque</li>
-                    <li><img src="/img/icon-piscina.svg">Catedral de sal de Zipaquirá</li>
+                    <li><img src="/images/senior/si/restaurante.png">Restaurante Andres Carne de Res</li>
+                    <li><img src="/images/senior/si/universidad.png">Universidad de la Sabana</li>
+                    <li><img src="/images/senior/si/centro comercial.png">Centro Comercial Fontanar</li>
+                    <li><img src="/img/icon-lobby.svg">Clínica Marly</li>
+                    
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
                         Maps</span></a>
@@ -75,161 +74,134 @@
         </div>
     
     
-        <div class="row">
-            <div class="col models">
-                <h3>Disponibles</h3>
-                <p>Selecciona un tipo de suite para ver la disponibilidad</p>
-                <div class="tabs ">
-                    <span data-tab="tipo1" class="active">1</span>
-                    <span data-tab="tipo2">2</span>
-                    <span data-tab="tipo3">3</span>
-                    <span data-tab="urbanismo">Urbanismo</span>
-                </div>
-                <div id="tipo1" class="tab-content active">
-                    <img src="/images/senior/planta1.png">
-                    <table>
-                        <tr> 
-                            <td>Habitaciones</td>
-                            <td>1</td>
-                        </tr>
-                        <tr>
-                            <td>Baños</td>
-                            <td>1</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td>Area Construida</td>
-                            <td>37m2 y 60m2</td>
-                        </tr>
-                        <tr>
-                            <td>Area Privada</td>
-                            <td>6.5 m2</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Precio desde:</strong></td>
-                            <td><strong>$195.457.000</strong></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><a href="#">Descarga PDF del brochure</a></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><a href="#">Descarga PDF de las plantas</a></td>
-                        </tr>
-                    </table>
-                    @include('partials.bosque_disponible')
-                </div>
-                <div id="tipo2" class="tab-content">
-                    <img src="/images/senior/planta2.png">
-                    <table>
-                        <tr>
-                            <td>Habitaciones</td>
-                            <td>3 + Family Room</td>
-                        </tr>
-                        <tr>
-                            <td>Baños</td>
-                            <td>3</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td>Area Construida</td>
-                            <td>180 m2</td>
-                        </tr>
-                        <tr>
-                            <td>Area Privada</td>
-                            <td>6.5 m2</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Precio desde:</strong></td>
-                            <td><strong>$694.000.000</strong></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><a href="#">Descarga PDF del brochure</a></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><a href="#">Descarga PDF de las plantas</a></td>
-                        </tr>
-                    </table>
-                    
-                    
-                </div>
-                <div id="tipo3" class="tab-content">
-                    <img src="/images/senior/planta3.png">
-                    <table>
-                        <tr>
-                            <td>Habitaciones</td>
-                            <td>3</td>
-                        </tr>
-                        <tr>
-                            <td>Baños</td>
-                            <td>5</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td>Area Construida</td>
-                            <td>124.3 m2</td>
-                        </tr>
-                        <tr>
-                            <td>Area Privada</td>
-                            <td>6.5 m2</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Precio desde:</strong></td>
-                            <td><strong>$195.457.000</strong></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><a href="#">Descarga PDF del brochure</a></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><a href="#">Descarga PDF de las plantas</a></td>
-                        </tr>
-                    </table>
-                    <h3>Disponibles</h3>
-                    <div class="floors">
-                        <span class="vacant">201</span><span class="sold">202</span><span>203</span><span
-                            class="vacant">204</span>
-                        <span class="vacant">301</span><span>302</span><span class="sold">303</span><span
-                            class="vacant">304</span>
-                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span>
-                        <span class="vacant">501</span><span class="sold">502</span><span>503</span><span
-                            class="sold">504</span>
-                        <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span
-                            class="sold">604</span>
-                        <div class="about">
-                            <div class="vacant">Disponible</div>
-                            <div class="sold">Vendido</div>
+    <div class="row">
+        <div class="col models">
+            <h3>Disponibles</h3>
+            <p>Selecciona un tipo de apartamento para ver la disponibilidad</p>
+            <div class="tabs">
+                <span data-tab="tipo1" class="active">1</span>
+                <span data-tab="tipo2">2</span>
+                <!-- <span data-tab="tipo3">3</span>
+                <span data-tab="tipo4" class="txt">Urbanismo</span> -->
+            </div>
+            <div id="tipo1" class="tab-content active">
+                <div class="slider">
+                    <div class="slide-type">
+                        <div>
+                            <img src="/images/senior/planta1.png">
                         </div>
+                         <div>
+                            <img src="/images/senior/planta2.png">
+                        </div>
+                        <!-- <div>
+                            <img src="/img/modelo-1.jpg">
+                        </div>  -->
                     </div>
                 </div>
-                <div id="urbanismo" class="tab-content">
-                    <img src="/images/bosque/BM_GENERAL -BROCH.jpg">
-                   
+                <table>
+                    <tr>
+                        <td>Habitaciones</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Baños</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Area Construida</td>
+                        <td>37m2 y 60m2</td>
+                    </tr>
+                    <!-- <tr>
+                        <td>Area Privada</td>
+                        <td>6.5 m2</td>
+                    </tr> -->
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Precio desde:</strong></td>
+                        <td><strong>$195.457.000</strong></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><a download="brochure" href="/images/senior/SeniorSuites_Brochure.pdf">Descarga PDF del brochure</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><a download="plantas" href="/images/senior/plantas.pdf">Descarga PDF de las plantas</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="tipo2" class="tab-content">
+                <div class="slider">
+                    <div class="slide-type">
+                        <div>
+                        <img src="/images/senior/planta3.png">
+                        </div>
+                        <!-- <div>
+                            <img src="/img/modelo-1.jpg">
+                        </div>
+                        <div>
+                            <img src="/img/modelo-1.jpg">
+                        </div> -->
+                    </div>
                 </div>
+                <table>
+                    <tr>
+                        <td>Habitaciones</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Baños</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Area Construida</td>
+                        <td>124.3 m2</td>
+                    </tr>
+                    <tr>
+                        <td>Area Privada</td>
+                        <td>6.5 m2</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Precio desde:</strong></td>
+                        <td><strong>$409.500.000</strong></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><a download="brochure" href="/images/senior/SeniorSuites_Brochure.pdf">Descarga PDF del brochure</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><a download="plantas" href="/images/senior/plantas.pdf">Descarga PDF de las plantas</a></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <h3>Disponibilidad</h3>
+            <div class="f5 floors">
+                <h4>Torre 1</h4>
+                <span>201</span><span>202</span><span>203</span><span>204</span><span>205</span><span>206</span><span>207</span><span>208</span><span>209</span><span>210</span><span>211</span><span>212</span><span>213</span><span>214</span><span>215</span><span>217</span><span>218</span><span>219</span><span>221</span><span>222</span><span>223</span><span>224</span><span>302</span><span>303</span><span>304</span><span>305</span><span>309</span><span>310</span><span>312</span><span>314</span><span>315</span><span>316</span><span>317</span><span>318</span><span>319</span><span>320</span><span>321</span><span>323</span><span>324</span><span>403</span><span>404</span><span>405</span><span>406</span><span>407</span><span>411</span><span>412</span><span>413</span><span>414</span><span>415</span><span>416</span><span>417</span><span>418</span><span>419</span><span>420</span><span>421</span><span>422</span><span>423</span><span>424</span>
+            </div>
+            <div class="floors">
+                <h4>Torre 2</h4>
+                <span>202</span><span>203</span><span>204</span><span>205</span><span>206</span><span>301</span><span>302</span><span>305</span><span>307</span><span>308</span><span>309</span><span>404</span>
+                
             </div>
         </div>
+    </div>
+        
     
     
         <div class="row align-items-center contact">
@@ -245,7 +217,7 @@
                     <input type="tel" placeholder="TEL/CEL">
                     <label>¿Como te enteraste del proyecto?
                         <select>
-                            <option></option>
+                            <option>Selecciona...</option>
                             <option>Redes sociales</option>
                             <option>Pagina web</option>
                             <option>Revistas</option>
@@ -277,6 +249,11 @@
 .tabs-bosque span{
     width: 135px;
     font-size: 21px;
+}
+.f5{
+
+    max-width: 630px;
+
 }
 </style>
 @endpush

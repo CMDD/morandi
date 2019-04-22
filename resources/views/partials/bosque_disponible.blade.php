@@ -11,7 +11,6 @@
                         <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span
                             class="sold">604</span>
                         <div class="about">
-                            <div class="vacant">Disponible</div>
-                            <div class="sold">Vendido</div>
+                            
                         </div>
                     </div>

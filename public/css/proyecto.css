@@ -300,7 +300,7 @@
     font-size: 55px;
     line-height: 1;
     width: 50px;
-    padding: 5px;
+    padding: 10px 5px 0 5px;
     margin: 30px 2% 60px 2%;
     border: 1px solid #391700;
     color: #963825;
@@ -311,11 +311,14 @@
 }
 .tabs span:last-child {
     margin-right: 0;
+}
+.tabs span.txt {
     width: auto;
     font-weight: 300;
     font-size: 15px;
     line-height: 55px;
     text-transform: uppercase;
+    padding: 5px;
 }
 .tabs span.active {
     background: #391700;
@@ -327,9 +330,16 @@
 .tab-content.active {
     display: block;
 }
-.tab-content img {
+.slider {
     display: inline-block;
     vertical-align: middle;
+    width: 100%;
+    max-width: 900px;
+}
+.slide-type.slick-slider {
+    padding: 0 40px;
+}
+.tab-content img {
     width: 100%;
     max-width: 900px;
 }
@@ -359,13 +369,24 @@
 .tab-content h3:after {
     display: none;
 }
+
 .floors {
     position: relative;
     display: inline-block;
-    width: 280px;
+    vertical-align: top;
+    text-align: left;
+    width: 94%;
+    margin: 0 3%;
+    max-width: 280px;
+
+}
+.floors h4 {
+    margin: 30px 0 10px 0;
+    text-align: center;
 }
 .floors >span {
     display: inline-block;
+    text-align: center;
     width: 50px;
     line-height: 30px;
     font-style: normal;
@@ -373,39 +394,8 @@
     font-size: 1.2rem;
     padding: 10px 0;
     border: 1px solid #391700;
-    color: transparent;
-    margin: 10px;
-    opacity: .17;
-}
-.floors span.sold {
-    background: #391700;
-    color: #fff;
-    opacity: 1;
-}
-.floors span.vacant {
-    opacity: 1;  
     color: #030000;
-}
-.floors .about {
-    position: relative;
     margin: 10px;
-    text-align: left;
-    line-height: 1;
-}
-.floors .about .vacant {
-    margin-bottom: 10px;
-}
-.floors .about .vacant:before, .floors .about .sold:before {
-    content: '';
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
-    border: 1px solid #391700;
-    margin-right: 10px;
-}
-.floors .about .sold:before {
-    background: #391700;
 }
 
 .contact {
@@ -562,18 +552,7 @@
 
 @media (min-width: 768px){
     
-    .tab-content img {
-        padding: 0 4%;
-    }
     
-    .floors .about {
-        position: absolute;
-        top: 10px;
-        left: 120%;
-        width: 1px;
-        white-space: nowrap;
-        margin: 0;
-    }
     
 }
 

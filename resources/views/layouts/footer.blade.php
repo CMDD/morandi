@@ -1,8 +1,8 @@
 <div class="container-fluid footer">
             <div class="row gradient">
                 <div class="col">
-                    <!-- <img class="logo" src="/img/logo-footer.svg" width="90"> -->
-                    <div class="row contact">
+                    <!-- <img class="logo" src="/img/logo-footer.svg" width="90" data-aos="fade-up"> -->
+                    <div class="row contact" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                         <div class="col-12 col-md-6 to-r">
                             <strong>Oficina</strong> Calle 117 No. 11A-62 - Bogotá, Colombia
                         </div>
@@ -16,7 +16,7 @@
                             <span><strong>Celulares</strong> 314 218 3203 - 310 791 7326</span>
                         </div>
                     </div>
-                    <div class="social">
+                    <div class="social" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000">
                         <span>Síguenos en:</span>
                         <div class="social-icons">
                             <a href="#"><img src="/img/instagram.svg"></a>
