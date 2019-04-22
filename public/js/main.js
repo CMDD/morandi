@@ -31,6 +31,8 @@ $(document).ready(function () {
     /* slider home */
     if ($('.slide-projects').length){
         $('.slide-projects').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
             speed: 1000,
             adaptiveHeight: true,
             accessibility: false,
@@ -66,6 +68,8 @@ $(document).ready(function () {
     /* slider nosotros */
     if ($('.slide-history').length){
         $('.slide-history').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
             adaptiveHeight: true,
             accessibility: false
         });
@@ -86,6 +90,8 @@ $(document).ready(function () {
     /* slider proyecto */
     if ($('.slide-items').length){
         $('.slide-items').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
             adaptiveHeight: true,
             accessibility: false,
             slidesToShow: 3,
@@ -123,6 +129,7 @@ $(document).ready(function () {
     
     AOS.init({
         delay: 200,
+        duration: 600
     });
     
 });

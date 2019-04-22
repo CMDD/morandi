@@ -30,11 +30,21 @@
             <div class="col-md-6 py-5 items">
                 <h3>En Senior Suites <span>podrás disfrutar de</span></h3>
                 <div class="slide-items">
-                    <div><img src="/img/icon-terraza.svg"><span>Terraza</span></div>
-                    <div><img src="/img/icon-piscina.svg"><span>Piscina</span></div>
-                    <div><img src="/img/icon-gimnasio.svg"><span>Gimnasio</span></div>
-                    <div><img src="/img/icon-lobby.svg"><span>Lobby</span></div>
-                    <div><img src="/img/icon-oratorio.svg"><span>Oratorio</span></div>
+                    <div><img src="/images/senior/icons/Biblioteca y zona de computo 43.jpg"><span>Biblioteca</span></div>
+                    <div><img src="/images/senior/icons/Lobby38.jpg"><span>Lobby</span></div>
+                    <div><img src="/images/senior/icons/Auditorio39.jpg"><span>Auditorio</span></div>
+                    <div><img src="/images/senior/icons/Terraza40.jpg"><span>Terraza</span></div>
+                    <div><img src="/images/senior/icons/Salón de reuniones 41.jpg"><span>Salón de reuniones</span></div>
+                    <div><img src="/images/senior/icons/Sala de juegos42.jpg"><span>Sala de juegos</span></div>
+                    <div><img src="/images/senior/icons/restaurante44.jpg"><span>Restaurante</span></div>
+                    <div><img src="/images/senior/icons/oratorio45.jpg"><span>Oratorio</span></div>
+                    <div><img src="/images/senior/icons/piscina46.jpg"><span>Piscina</span></div>
+                    <div><img src="/images/senior/icons/Gym47.jpg"><span>Gimnasio</span></div>
+                    <div><img src="/images/senior/icons/sauna y turco48.jpg"><span>Sauna</span></div>
+                    <div><img src="/images/senior/icons/zona de masajes49.jpg"><span>Zona de Masajes</span></div>
+                    <div><img src="/images/senior/icons/enfermeria primeros auxilios50.jpg"><span>Enfermería</span></div>
+                    <div><img src="/images/senior/icons/zonas verdes con cenderos peatonales51.jpg"><span>Zonas verdes</span></div>
+                   
                 </div>
             </div>
             <div class="col-md-6 py-5 sites">
