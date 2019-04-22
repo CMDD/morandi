@@ -216,7 +216,7 @@
     
         <div class="row align-items-center contact">
             <div class="col-md-6 image">
-                <img src="/img/contacto.png">
+                <img src="/img/contact.png">
             </div>
             <div class="col-md-6 form">
                 <p>Para saber mas de este proyecto…</p>
