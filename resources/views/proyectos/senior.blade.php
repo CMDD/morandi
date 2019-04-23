@@ -212,10 +212,10 @@
     
     
         <div class="row align-items-center contact">
-            <div class="col-md-6 image" data-aos="fade-right">
+            <div class="col-md-6 image" data-aos="fade-up">
                 <img src="/img/contact.png">
             </div>
-            <div class="col-md-6 form">
+            <div class="col-md-6 form" data-aos="fade-up">
                 <p>Para saber mas de este proyecto…</p>
                 <h3>Envíanos tus datos<br>y te contactaremos!</h3>
                 <form>
