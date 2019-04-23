@@ -100,9 +100,9 @@
                         <div>
                             <img src="/images/senior/planta1.png">
                         </div>
-                         <div>
+                         <!-- <div>
                             <img src="/images/senior/planta2.png">
-                        </div>
+                        </div> -->
                         <!-- <div>
                             <img src="/img/modelo-1.jpg">
                         </div>  -->
