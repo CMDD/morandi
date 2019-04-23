@@ -122,7 +122,7 @@
                     </tr>
                     <tr>
                         <td>Area Construida</td>
-                        <td>37m2 y 60m2</td>
+                        <td>60m2</td>
                     </tr>
                     <!-- <tr>
                         <td>Area Privada</td>
@@ -163,29 +163,26 @@
                 <table>
                     <tr>
                         <td>Habitaciones</td>
-                        <td>3</td>
+                        <td>1</td>
                     </tr>
                     <tr>
                         <td>Baños</td>
-                        <td>5</td>
+                        <td>1</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
                         <td>Area Construida</td>
-                        <td>124.3 m2</td>
+                        <td>37m2</td>
                     </tr>
-                    <tr>
-                        <td>Area Privada</td>
-                        <td>6.5 m2</td>
-                    </tr>
+                    
                     <tr>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
                         <td><strong>Precio desde:</strong></td>
-                        <td><strong>$409.500.000</strong></td>
+                        <td><strong>$195.457.000</strong></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
