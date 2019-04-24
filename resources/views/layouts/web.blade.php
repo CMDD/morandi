@@ -37,7 +37,7 @@
                     </li>
                     <li><a href="#">Proyectos Realizados</a></li>
                     <li><a href="#">Avances obra</a></li>
-                    <li><a href="#">Blog Morandi</a></li>
+                    <li><a href="/blog">Blog Morandi</a></li>
                     <li><a href="{{url('postventa')}}">Postventa</a></li>
                 </ul>
             </div>
