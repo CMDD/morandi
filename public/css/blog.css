@@ -1,0 +1,132 @@
+.cover {
+    position: relative;
+    background-image: url(../img/blog-cover.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height: 400px;
+}
+.cover .content {
+    position: absolute;
+    right: 10%;
+    top: 150px;
+    text-align: right;
+    color: #fff;
+}
+.cover h1 {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 3rem;
+}
+.cover p {
+    max-width: 450px;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.blog {
+    background-image: url(../img/bg-blog.jpg);
+    background-position: center bottom;
+    background-size: cover;
+}
+.blog >div:first-child {
+    margin-top: 20px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    text-align: right;
+}
+.box .image {
+    display: block;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.box h2 {
+    margin: 30px 5% 0 5%;
+    text-align: center;
+    font-weight: 700;
+    color: #011238;
+}
+.box h2:after {
+    content: '';
+    display: block;
+    margin: 15px auto 0 auto;
+    width: 30px;
+    border-top: 3px solid #011238;
+}
+.box p {
+    flex: 1;
+    font-weight: 300;
+    margin: 20px 5%;
+    text-align: left;
+}
+.box a {
+    display: inline-block;
+    background-color: #011238;
+    color: #fff;
+    text-align: center;
+    padding: 8px 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.box a:hover {
+    background-color: #000;
+}
+@media (min-width: 576px){
+
+    .cover {
+        height: 600px;
+    }
+    .cover h1 {
+        font-size: 4rem;
+    }
+
+    .box .image {
+        height: 250px;
+    }
+
+}
+
+@media (min-width: 768px){
+
+    .blog >div:first-child, .blog >div:nth-child(2) {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .blog >div:first-child .box, .blog >div:nth-child(2) .box {
+        max-width: 700px;
+    }
+    .box p {
+        margin: 20px 10%;
+    }
+
+}
+
+@media (min-width:992px){
+
+    .blog >div:first-child .image, .blog >div:nth-child(2) .image {
+        height: 300px
+    }
+
+}
+
+@media (min-width:1200px){
+
+    .box .image {
+        height: 300px;
+    }
+    .blog >div:first-child .image, .blog >div:nth-child(2) .image {
+        height: 400px
+    }
+
+}
