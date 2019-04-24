@@ -252,6 +252,7 @@
 @push('styles')
 <link rel="stylesheet" href="/css/proyecto.css" type='text/css' media='all'>
 <link rel="stylesheet" href="/css/magnific-popup.css" type='text/css' media='all'>
+
 <style>
 .tabs-bosque span{
     width: 135px;

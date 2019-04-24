@@ -57,10 +57,10 @@
 
 @push('styles')
 <link rel="stylesheet" href="css/nosotros.css" type='text/css' media='all'>
-  <link rel="stylesheet" href="css/slick.css" type='text/css' media='all'>
+<link rel="stylesheet" href="css/slick.css" type='text/css' media='all'>
 @endpush
 
 @push('scripts')
 <script type="text/javascript" src="js/slick.min.js"></script>
 
- @endpush   
+ @endpush
