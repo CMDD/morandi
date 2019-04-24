@@ -1,6 +1,6 @@
 @extends('layouts.web')
 @section('content')
-    <div class="cover" style="background-image: url(/images/senior/banner.jpg);">
+    <div class="cover to-left" style="background-image: url(/images/senior/banner.jpg);">
         <img class="logo" src="/images/senior/logo_home.png">
     </div>
     <div class="container-fluid">
@@ -9,7 +9,7 @@
                 <h3><span class="top">La elegancia y el confort </span> de vivir en un lugar <span class="bottom">diseñado para ti</span>
                 </h3>
             </div>
-            <div class="col-lg-5 col-xl-4 description" data-aos-delay="200" data-aos="zoom-in-up">
+            <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
                 <p>Proyecto Residencial enfocado en el adulto mayor activo e independiente, donde la única condición para habitarlo es ser mayor de 50 años.
                     Se encuentra ubicado cerca de la ciudad de Bogotá, en una zona afortunada de Guaymaral con un entorno único, natural y tranquilo, como solo lo ofrece la sabana norte.
                     Nuestra propuesta logra entender las necesidades de personas que buscan un lugar tranquilo, elegante, con todas las comodidades y espacios de recreación y socialización que promueven su independencia y autonomía.
@@ -20,7 +20,7 @@
             <div class="col p-0 full-img">
                 <!--<img src="img/img-proyecto-01.jpg">-->
                 <div class="video-embed">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lDU9mnCvuoQ" frameborder="0"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/F9VcZdGfjPg" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -197,7 +197,7 @@
             </div>
             
             <h3>Disponibilidad</h3>
-            <div class="f5 floors">
+            <div class="floors f9">
                 <h4>Torre 1</h4>
                 <span>201</span><span>202</span><span>203</span><span>204</span><span>205</span><span>206</span><span>207</span><span>208</span><span>209</span><span>210</span><span>211</span><span>212</span><span>213</span><span>214</span><span>215</span><span>217</span><span>218</span><span>219</span><span>221</span><span>222</span><span>223</span><span>224</span><span>302</span><span>303</span><span>304</span><span>305</span><span>309</span><span>310</span><span>312</span><span>314</span><span>315</span><span>316</span><span>317</span><span>318</span><span>319</span><span>320</span><span>321</span><span>323</span><span>324</span><span>403</span><span>404</span><span>405</span><span>406</span><span>407</span><span>411</span><span>412</span><span>413</span><span>414</span><span>415</span><span>416</span><span>417</span><span>418</span><span>419</span><span>420</span><span>421</span><span>422</span><span>423</span><span>424</span>
             </div>
@@ -252,18 +252,6 @@
 @push('styles')
 <link rel="stylesheet" href="/css/proyecto.css" type='text/css' media='all'>
 <link rel="stylesheet" href="/css/magnific-popup.css" type='text/css' media='all'>
-
-<style>
-.tabs-bosque span{
-    width: 135px;
-    font-size: 21px;
-}
-.f5{
-
-    max-width: 630px;
-
-}
-</style>
 @endpush
 @push('scripts')
 

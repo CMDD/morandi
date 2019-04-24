@@ -6,10 +6,10 @@
     <div class="container-fluid">
         <div class="row align-items-center my-5">
             <div class="col-lg-7 col-xl-6 subtitle">
-                <h3><span class="top">Tu Nuevo hogar</span> en donde la mejor decoración <span class="bottom">entra por la ventana</span>
+                <h3><span class="top">Tu Nuevo hogar en donde</span> la mejor decoración <span class="bottom">entra por la ventana</span>
                 </h3>
             </div>
-            <div class="col-lg-5 col-xl-4 description">
+            <div class="col-lg-5 description">
                 <p>Se encuentra ubicado contiguo a la zona forestal de Cajicá, 
                     lo que garantiza la protección de un ambiente natural para ser disfrutado 
                     visualmente y en donde se puede practicar senderismo, ciclomontañismo y cabalgatas.
@@ -79,11 +79,11 @@
             <div class="col models">
                 <h3>Disponibles</h3>
                 <p>Selecciona un tipo de casa para ver la disponibilidad</p>
-                <div class="tabs tabs-bosque">
-                    <span data-tab="tipo1" class="active">Anís</span>
-                    <span data-tab="tipo2">Bambú</span>
+                <div class="tabs">
+                    <span data-tab="tipo1" class="txt active">Anís</span>
+                    <span data-tab="tipo2" class="txt">Bambú</span>
                     <!-- <span data-tab="tipo3">3</span> -->
-                    <span data-tab="urbanismo">Urbanismo</span>
+                    <span data-tab="urbanismo" class="txt">Urbanismo</span>
                 </div>
                 <div id="tipo1" class="tab-content active">
                     <img src="/images/bosque/casatipoA.jpg">
@@ -273,12 +273,6 @@
 @push('styles')
 <link rel="stylesheet" href="/css/proyecto.css" type='text/css' media='all'>
 <link rel="stylesheet" href="/css/magnific-popup.css" type='text/css' media='all'>
-<style>
-.tabs-bosque span{
-    width: 135px;
-    font-size: 21px;
-}
-</style>
 @endpush
 @push('scripts')
 
