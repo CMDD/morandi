@@ -279,6 +279,26 @@
 @push('styles')
 <link rel="stylesheet" href="/css/proyecto.css" type='text/css' media='all'>
 <link rel="stylesheet" href="/css/magnific-popup.css" type='text/css' media='all'>
+<style>
+    .subtitle h3, .items h3, .models h3, .tabs span, .tab-content td strong, .floors h4, .contact h3 {
+        color:#C1A458;
+    }
+    .subtitle h3 .bottom {
+        color: #392b00;
+    }
+    .sites, .tabs span.active, .tab-content td a {
+        background: #C1A458;
+    }
+    .btn {
+        background: #392b00;
+    }
+    .btn:hover {
+        background: #C1A458;
+    }
+    .tabs span.active {
+        border-color: #C1A458;
+    }
+</style>
 @endpush
 @push('scripts')
 

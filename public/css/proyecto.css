@@ -148,7 +148,7 @@
 }
 
 .sites {
-    background: #F0EFEF;
+    background: #963825;
     text-align: center;
 }
 .sites h3 {
@@ -157,7 +157,7 @@
     max-width: 600px;
     text-transform: uppercase;
     font-weight: 300;
-    color: #963825;
+    color: #000;
 }
 .sites h3 span {
     font-weight: 700;
@@ -172,7 +172,7 @@
     font-size: 1.1rem;
     font-style: italic;
     font-weight: 500;
-    color: #919293;
+    color: #fff;
 }
 .sites li {
     display: flex;
@@ -189,7 +189,7 @@
     margin: 40px auto;
     color: #fff;
     text-decoration: none;
-    background: #6F6E6E;
+    background: #000000;
     padding: 5px 10px 8px 10px;
     border-radius: 50px;
 }
@@ -209,7 +209,7 @@
 }
 .maps:hover{
     color: #fff;
-    background: rgba(111, 110, 110, 0.9);
+    background: #363636;
 }
 
 .gallery {
