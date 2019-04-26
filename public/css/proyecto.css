@@ -330,6 +330,19 @@
     background: #391700;
     color: #fff;
 }
+.torres .tabs {
+    margin-bottom: 30px;
+}
+.torres .tabs span {
+    width: auto;
+    min-width: 110px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 10px 5px 5px 5px;
+}
+
 .tab-content {
     display: none;
 }
@@ -389,8 +402,11 @@
     max-width: 630px;
 }
 .floors h4 {
-    margin: 30px 0 10px 0;
+    margin-bottom: 10px;
     text-align: center;
+    font-weight: 300;
+    font-style: normal;
+    color: #963825;
 }
 .floors >span {
     display: inline-block;
@@ -401,9 +417,38 @@
     font-weight: 300;
     font-size: 1.2rem;
     padding: 10px 0;
-    border: 1px solid #391700;
+    border: 1px solid #030000;
     color: #030000;
     margin: 10px;
+}
+.floors .sold {
+    background: #030000;
+    color: #fff;
+}
+.about {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 5px 0 5px 2%;
+}
+.about div {
+    display: block;
+    position: relative;
+    font-weight: 400;
+    font-size: .8rem;
+    margin: 3px 0;
+}
+.about div:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #030000;
+}
+.about div.sold:before {
+    background: #030000;
 }
 
 .contact {

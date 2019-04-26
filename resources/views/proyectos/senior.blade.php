@@ -88,123 +88,150 @@
         <div class="col models">
             <h3>Disponibles</h3>
             <p>Selecciona un tipo de apartamento para ver la disponibilidad</p>
-            <div class="tabs">
-                <span data-tab="tipo1" class="active">1</span>
-                <span data-tab="tipo2">2</span>
-                <!-- <span data-tab="tipo3">3</span>
-                <span data-tab="tipo4" class="txt">Urbanismo</span> -->
-            </div>
-            <div id="tipo1" class="tab-content active">
-                <div class="slider">
-                    <div class="slide-type">
-                        <div>
-                            <img src="/images/senior/planta1.png">
-                        </div>
-                         <!-- <div>
-                            <img src="/images/senior/planta2.png">
-                        </div> -->
-                        <!-- <div>
-                            <img src="/img/modelo-1.jpg">
-                        </div>  -->
-                    </div>
+            <div class="tipos">
+                <div class="tabs">
+                    <span data-tab="tipo1" class="active">1</span>
+                    <span data-tab="tipo2">2</span>
+                    <!-- <span data-tab="tipo3">3</span>
+                    <span data-tab="tipo4" class="txt">Urbanismo</span> -->
                 </div>
-                <table>
-                    <tr>
-                        <td>Habitaciones</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>Baños</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>Area Construida</td>
-                        <td>60m2</td>
-                    </tr>
-                    <!-- <tr>
-                        <td>Area Privada</td>
-                        <td>6.5 m2</td>
-                    </tr> -->
-                    <tr>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Precio desde:</strong></td>
-                        <td><strong>$195.457.000</strong></td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><a download="brochure" href="/images/senior/SeniorSuites_Brochure.pdf">Descarga PDF del brochure</a></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><a download="plantas" href="/images/senior/plantas.pdf">Descarga PDF de las plantas</a></td>
-                    </tr>
-                </table>
-            </div>
-            <div id="tipo2" class="tab-content">
-                <div class="slider">
-                    <div class="slide-type">
-                        <div>
-                        <img src="/images/senior/planta3.png">
+                <div id="tipo1" class="tab-content active">
+                    <div class="slider">
+                        <div class="slide-type">
+                            <div>
+                                <img src="/images/senior/planta1.png">
+                            </div>
+                             <!-- <div>
+                                <img src="/images/senior/planta2.png">
+                            </div> -->
+                            <!-- <div>
+                                <img src="/img/modelo-1.jpg">
+                            </div>  -->
                         </div>
-                        <!-- <div>
-                            <img src="/img/modelo-1.jpg">
-                        </div>
-                        <div>
-                            <img src="/img/modelo-1.jpg">
-                        </div> -->
                     </div>
+                    <table>
+                        <tr>
+                            <td>Habitaciones</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Baños</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Area Construida</td>
+                            <td>60m2</td>
+                        </tr>
+                        <!-- <tr>
+                            <td>Area Privada</td>
+                            <td>6.5 m2</td>
+                        </tr> -->
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Precio desde:</strong></td>
+                            <td><strong>$195.457.000</strong></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a download="brochure" href="/images/senior/SeniorSuites_Brochure.pdf">Descarga PDF del brochure</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a download="plantas" href="/images/senior/plantas.pdf">Descarga PDF de las plantas</a></td>
+                        </tr>
+                    </table>
                 </div>
-                <table>
-                    <tr>
-                        <td>Habitaciones</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>Baños</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td>Area Construida</td>
-                        <td>37m2</td>
-                    </tr>
-                    
-                    <tr>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Precio desde:</strong></td>
-                        <td><strong>$195.457.000</strong></td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><a download="brochure" href="/images/senior/SeniorSuites_Brochure.pdf">Descarga PDF del brochure</a></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><a download="plantas" href="/images/senior/plantas.pdf">Descarga PDF de las plantas</a></td>
-                    </tr>
-                </table>
+                <div id="tipo2" class="tab-content">
+                    <div class="slider">
+                        <div class="slide-type">
+                            <div>
+                            <img src="/images/senior/planta3.png">
+                            </div>
+                            <!-- <div>
+                                <img src="/img/modelo-1.jpg">
+                            </div>
+                            <div>
+                                <img src="/img/modelo-1.jpg">
+                            </div> -->
+                        </div>
+                    </div>
+                    <table>
+                        <tr>
+                            <td>Habitaciones</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Baños</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Area Construida</td>
+                            <td>37m2</td>
+                        </tr>
+
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Precio desde:</strong></td>
+                            <td><strong>$195.457.000</strong></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a download="brochure" href="/images/senior/SeniorSuites_Brochure.pdf">Descarga PDF del brochure</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a download="plantas" href="/images/senior/plantas.pdf">Descarga PDF de las plantas</a></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-            
             <h3>Disponibilidad</h3>
-            <div class="floors f9">
-                <h4>Torre 1</h4>
-                <span>201</span><span>202</span><span>203</span><span>204</span><span>205</span><span>206</span><span>207</span><span>208</span><span>209</span><span>210</span><span>211</span><span>212</span><span>213</span><span>214</span><span>215</span><span>217</span><span>218</span><span>219</span><span>221</span><span>222</span><span>223</span><span>224</span><span>302</span><span>303</span><span>304</span><span>305</span><span>309</span><span>310</span><span>312</span><span>314</span><span>315</span><span>316</span><span>317</span><span>318</span><span>319</span><span>320</span><span>321</span><span>323</span><span>324</span><span>403</span><span>404</span><span>405</span><span>406</span><span>407</span><span>411</span><span>412</span><span>413</span><span>414</span><span>415</span><span>416</span><span>417</span><span>418</span><span>419</span><span>420</span><span>421</span><span>422</span><span>423</span><span>424</span>
-            </div>
-            <div class="floors">
-                <h4>Torre 2</h4>
-                <span>202</span><span>203</span><span>204</span><span>205</span><span>206</span><span>301</span><span>302</span><span>305</span><span>307</span><span>308</span><span>309</span><span>404</span>
-                
+            <div class="torres">
+                <div class="tabs">
+                    <span data-tab="torre1" class="active">Torre 1</span>
+                    <span data-tab="torre2">Torre 2</span>
+                    <div class="about">
+                        <div>Disponible</div>
+                        <div class="sold">Vendido</div>
+                    </div>
+                </div>
+                <div id="torre1" class="tab-content active">
+                    <div class="floors">
+                        <h4>Piso 1</h4>
+                        <span>201</span><span>202</span><span class="sold">203</span><span>204</span><span>205</span><span>206</span><span class="sold">207</span><span>208</span><span>209</span><span>210</span><span class="sold">211</span><span class="sold">212</span><span>201</span><span class="sold">202</span><span>203</span><span>204</span><span>205</span><span>206</span><span>207</span><span>208</span>
+                    </div>
+                    <div class="floors">
+                        <h4>Piso 2</h4>
+                        <span class="sold">201</span><span>202</span><span>203</span><span>204</span><span class="sold">205</span><span>206</span><span>207</span><span class="sold">208</span><span>209</span><span>210</span><span>211</span><span class="sold">212</span><span class="sold">201</span><span>201</span><span>201</span><span class="sold">201</span><span>201</span><span>201</span><span>201</span><span>201</span>
+                    </div>
+                    <div class="floors">
+                        <h4>Piso 3</h4>
+                        <span>201</span><span>202</span><span class="sold">203</span><span>204</span><span>205</span><span>206</span><span class="sold">207</span><span>208</span><span>209</span><span>210</span><span class="sold">211</span><span class="sold">212</span><span>201</span><span class="sold">202</span><span>203</span><span>204</span><span>205</span><span>206</span><span>207</span><span>208</span>
+                    </div>
+
+                </div>
+                <div id="torre2" class="tab-content">
+                    <div class="floors">
+                        <h4>Piso 2</h4>
+                        <span class="sold">201</span><span>202</span><span>203</span><span>204</span><span class="sold">205</span><span>206</span><span>207</span><span class="sold">208</span><span>209</span><span>210</span><span>211</span><span class="sold">212</span><span class="sold">201</span><span>201</span><span>201</span><span class="sold">201</span><span>201</span><span>201</span><span>201</span><span>201</span>
+                    </div>
+                    <div class="floors">
+                        <h4>Piso 3</h4>
+                        <span>201</span><span>202</span><span class="sold">203</span><span>204</span><span>205</span><span>206</span><span class="sold">207</span><span>208</span><span>209</span><span>210</span><span class="sold">211</span><span class="sold">212</span><span>201</span><span class="sold">202</span><span>203</span><span>204</span><span>205</span><span>206</span><span>207</span><span>208</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

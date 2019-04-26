@@ -110,7 +110,7 @@ $(document).ready(function () {
     });
     
     /* Tabs tipos */
-    $('.tabs span').click(function() {
+    $('.tabs >span').click(function() {
         $(this).parent().find('span').removeClass('active');
         $(this).addClass('active');
         $(this).parent().parent().find('.tab-content').removeClass('active').hide();
