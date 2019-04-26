@@ -562,7 +562,18 @@
             transition: all .3s ease;
 }
 
+@media (max-width: 570px){
+.cover.to-left .logo {
+    width: 45%;
+    top: 71%;
+    left: 28%;
+    text-align: center;
+}
+}
+
 @media (min-width: 576px){
+
+    
     
     .subtitle h3 {
         font-size: 35px;
