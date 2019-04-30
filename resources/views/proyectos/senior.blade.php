@@ -186,11 +186,21 @@
                             <td>1</td>
                         </tr>
                         <tr>
+                            <td>Sala - Comedor</td>
+                        </tr>
+                        <tr>
+                            <td>Cocina abierta</td>
+                        </tr>
+                        <tr>
+                            <td>Estufa y calentador eléctrico</td>
+                        </tr>
+
+                        <tr>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
                             <td>Area Construida</td>
-                            <td>37m2</td>
+                            <td>37.23 m2</td>
                         </tr>
 
                         <tr>
@@ -198,7 +208,7 @@
                         </tr>
                         <tr>
                             <td><strong>Precio desde:</strong></td>
-                            <td><strong>$195.457.000</strong></td>
+                            <td><strong>$205.457.000</strong></td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
