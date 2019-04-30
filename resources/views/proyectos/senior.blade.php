@@ -129,7 +129,7 @@
                         </tr>
                         <tr>
                             <td>Area Construida</td>
-                            <td>60m2</td>
+                            <td>60.12 m2</td>
                         </tr>
                         <!-- <tr>
                             <td>Area Privada</td>
