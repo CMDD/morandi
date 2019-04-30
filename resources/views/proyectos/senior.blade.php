@@ -149,7 +149,7 @@
                         </tr>
                         <tr>
                             <td><strong>Precio desde:</strong></td>
-                            <td><strong>$195.457.000</strong></td>
+                            <td><strong>$305.570.000</strong></td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
