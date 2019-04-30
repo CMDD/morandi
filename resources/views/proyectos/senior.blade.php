@@ -243,7 +243,7 @@
                     </div>
                     <div class="floors">
                         <h4>Piso 4</h4>
-                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span><span>405</span><span>406</span><span >407</span><span class="sold">408</span><span class="sold">409</span><span class="sold">410</span><span>411</span><span >412</span><span>413</span><span>414</span><span>415</span><span>416</span><span>417</span><span>418</span><span>419</span><span>420</span><span>421</span><span>422</span><span>423</span><span>424</span>
+                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span><span>405</span><span>406</span><span >407</span><span class="sold">408</span><span class="sold">409</span><span class="sold">410</span><span>411</span><span >412</span><span>413</span><span>414</span><span>415</span><span>416</span><span>417</span><span>418</span><span class="sold">419</span><span class="sold">420</span><span>421</span><span>422</span><span>423</span><span>424</span>
                     </div>
 
                 </div>
