@@ -19,8 +19,9 @@
     right: 20%;
 }
 .cover.to-left .logo {
-    left: 20%;
+    left: 15%;
     right: auto;
+    top: 65%;
 }
 .subtitle {
     text-align: center;

@@ -54,6 +54,7 @@
                     <li><img src="/images/senior/icons/universidad.png">Universidad de la Sabana</li>
                     <li><img src="/images/senior/icons/centro comercial.png">Centro Comercial Fontanar</li>
                     <li><img src="/images/senior/icons/clinica.png">Clínica Marly</li>
+                    <li><img src="/images/senior/icons/centro comercial.png">Centro Chía</li>
                     
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
@@ -62,8 +63,8 @@
         </div>
         <div class="row gallery">
             <div class="col-sm-8 gallery-1">
-                <div class="gallery-item he1"><a href="/images/senior/galeria/1.jpg"
-                        style="background-image: url(/images/senior/galeria/1.jpg);"></a></div>
+                <div class="gallery-item he1"><a href="/images/senior/galeria/8.jpg"
+                        style="background-image: url(/images/senior/galeria/8.jpg);"></a></div>
                 <div class="gallery-item wi2l he2"><a href="/images/senior/galeria/3.jpg"
                         style="background-image: url(/images/senior/galeria/3.jpg);"></a></div>
                 <div class="gallery-item wi2r he2"><a href="/images/senior/galeria/4.jpg"
@@ -79,15 +80,20 @@
             </div>
             <div class="gallery-hide">
                 <a href="/images/senior/galeria/8.jpg"></a>
-                <a href="/images/senior/galeria/8.jpg"></a>
+                <a href="/images/senior/galeria/seniorHOME.jpg"></a>
+                
+                <a href="/images/senior/galeria/11.jpg"></a>
+                <a href="/images/senior/galeria/10.jpg"></a>
+               
             </div>
+            
         </div>
     
     
     <div class="row">
         <div class="col models">
-            <h3>Disponibles</h3>
-            <p>Selecciona un tipo de apartamento para ver la disponibilidad</p>
+            <h3>Tipos de Suites</h3>
+            <!-- <p>Selecciona un tipo de apartamento para ver la disponibilidad</p> -->
             <div class="tipos">
                 <div class="tabs">
                     <span data-tab="tipo1" class="active">1</span>
@@ -210,26 +216,26 @@
                 <div id="torre1" class="tab-content active">
                     <div class="floors">
                         <h4>Piso 1</h4>
-                        <span>201</span><span>202</span><span class="sold">203</span><span>204</span><span>205</span><span>206</span><span class="sold">207</span><span>208</span><span>209</span><span>210</span><span class="sold">211</span><span class="sold">212</span><span>201</span><span class="sold">202</span><span>203</span><span>204</span><span>205</span><span>206</span><span>207</span><span>208</span>
+                        <span>201</span><span>202</span><span class="">203</span><span>204</span><span>205</span><span>206</span><span class="">207</span><span>208</span><span>209</span><span>210</span><span class="">211</span><span class="">212</span><span>213</span><span class="">214</span><span>215</span><span class="sold">216</span><span>217</span><span>218</span><span>219</span><span class="sold">220</span><span>221</span><span>222</span><span>223</span><span>224</span>
                     </div>
                     <div class="floors">
                         <h4>Piso 2</h4>
-                        <span class="sold">201</span><span>202</span><span>203</span><span>204</span><span class="sold">205</span><span>206</span><span>207</span><span class="sold">208</span><span>209</span><span>210</span><span>211</span><span class="sold">212</span><span class="sold">201</span><span>201</span><span>201</span><span class="sold">201</span><span>201</span><span>201</span><span>201</span><span>201</span>
+                        <span class="sold">301</span><span>302</span><span>303</span><span>304</span><span >305</span><span class="sold">306</span><span class="sold">307</span><span class="sold">308</span><span>309</span><span>310</span><span class="sold">311</span><span>312</span><span class="sold">313</span><span>314</span><span>315</span><span >316</span><span>317</span><span>318</span><span>319</span><span>320</span><span>321</span><span class="sold">322</span><span>323</span><span>324</span>
                     </div>
                     <div class="floors">
                         <h4>Piso 3</h4>
-                        <span>201</span><span>202</span><span class="sold">203</span><span>204</span><span>205</span><span>206</span><span class="sold">207</span><span>208</span><span>209</span><span>210</span><span class="sold">211</span><span class="sold">212</span><span>201</span><span class="sold">202</span><span>203</span><span>204</span><span>205</span><span>206</span><span>207</span><span>208</span>
+                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span><span>405</span><span>406</span><span >407</span><span class="sold">408</span><span class="sold">409</span><span class="sold">410</span><span>411</span><span >412</span><span>413</span><span>414</span><span>415</span><span>416</span><span>417</span><span>418</span><span>419</span><span>420</span><span>421</span><span>422</span><span>423</span><span>424</span>
                     </div>
 
                 </div>
                 <div id="torre2" class="tab-content">
                     <div class="floors">
                         <h4>Piso 2</h4>
-                        <span class="sold">201</span><span>202</span><span>203</span><span>204</span><span class="sold">205</span><span>206</span><span>207</span><span class="sold">208</span><span>209</span><span>210</span><span>211</span><span class="sold">212</span><span class="sold">201</span><span>201</span><span>201</span><span class="sold">201</span><span>201</span><span>201</span><span>201</span><span>201</span>
+                        <span class="sold">201</span><span>202</span><span>203</span><span>204</span><span >205</span><span>206</span><span class="sold">207</span><span class="sold">208</span><span class="sold">209</span><span class="sold">210</span><span class="sold">211</span><span class="sold">212</span><span class="sold">213</span><span class="sold">214</span><span class="sold">215</span><span class="sold">216</span><span class="sold">217</span><span class="sold">218</span><span class="sold">219</span><span class="sold">220</span><span class="sold">221</span><span class="sold">222</span><span class="sold">223</span><span class="sold">224</span>
                     </div>
                     <div class="floors">
                         <h4>Piso 3</h4>
-                        <span>201</span><span>202</span><span class="sold">203</span><span>204</span><span>205</span><span>206</span><span class="sold">207</span><span>208</span><span>209</span><span>210</span><span class="sold">211</span><span class="sold">212</span><span>201</span><span class="sold">202</span><span>203</span><span>204</span><span>205</span><span>206</span><span>207</span><span>208</span>
+                        <span>301</span><span>302</span><span class="sold">303</span><span class="sold">304</span><span>305</span><span class="sold">306</span><span>307</span><span>308</span><span>309</span><span class="sold">310</span><span class="sold">311</span><span class="sold">312</span><span class="sold">313</span><span class="sold">314</span><span class="sold">315</span><span>404</span>
                     </div>
                 </div>
             </div>
@@ -287,7 +293,7 @@
         color: #392b00;
     }
     .sites, .tabs span.active, .tab-content td a {
-        background: #C1A458;
+        background: #c1a458c2;
     }
     .btn {
         background: #392b00;

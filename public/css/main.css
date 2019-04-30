@@ -102,7 +102,7 @@ img {
     background: url(../img/footer.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: 0px;
+    margin-top: 10px;
     text-align: center;
     color: #033E62;
 }

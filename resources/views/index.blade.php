@@ -74,7 +74,7 @@
 }
 
 .slide-projects .text-bosque {  
-    background: rgb(167, 78, 1, 0.81);
+    background: rgb(226, 223, 220);
 }
 .slide-projects .text-senior {  
     background: rgba(193, 164, 88, 0.6);
