@@ -122,7 +122,16 @@
                         </tr>
                         <tr>
                             <td>Baños</td>
-                            <td>1</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Sala - Comedor</td>
+                        </tr>
+                        <tr>
+                            <td>Cocina abierta</td>
+                        </tr>
+                        <tr>
+                            <td>Estufa y calentador eléctrico</td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
