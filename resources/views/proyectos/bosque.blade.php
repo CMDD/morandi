@@ -1,6 +1,6 @@
 @extends('layouts.web')
 @section('content')
-    <div class="cover" style="background-image: url(/images/bosque/banner.jpg);">
+    <div class="cover to-left" style="background-image: url(/images/bosque/banner.jpg);">
         <img class="logo" src="/img/brand-03.svg">
     </div>
     <div class="container-fluid">
