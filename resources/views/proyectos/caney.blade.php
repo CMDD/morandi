@@ -45,7 +45,7 @@
                     <li><img src="/images/senior/icons/restaurante.png">Universidad Militar</li>
                     <li><img src="/images/senior/icons/universidad.png">Universidad de la Sabana</li>
                     <li><img src="/images/senior/icons/centro comercial.png">Centro Comercial Fontanar</li>
-                    <li><img src="/images/caney/icons/puente del común.png">Puente del Común </li>
+                    <li><img src="/images/caney/icons/puente_comun.png">Puente del Común </li>
                     <li><img src="/images/caney/icons/Jaime Duque.png">Parque Jaime Duque</li>
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
