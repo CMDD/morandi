@@ -1,16 +1,16 @@
 @extends('layouts.web')
 @section('content')
-    <div class="cover to-left" style="background-image: url(/images/fique/banner.jpg);">
-        <img class="logo" src="/images/fique/logobanner_Mesa de trabajo 1.png">
+    <div class="cover to-left" style="background-image: url(/images/ofipietra/banner.jpg);">
+        <img class="logo" src="/images/ofipietra/logo_page.png">
     </div>
     <div class="container-fluid">
         <div class="row align-items-center my-5">
             <div class="col-lg-7 col-xl-6 subtitle" data-aos-delay="100" data-aos="zoom-out-right">
-                <h3><span class="top">DESCUBRE EL HOGAR QUE  </span> SIEMPRE HAS ESPERADO TENER <span class="bottom"></span>
+                <h3><span class="top">LA MEJOR UBICACIÓN PARA   </span> TU NEGOCIO ESTA EN PIETRA  <span class="bottom"></span>
                 </h3>
             </div>
             <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
-                <p>Casas en conjunto cerrado, de 2 niveles + altillo, 3 alcobas con baño privado, en el altillo encuentras la alcoba principal completamente privada con terraza. El proyecto está ubicado en el municipio de Chía, vereda bojaca.
+                <p>Una experiencia única se vive en pietra, un proyecto con 1 torre de oficinas con 52 unidades de 45 a 107 m2. inspirado en un estilo de vida contemporáneo, con atractivos diseños que  imponen un nuevo estándar de vida urbana en cajicá.
                 </p>
             </div>
         </div>
@@ -26,7 +26,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 py-5 items">
-                <h3>En Fique <span>podrás disfrutar de</span></h3>
+                <h3>En Pietra Oficinas <span>podrás disfrutar de</span></h3>
                 <div class="slide-items">
                     <div><img src="/images/caney/icons/salon de eventos10.jpg"><span>Salón Comunal</span></div>
                     <div><img src="/images/caney/icons/bbq11.jpg"><span>Zona para BBQ</span></div>
@@ -34,8 +34,7 @@
                     <div><img src="/images/caney/icons/salon_ninos.jpg"><span>Salon para niños</span></div>
                     <div><img src="/images/caney/icons/gym15.jpg"><span>Zona para GYM</span></div>
                     <div><img src="/images/caney/icons/parque infantil16.jpg"><span>Parque Infantil</span></div>
-                    <div><img src="/images/caney/icons/teatrino18.jpg"><span>Teatrino</span></div>
-                       
+                    <div><img src="/images/caney/icons/teatrino18.jpg"><span>Teatrino</span></div>                  
                 </div>
             </div>
             <div class="col-md-6 py-5 sites">
@@ -55,26 +54,25 @@
         </div>
         <div class="row gallery">
             <div class="col-sm-8 gallery-1">
-                <div class="gallery-item he1"><a href="/images/fique/galeria/8.jpg"
-                        style="background-image: url(/images/fique/galeria/8.jpg);"></a></div>
-                <div class="gallery-item wi2l he2"><a href="/images/fique/galeria/3.jpg"
-                        style="background-image: url(/images/fique/galeria/3.jpg);"></a></div>
-                <div class="gallery-item wi2r he2"><a href="/images/fique/galeria/4.jpg"
-                        style="background-image: url(/images/fique/galeria/4.jpg);"></a></div>
+                <div class="gallery-item he1"><a href="/images/ofipietra/galeria/8.jpg"
+                        style="background-image: url(/images/ofipietra/galeria/8.jpg);"></a></div>
+                <div class="gallery-item wi2l he2"><a href="/images/ofipietra/galeria/3.jpg"
+                        style="background-image: url(/images/ofipietra/galeria/3.jpg);"></a></div>
+                <div class="gallery-item wi2r he2"><a href="/images/ofipietra/galeria/4.jpg"
+                        style="background-image: url(/images/ofipietra/galeria/4.jpg);"></a></div>
             </div>
             <div class="col-sm-4 gallery-2">
-                <div class="gallery-item he2"><a href="/images/fique/galeria/5.jpg" style="background-image: url(/images/fique/galeria/5.jpg);"></a>
+                <div class="gallery-item he2"><a href="/images/ofipietra/galeria/5.jpg" style="background-image: url(/images/ofipietra/galeria/5.jpg);"></a>
                 </div>
-                <div class="gallery-item he3"><a href="/images/fique/galeria/6.jpg" style="background-image: url(/images/fique/galeria/6.jpg);"></a>
+                <div class="gallery-item he3"><a href="/images/ofipietra/galeria/6.jpg" style="background-image: url(/images/ofipietra/galeria/6.jpg);"></a>
                 </div>
-                <div class="gallery-item he4"><a href="/images/fique/galeria/7.jpg"
-                        style="background-image: url(/images/fique/galeria/7.jpg);"></a></div>
+                <div class="gallery-item he4"><a href="/images/ofipietra/galeria/7.jpg"
+                        style="background-image: url(/images/ofipietra/galeria/7.jpg);"></a>
+                </div>
             </div>
             <div class="gallery-hide">
-                <a href="/images/fique/galeria/2.jpg"></a>
-                <a href="/images/fique/galeria/1.jpg"></a>
-
-               
+                <a href="/images/ofipietra/galeria/2.jpg"></a>
+                <a href="/images/ofipietra/galeria/1.jpg"></a>
             </div>
             
         </div>
@@ -389,7 +387,7 @@
     }
     .logo{
         /* margin-top:7%; */
-        width:18%;
+        width:14%;
     }
 
     .sites h3 {

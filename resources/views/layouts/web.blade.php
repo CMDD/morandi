@@ -34,6 +34,7 @@
                             <li><a href="{{url('proyecto/senior')}}">Senior Suites</a></li>
                             <li><a href="{{url('proyecto/caney')}}">Caney</a></li>
                             <li><a href="{{url('proyecto/fique')}}">Fique</a></li>
+                            <li><a href="{{url('proyecto/oficinas_pietra')}}">Oficinas Pietra</a></li>
                             
                         </ul>
                     </li>
