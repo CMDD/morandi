@@ -42,12 +42,12 @@
             <div class="col-md-6 py-5 sites">
                 <h3>Sitios de <span>interés</span></h3>
                 <ul>
-                    <li><img src="/images/senior/icons/universidad.png">Universidad de la Sabana</li>
-                    <li><img src="/images/senior/icons/universidad.png">Universidad Manuela Beltrán</li>
-                    <li><img src="/images/senior/icons/universidad.png">Universidad Militar</li>
-                    <li><img src="/images/bosque/icons/puente_comun.png">Puente del Común </li>
-                    <li><img src="/images/bosque/icons/Jaime Duque.png">Parque Jaime Duque</li>
-                    <li><img src="/images/bosque/icons/iglesia.png">Catedral de sal de Zipaquirá</li>
+                    <li><img src="/images/bosque/icons/universidad_wh.png">Universidad de la Sabana</li>
+                    <li><img src="/images/bosque/icons/universidad_wh.png">Universidad Manuela Beltrán</li>
+                    <li><img src="/images/bosque/icons/universidad_wh.png">Universidad Militar</li>
+                    <li><img src="/images/bosque/icons/puente del común_wh.png">Puente del Común </li>
+                    <li><img src="/images/bosque/icons/Jaime Duque_wh.png">Parque Jaime Duque</li>
+                    <li><img src="/images/bosque/icons/iglesia_wh.png">Catedral de sal de Zipaquirá</li>
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
                         Maps</span></a>
