@@ -366,24 +366,26 @@
 <link rel="stylesheet" href="/css/magnific-popup.css" type='text/css' media='all'>
 <style>
     .subtitle h3, .items h3, .models h3, .tabs span, .tab-content td strong, .floors h4, .contact h3 {
-        color: #673b15;
+        color: #00274B;
     }
     .subtitle h3 .bottom {
         /* color: #392b00; */
-        color: #673b15;
+        color: #00274B;
 
     }
     .sites, .tabs span.active, .tab-content td a {
-        background: #FCC500;
+        /* background: #FCC500; */
+        /* background: #FF961A; */
+        background: #00274B;
     }
     .btn {
-        background: #392b00;
+        background: #00274B;
     }
     .btn:hover {
-        background: #FCC500;
+        background: #00274B;
     }
     .tabs span.active {
-        border-color: #FCC500;
+        border-color: #00274B;
     }
     .logo{
         /* margin-top:7%; */
@@ -392,7 +394,7 @@
 
     .sites h3 {
    
-    color: #673b15;
+    color: white;
 }
 </style>
 @endpush

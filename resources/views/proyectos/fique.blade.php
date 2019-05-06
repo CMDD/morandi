@@ -376,16 +376,18 @@
 
     }
     .sites, .tabs span.active, .tab-content td a {
-        background: #FCC500;
+        background: #726658;
+        /* background: #C2b59b; */
+        
     }
     .btn {
         background: #392b00;
     }
     .btn:hover {
-        background: #FCC500;
+        background: #C2b59b;;
     }
     .tabs span.active {
-        border-color: #FCC500;
+        border-color: #C2b59b;;
     }
     .logo{
         /* margin-top:7%; */
@@ -394,7 +396,7 @@
 
     .sites h3 {
    
-    color: #673b15;
+    color: white;
 }
 </style>
 @endpush

@@ -269,6 +269,11 @@
 @push('styles')
 <link rel="stylesheet" href="/css/proyecto.css" type='text/css' media='all'>
 <link rel="stylesheet" href="/css/magnific-popup.css" type='text/css' media='all'>
+<style>
+   .sites h3{
+       color: white;
+   }
+</style>
 @endpush
 @push('scripts')
 
