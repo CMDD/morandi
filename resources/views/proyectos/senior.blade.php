@@ -84,6 +84,8 @@
                 
                 <a href="/images/senior/galeria/11.jpg"></a>
                 <a href="/images/senior/galeria/10.jpg"></a>
+                <a href="/images/senior/galeria/1.jpg"></a>
+                <a href="/images/senior/galeria/9.jpg"></a>
                
             </div>
             
