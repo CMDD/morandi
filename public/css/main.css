@@ -190,13 +190,13 @@ img {
 @media (min-width: 768px){
     
     .footer {
-        margin-top: 100px;
+        margin-top: 150px;
     }
     .footer .gradient {
-        margin-bottom: 300px;
+        margin-bottom: 150px;
     }
     .footer .gradient:before {
-        background: linear-gradient(to bottom, rgb(255, 255, 255) 0%,rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(to bottom, rgb(255, 255, 255) 0%,rgba(255, 255, 255, 0) 80%);
     }
     .footer .contact {
         font-size: 1rem;
