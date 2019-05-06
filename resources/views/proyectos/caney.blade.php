@@ -31,7 +31,7 @@
                     <div><img src="/images/caney/icons/salon de eventos10.jpg"><span>Salón Comunal</span></div>
                     <div><img src="/images/caney/icons/bbq11.jpg"><span>Zona para BBQ</span></div>
                     <div><img src="/images/caney/icons/terraza para juegos de mesa12.jpg"><span>Terraza para juegos</span></div>
-                    <div><img src="/images/caney/icons/salon para niñoa13.jpg"><span>Salon para niños</span></div>
+                    <div><img src="/images/caney/icons/salon_ninos.jpg"><span>Salon para niños</span></div>
                     <div><img src="/images/caney/icons/gym15.jpg"><span>Zona para GYM</span></div>
                     <div><img src="/images/caney/icons/parque infantil16.jpg"><span>Parque Infantil</span></div>
                     <div><img src="/images/caney/icons/teatrino18.jpg"><span>Teatrino</span></div>
