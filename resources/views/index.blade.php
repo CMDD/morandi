@@ -42,6 +42,23 @@
                                 </a>
                             </div>
                         </div>
+
+                        <div>
+                            <div class="box" style="background-image: url(images/caney/caney_home.jpg);">
+                                <a href="{{'proyecto/caney'}}">
+                                <div class="info">
+                                    <div class="brand brand-caney">
+                                        <img src="/images/caney/logo_home.png">
+                                    </div>
+                                    <div class="text text-caney">
+                                        <span>Casas de 96 m2 y 33 m2 </span><strong>Desde $409.000.000</strong>
+                                        <span>  Ubicado en chía en la vereda bojacá. &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
                         <!-- <div>
                             <div class="box" style="background-image: url(img/proyecto-home-1.jpg);">
                                 <div class="info">
@@ -78,6 +95,13 @@
 }
 .slide-projects .text-senior {  
     background: rgba(193, 164, 88, 0.6);
+}
+
+.slide-projects .brand-caney {
+    background: #e2dede94; 
+}
+.slide-projects .text-caney {  
+    background: rgb(226, 223, 220);
 }
 a{
     color:black !important;
