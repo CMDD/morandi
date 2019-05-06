@@ -275,7 +275,7 @@
                 </div>
             </div>
             <h3>Disponibilidad</h3>
-            <div class="torres">
+            <!-- <div class="torres">
                 <div class="tabs">
                     <span data-tab="torre1" class="active">Torre 1</span>
                     <span data-tab="torre2">Torre 2</span>
@@ -317,7 +317,7 @@
                             class="sold">410</span><span class="sold">411</span><span class="sold">412</span><span class="sold">413</span><span class="sold">414</span><span class="sold">415</span><span class="sold">416</span><span class="sold">417</span><span class="sold">418</span><span class="sold">419</span><span class="sold">420</span><span class="sold">421</span><span class="sold">422</span><span class="sold">423</span><span class="sold">424</span>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
         

@@ -396,6 +396,10 @@
    
     color: #673b15;
 }
+    .sites li {
+   
+    color: #673b15;
+}
 </style>
 @endpush
 @push('scripts')
