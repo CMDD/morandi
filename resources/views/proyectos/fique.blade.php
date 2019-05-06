@@ -31,7 +31,7 @@
                     <div><img src="/images/caney/icons/salon de eventos10.jpg"><span>Salón Comunal</span></div>
                     <div><img src="/images/caney/icons/bbq11.jpg"><span>Zona para BBQ</span></div>
                     <div><img src="/images/caney/icons/terraza para juegos de mesa12.jpg"><span>Terraza para juegos</span></div>
-                    <div><img src="/images/caney/icons/salon para niñoa13.jpg"><span>Salon para niños</span></div>
+                    <div><img src="/images/caney/icons/salon_ninos.jpg"><span>Salon para niños</span></div>
                     <div><img src="/images/caney/icons/gym15.jpg"><span>Zona para GYM</span></div>
                     <div><img src="/images/caney/icons/parque infantil16.jpg"><span>Parque Infantil</span></div>
                     <div><img src="/images/caney/icons/teatrino18.jpg"><span>Teatrino</span></div>
@@ -45,7 +45,7 @@
                     <li><img src="/images/senior/icons/restaurante.png">Universidad Militar</li>
                     <li><img src="/images/senior/icons/universidad.png">Universidad de la Sabana</li>
                     <li><img src="/images/senior/icons/centro comercial.png">Centro Comercial Fontanar</li>
-                    <li><img src="/images/caney/icons/puente del común.png">Puente del Común </li>
+                    <li><img src="/images/caney/icons/puente_comun.png">Puente del Común </li>
                     <li><img src="/images/caney/icons/Jaime Duque.png">Parque Jaime Duque</li>
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
