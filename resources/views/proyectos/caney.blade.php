@@ -82,14 +82,14 @@
     
     <div class="row">
         <div class="col models">
-            <h3>Tipos de Casas</h3>
+            <h3>Pisos</h3>
             <!-- <p>Selecciona un tipo de apartamento para ver la disponibilidad</p> -->
             <div class="tipos">
                 <div class="tabs">
                     <span data-tab="tipo1" class="active">1</span>
                     <span data-tab="tipo2">2</span>
-                    <!-- <span data-tab="tipo3">3</span>
-                    <span data-tab="tipo4" class="txt">Urbanismo</span> -->
+                    <span data-tab="tipo3">3</span>
+                    <!--<span data-tab="tipo4" class="txt">Urbanismo</span> -->
                 </div>
                 <div id="tipo1" class="tab-content active">
                     <div class="slider">
@@ -195,6 +195,68 @@
                             <td>Area Privada</td>
                             <td>6.5 m2</td>
                         </tr> -->
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Precio desde:</strong></td>
+                            <td><strong>$409.000.000</strong></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a download="brochure" href="/images/caney/brochure.pdf">Descarga PDF del brochure</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a download="plantas" href="/images/caney/plantas.pdf">Descarga PDF de las plantas</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="tipo3" class="tab-content">
+                    <div class="slider">
+                        <div class="slide-type">
+                            <div>
+                                <img src="/images/caney/piso3.jpg">
+                            </div>
+                            <!-- <div>
+                                                <img src="/img/modelo-1.jpg">
+                                            </div>
+                                            <div>
+                                                <img src="/img/modelo-1.jpg">
+                                            </div> -->
+                        </div>
+                    </div>
+                    <table>
+                        <tr>
+                            <td>Habitaciones</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Baños</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Sala - Comedor</td>
+                        </tr>
+                        <tr>
+                            <td>Cocina abierta</td>
+                        </tr>
+                        <tr>
+                            <td>Estufa y calentador eléctrico</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Area Total</td>
+                            <td>96,33 m2</td>
+                        </tr>
+                        <!-- <tr>
+                                            <td>Area Privada</td>
+                                            <td>6.5 m2</td>
+                                        </tr> -->
                         <tr>
                             <td>&nbsp;</td>
                         </tr>
@@ -327,7 +389,7 @@
     }
     .logo{
         /* margin-top:7%; */
-        width:20%;
+        width:18%;
     }
 
     .sites h3 {

@@ -33,6 +33,7 @@
                             <li><a href="/proyecto/bosque">Bosque Montaña</a></li>
                             <li><a href="{{url('proyecto/senior')}}">Senior Suites</a></li>
                             <li><a href="{{url('proyecto/caney')}}">Caney</a></li>
+                            <li><a href="{{url('proyecto/fique')}}">Fique</a></li>
                             
                         </ul>
                     </li>

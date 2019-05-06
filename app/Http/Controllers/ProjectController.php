@@ -31,6 +31,10 @@ class ProjectController extends Controller
 
                 return view('proyectos.caney');
                 break;
+            case 'fique':
+
+                return view('proyectos.fique');
+                break;
             
             default:
                 # code...

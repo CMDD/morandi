@@ -59,6 +59,22 @@
                                 </a>
                             </div>
                         </div>
+                        <div>
+                            <div class="box" style="background-image: url(images/fique/fique_home.jpg);">
+                                <a href="{{'proyecto/fique'}}">
+                                <div class="info">
+                                    <div class="brand brand-caney">
+                                        <img src="/images/fique/logobanner_Mesa de trabajo 1.png">
+                                    </div>
+                                    <div class="text text-caney">
+                                        <span>Casas de 103 m2 y 26 m2 </span><strong>Desde $400.000.000</strong>
+                                        <span> Ubicado en Chía Cundinamarca &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
                         <!-- <div>
                             <div class="box" style="background-image: url(img/proyecto-home-1.jpg);">
                                 <div class="info">
