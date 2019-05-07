@@ -45,7 +45,7 @@
                     <li><img src="/images/bosque/icons/universidad_wh.png">Universidad de la Sabana</li>
                     <li><img src="/images/bosque/icons/universidad_wh.png">Universidad Manuela Beltrán</li>
                     <li><img src="/images/bosque/icons/universidad_wh.png">Universidad Militar</li>
-                    <li><img src="/images/bosque/icons/puente del común_wh.png">Puente del Común </li>
+                    <li><img src="/images/bosque/icons/puente del comun_wh.png">Puente del Común </li>
                     <li><img src="/images/bosque/icons/Jaime Duque_wh.png">Parque Jaime Duque</li>
                     <li><img src="/images/bosque/icons/iglesia_wh.png">Catedral de sal de Zipaquirá</li>
                 </ul>
