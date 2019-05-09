@@ -305,6 +305,9 @@
    .sites h3{
        color: white;
    }
+   .sites{
+       background: #391700;
+   }
 </style>
 @endpush
 @push('scripts')
