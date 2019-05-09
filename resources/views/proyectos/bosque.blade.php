@@ -10,9 +10,7 @@
                 </h3>
             </div>
             <div class="col-lg-5 description">
-                <p>Se encuentra ubicado contiguo a la zona forestal de Cajicá, 
-                    lo que garantiza la protección de un ambiente natural para ser disfrutado 
-                    visualmente y en donde se puede practicar senderismo, ciclomontañismo y cabalgatas.
+                <p>Un condominio campestre ubicado contiguo a la zona forestal de Cajicá, que te permite disfrutar de la montaña, el bosque, el aire fresco y la calma de la sabana. En donde podrás practicar deportes al aire libre y disfrutar de todas las comodidades de un club.
                 </p>
             </div>
         </div>
@@ -30,11 +28,14 @@
             <div class="col-md-6 py-5 items">
                 <h3>En Bosque Montaña <span>podrás disfrutar de</span></h3>
                 <div class="slide-items">
-                    <div><img src="/images/bosque/icons/terraza02.jpg"><span>Terraza</span></div>
+                    
                     <div><img src="/images/bosque/icons/piscina adultos03.jpg"><span>Piscina</span></div>
                     <div><img src="/images/bosque/icons/cancha de tennis05.jpg"><span>Cancha de Tennis</span></div>
                     <div><img src="/images/bosque/icons/cancha multiple17.jpg"><span>Cancha de Multiple</span></div>
-                    <div><img src="/images/bosque/icons/circuito de trote07.jpg"><span>Circuito de Trote</span></div>
+                    <div><img src="/images/bosque/icons/Gym47.jpg"><span>Gimnasio</span></div>
+                    <div><img src="/images/bosque/icons/bbq11.jpg"><span>Zona BBQ</span></div>
+                    <div><img src="/images/bosque/icons/parque infantil16.jpg"><span>Juegos Infantiles</span></div>
+                   
                     <div><img src="/images/bosque/icons/sendero ecologico08.jpg"><span>Sendero Ecológico</span></div>
                     <div><img src="/images/bosque/icons/bioparque09.jpg"><span>Bio Parque</span></div>
                 </div>
@@ -42,12 +43,13 @@
             <div class="col-md-6 py-5 sites">
                 <h3>Sitios de <span>interés</span></h3>
                 <ul>
+                    <li><img src="/images/bosque/icons/centro comercial_wh.png">Centro Comercial Fontanar</li>
                     <li><img src="/images/bosque/icons/universidad_wh.png">Universidad de la Sabana</li>
-                    <li><img src="/images/bosque/icons/universidad_wh.png">Universidad Manuela Beltrán</li>
                     <li><img src="/images/bosque/icons/universidad_wh.png">Universidad Militar</li>
-                    <li><img src="/images/bosque/icons/puente del comun_wh.png">Puente del Común </li>
+                    <li><img src="/images/bosque/icons/universidad_wh.png">Montaña la Cumbre: senderismo, Ciclomontañismo</li>
+                    <li><img src="/images/bosque/icons/puente del comun_wh.png">Termales de Tabio</li>
                     <li><img src="/images/bosque/icons/Jaime Duque_wh.png">Parque Jaime Duque</li>
-                    <li><img src="/images/bosque/icons/iglesia_wh.png">Catedral de sal de Zipaquirá</li>
+                    <li><img src="/images/bosque/icons/iglesia_wh.png">Catedral de Zipaquirá</li>
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
                         Maps</span></a>
@@ -71,8 +73,13 @@
                         style="background-image: url(/images/bosque/galeria/7.jpg);"></a></div>
             </div>
             <div class="gallery-hide">
+                <a href="/images/bosque/galeria/10.jpg"></a>
                 <a href="/images/bosque/galeria/8.jpg"></a>
-                <a href="/images/bosque/galeria/8.jpg"></a>
+                <a href="/images/bosque/galeria/1.jpg"></a>
+                <a href="/images/bosque/galeria/9.jpg"></a>
+                <a href="/images/bosque/galeria/11.jpg"></a>
+                <a href="/images/bosque/galeria/12.jpg"></a>
+                <a href="/images/bosque/galeria/13.jpg"></a>
             </div>
         </div>
     
@@ -88,7 +95,20 @@
                     <span data-tab="urbanismo" class="txt">Urbanismo</span>
                 </div>
                 <div id="tipo1" class="tab-content active">
-                    <img src="/images/bosque/casatipoA.jpg">
+                    <div class="slider">
+                        <div class="slide-type">
+                            <div>
+                                <img src="/images/bosque/casatipoA.jpg">
+                            </div>
+                             <div>
+                                <img src="/images/bosque/CASATIPOA2PISO.jpg">
+                            </div>
+                            <!-- <div>
+                                <img src="/img/modelo-1.jpg">
+                            </div>  -->
+                        </div>
+                    </div>
+                    <img src="">
                     <table>
                         <tr> 
                             <td>Habitaciones</td>
@@ -126,7 +146,19 @@
                     @include('partials.bosque_disponible')
                 </div>
                 <div id="tipo2" class="tab-content">
-                    <img src="/images/bosque/CASATIPOA2PISO.jpg">
+                    <div class="slider">
+                        <div class="slide-type">
+                            <div>
+                                <img src="/images/bosque/CASATIPOB.jpg">
+                            </div>
+                            <div>
+                                <img src="/images/bosque/CASATIPOB2PISO.jpg">
+                            </div>
+                            <!-- <div>
+                                                    <img src="/img/modelo-1.jpg">
+                                                </div>  -->
+                        </div>
+                    </div>
                     <table>
                         <tr>
                             <td>Habitaciones</td>
