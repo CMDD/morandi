@@ -86,7 +86,7 @@
     
         <div class="row">
             <div class="col models">
-                <h3>Disponibles</h3>
+                <h3>Tipos de Casas</h3>
                 <p>Selecciona un tipo de casa para ver la disponibilidad</p>
                 <div class="tabs">
                     <span data-tab="tipo1" class="txt active">Anís</span>
@@ -194,7 +194,7 @@
                         </tr>
                     </table>
                     
-                    
+                   
                 </div>
                 <!-- <div id="tipo3" class="tab-content">
                     <img src="/images/bosque/plantas.pdf">
