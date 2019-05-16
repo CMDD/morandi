@@ -44,9 +44,9 @@
                 <div id="etapa3" class="tab-content">
                     <div class="floors">
                         <h4>Casas</h4>
-                        <span class="sold">1</span><span class="sold">2</span><span class="sold">3</span><span
-                            class="sold">4</span><span class="sold">5</span><span class="sold">6</span><span
-                            class="sold">7</span><span class="sold">8</span><span class="sold">9</span><span class="sold">10</span><span class="sold">11</span><span class="sold">12</span><span class="sold">13</span><span class="sold">14</span><span class="sold">15</span><span class="">16</span><span class="sold">17</span><span class="sold">18</span>
+                        <span class="">1</span><span class="">2</span><span class="">3</span><span
+                            class="">4</span><span class="">5</span><span class="">6</span><span
+                            class="">7</span><span class="">8</span><span class="">9</span><span class="">10</span><span class="">11</span><span class="">12</span><span class="">13</span><span class="">14</span><span class="">15</span><span class="sold">16</span><span class="">17</span><span class="">18</span>
                     </div>
                     
                 

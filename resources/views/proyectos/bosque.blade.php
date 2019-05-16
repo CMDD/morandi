@@ -116,7 +116,7 @@
                         </tr>
                         <tr>
                             <td>Baños</td>
-                            <td>2</td>
+                            <td>3</td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
@@ -131,7 +131,7 @@
                         </tr>
                         <tr>
                             <td><strong>Precio desde:</strong></td>
-                            <td><strong>$694.000.000</strong></td>
+                            <td><strong>$720.000.000</strong></td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
@@ -265,7 +265,7 @@
             <img src="/img/contact.png">
         </div>
         <div class="col-md-6 form" data-aos="fade-up">
-            <p>Para saber mas de este proyecto…</p>
+            <p class="title-form">Para saber mas de este proyecto…</p>
             <h3>Envíanos tus datos<br>y te contactaremos!</h3>
             <form>
                 <input type="text" placeholder="NOMBRE">
@@ -308,6 +308,7 @@
    .sites{
        background: #391700;
    }
+   
 </style>
 @endpush
 @push('scripts')
