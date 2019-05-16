@@ -36,7 +36,7 @@
                     </div>
 
                     <div class="floors">
-                        <h4>Piso 4</h4>
+                        <h4>Casas</h4>
                         <span class="sold">19</span><span class="sold">20</span><span class="sold">21</span><span class="sold">22</span><span class="">23</span><span class="sold">24</span>
                     </div>
                 </div>
