@@ -6,11 +6,14 @@
     <div class="container-fluid">
         <div class="row align-items-center my-5">
             <div class="col-lg-7 col-xl-6 subtitle" data-aos-delay="100" data-aos="zoom-out-right">
-                <h3><span class="top">DESCUBRE EL HOGAR QUE  </span> SIEMPRE HAS ESPERADO TENER <span class="bottom"></span>
+                <!-- <h3><span class="top">DESCUBRE EL HOGAR QUE  </span> SIEMPRE HAS  <span class="bottom">ESPERADO TENER</span>
+                </h3> -->
+
+                <h3><span class="top">DESCUBRE EL HOGAR QUE</span> SIEMPRE HAS <span class="bottom">esperado tener</span>
                 </h3>
             </div>
             <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
-                <p>Casas en conjunto cerrado, de 2 niveles + altillo, 3 alcobas con baño privado, en el altillo encuentras la alcoba principal completamente privada con terraza. El proyecto está ubicado en el municipio de Chía, vereda bojaca.
+                <p>Fique Condominio Residencial esta ubicado en el municipio de Chía en la vereda Bojacá, Casas de 2 niveles + altillo en conjunto cerrado, 3 alcobas con baño privado, en el altillo encuentras la alcoba principal completamente privada con terraza. Un espacio diseñado para disfrutar los mejores momentos en familia.
                 </p>
             </div>
         </div>
@@ -28,24 +31,29 @@
             <div class="col-md-6 py-5 items">
                 <h3>En Fique <span>podrás disfrutar de</span></h3>
                 <div class="slide-items">
-                    <div><img src="/images/caney/icons/salon de eventos10.jpg"><span>Salón Comunal</span></div>
-                    <div><img src="/images/caney/icons/bbq11.jpg"><span>Zona para BBQ</span></div>
-                    <div><img src="/images/caney/icons/terraza para juegos de mesa12.jpg"><span>Terraza para juegos</span></div>
-                    <div><img src="/images/caney/icons/salon_ninos.jpg"><span>Salon para niños</span></div>
-                    <div><img src="/images/caney/icons/gym15.jpg"><span>Zona para GYM</span></div>
-                    <div><img src="/images/caney/icons/parque infantil16.jpg"><span>Parque Infantil</span></div>
-                    <div><img src="/images/caney/icons/teatrino18.jpg"><span>Teatrino</span></div>
-                       
+                    <div><img src="/images/fique/icons/cancha de tennis05.jpg"><span>Cancha de Tennis</span></div>
+                    <div><img src="/images/fique/icons/cancha multiple17.jpg"><span>Cancha Multiple</span></div>
+                    <div><img src="/images/fique/icons/cancha microfut21.jpg"><span>Cancha Micro Futbol</span></div>
+                    <div><img src="/images/fique/icons/club hause infantil23.jpg"><span>Juegos Infantiles</span></div>
+                    <div><img src="/images/fique/icons/piscina24.jpg"><span>Piscina</span></div>
+                    <div><img src="/images/fique/icons/sauna o turco25.jpg"><span>Sauna y Turco</span></div>
+                    <div><img src="/images/fique/icons/gym15.jpg"><span>Zona para Gym</span></div>
+                    <div><img src="/images/fique/icons/bbq29.jpg"><span>Zona para BBQ</span></div>    
+                    <div><img src="/images/fique/icons/minimarket20.jpg"><span>MiniMarket</span></div>    
                 </div>
+                <!-- <p>Las canchas no tienen medidas reglamentarias, son de uso recreativo.</p>
+                <p>Zona operada por un tercero.</p> -->
             </div>
             <div class="col-md-6 py-5 sites">
                 <h3>Sitios de <span>interés</span></h3>
                 <ul>
+                    <li><img src="/images/fique/icons/universidad_wh.png">Clinica Marly</li>
+                    <li><img src="/images/fique/icons/universidad_wh.png">Colegio Maryland</li>
+                    <li><img src="/images/fique/icons/centro comercial_wh.png">Centro comercial Fontanar</li>
+                    <li><img src="/images/fique/icons/centro comercial_wh.png">Centro comercial Bazar </li>
                     <li><img src="/images/fique/icons/universidad_wh.png">Universidad Manuela Beltrán</li>
                     <li><img src="/images/fique/icons/universidad_wh.png">Universidad de la Sabana</li>
-                    <li><img src="/images/fique/icons/centro comercial_wh.png">Centro Comercial Fontanar</li>
-                    <li><img src="/images/fique/icons/puente del comun_wh.png">Puente del Común </li>
-                    <li><img src="/images/fique/icons/Jaime Duque_wh.png">Parque Jaime Duque</li>
+                    <li><img src="/images/fique/icons/Jaime Duque_wh.png">Gimnasio BodyTech</li>
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
                         Maps</span>
@@ -54,24 +62,25 @@
         </div>
         <div class="row gallery">
             <div class="col-sm-8 gallery-1">
-                <div class="gallery-item he1"><a href="/images/fique/galeria/8.jpg"
-                        style="background-image: url(/images/fique/galeria/8.jpg);"></a></div>
-                <div class="gallery-item wi2l he2"><a href="/images/fique/galeria/3.jpg"
+                <div class="gallery-item he1"><a href="/images/fique/galeria/9.jpg"
+                        style="background-image: url(/images/fique/galeria/9.jpg);"></a></div>
+                <div class="gallery-item wi2l he2"><a href="/images/fique/galeria/2.jpg"
+                        style="background-image: url(/images/fique/galeria/2.jpg);"></a></div>
+                <div class="gallery-item wi2r he2"><a href="/images/fique/galeria/3.jpg"
                         style="background-image: url(/images/fique/galeria/3.jpg);"></a></div>
-                <div class="gallery-item wi2r he2"><a href="/images/fique/galeria/4.jpg"
-                        style="background-image: url(/images/fique/galeria/4.jpg);"></a></div>
             </div>
             <div class="col-sm-4 gallery-2">
-                <div class="gallery-item he2"><a href="/images/fique/galeria/5.jpg" style="background-image: url(/images/fique/galeria/5.jpg);"></a>
+                <div class="gallery-item he2"><a href="/images/fique/galeria/4.jpg" style="background-image: url(/images/fique/galeria/4.jpg);"></a>
                 </div>
-                <div class="gallery-item he3"><a href="/images/fique/galeria/6.jpg" style="background-image: url(/images/fique/galeria/6.jpg);"></a>
+                <div class="gallery-item he3"><a href="/images/fique/galeria/5.jpg" style="background-image: url(/images/fique/galeria/5.jpg);"></a>
                 </div>
-                <div class="gallery-item he4"><a href="/images/fique/galeria/7.jpg"
-                        style="background-image: url(/images/fique/galeria/7.jpg);"></a></div>
+                <div class="gallery-item he4"><a href="/images/fique/galeria/6.jpg"
+                        style="background-image: url(/images/fique/galeria/6.jpg);"></a></div>
             </div>
             <div class="gallery-hide">
-                <a href="/images/fique/galeria/2.jpg"></a>
-                <a href="/images/fique/galeria/1.jpg"></a>
+                <a href="/images/fique/galeria/7.jpg"></a>
+                <a href="/images/fique/galeria/7.jpg"></a>
+                <a href="/images/fique/galeria/9.jpg"></a>
 
                
             </div>
@@ -81,13 +90,14 @@
     
     <div class="row">
         <div class="col models">
-            <h3>Pisos</h3>
+            <h3>Casa Tipo</h3>
             <!-- <p>Selecciona un tipo de apartamento para ver la disponibilidad</p> -->
             <div class="tipos">
                 <div class="tabs">
                     <span data-tab="tipo1" class="active">1</span>
                     <span data-tab="tipo2">2</span>
-                    <span data-tab="tipo3">3</span>
+                    <span data-tab="tipo3" class="txt ">Altillo</span>
+                    <span data-tab="urbanismo" class="txt ">Urbanismo</span>
                     <!--<span data-tab="tipo4" class="txt">Urbanismo</span> -->
                 </div>
                 <div id="tipo1" class="tab-content active">
@@ -126,8 +136,8 @@
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td>Area Total</td>
-                            <td>103,26 m2</td>
+                            <td>Área Construida Casa medianera</td>
+                            <td>103, 26 m2</td>
                         </tr>
                         <!-- <tr>
                             <td>Area Privada</td>
@@ -138,7 +148,7 @@
                         </tr>
                         <tr>
                             <td><strong>Precio desde:</strong></td>
-                            <td><strong>$400.000.000</strong></td>
+                            <td><strong>$420.000.000</strong></td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
@@ -267,19 +277,51 @@
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td colspan="2"><a download="brochure" href="/images/caney/brochure.pdf">Descarga PDF del brochure</a></td>
+                            <td colspan="2"><a download="brochure" href="/images/fique/brochure.pdf">Descarga PDF del brochure</a></td>
                         </tr>
                         <tr>
-                            <td colspan="2"><a download="plantas" href="/images/caney/plantas.pdf">Descarga PDF de las plantas</a></td>
+                            <td colspan="2"><a download="plantas" href="/images/fique/plantas.pdf">Descarga PDF de las plantas</a></td>
                         </tr>
                     </table>
+                </div>
+
+                <div id="urbanismo" class="tab-content">
+                    <img src="/images/bosque/BM_GENERAL -BROCH.jpg">
+                
+                    <table>
+                        <tr>
+                            <td>222 Casas</td>
+                        </tr>
+                        <tr>
+                            <td>Conjunto Cerrado</td>
+                        </tr>
+                        <tr>
+                            <td>Deportes al aire libre</td>
+                        </tr>
+                        <tr>
+                            <td>Juegos infantiles.</td>
+                        </tr>
+                        
+                
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                
+                
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                
+                
+                    </table>
+                
                 </div>
             </div>
             <h3>Disponibilidad</h3>
             <div class="torres">
                 <div class="tabs">
-                    <span data-tab="torre1" class="active">Torre 1</span>
-                    <span data-tab="torre2">Torre 2</span>
+                    <span data-tab="torre1" class="active">Etapa 1A</span>
+                    <span data-tab="torre2">Etapa 1B</span>
                     <div class="about">
                         <div>Disponible</div>
                         <div class="sold">Vendido</div>
@@ -287,35 +329,48 @@
                 </div>
                 <div id="torre1" class="tab-content active">
                     <div class="floors">
-                        <h4>Piso 2</h4>
-                        <span>201</span><span>202</span><span class="">203</span><span>204</span><span>205</span><span>206</span><span class="">207</span><span>208</span><span>209</span><span>210</span><span class="">211</span><span class="">212</span><span>213</span><span class="">214</span><span>215</span><span class="sold">216</span><span>217</span><span>218</span><span>219</span><span class="sold">220</span><span>221</span><span>222</span><span>223</span><span>224</span>
+                        <h4>Casas</h4>
+                        <span class="sold">1</span><span class="sold">2</span><span class="sold">3</span><span class="sold">4</span><span class="sold">5</span><span class="sold">6</span><span class="sold">7</span><span class="sold">8</span><span class="sold">9</span><span class="sold">10</span><span class="sold">11</span><span class="sold">12</span><span class="sold">13</span><span class="sold">14</span><span class="sold">15</span><span class="sold">16</span><span class="sold">17</span><span class="sold">18</span><span class="sold">19</span><span class="sold">20</span>
                     </div>
                     <div class="floors">
-                        <h4>Piso 3</h4>
-                        <span class="sold">301</span><span>302</span><span>303</span><span>304</span><span >305</span><span class="sold">306</span><span class="sold">307</span><span class="sold">308</span><span>309</span><span>310</span><span class="sold">311</span><span>312</span><span class="sold">313</span><span>314</span><span>315</span><span >316</span><span>317</span><span>318</span><span>319</span><span>320</span><span>321</span><span class="sold">322</span><span>323</span><span>324</span>
+                        <h4>Casas</h4>
+                        <span class="sold">21</span><span class="sold">22</span><span class="sold">23</span><span
+                            class="sold">24</span><span class="sold">25</span><span class="sold">26</span><span
+                            class="sold">27</span><span class="sold">28</span><span class="sold">29</span><span
+                            class="sold">30</span><span class="sold">31</span><span class="sold">32</span>
                     </div>
-                    <div class="floors">
-                        <h4>Piso 4</h4>
-                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span><span>405</span><span>406</span><span >407</span><span class="sold">408</span><span class="sold">409</span><span class="sold">410</span><span>411</span><span >412</span><span>413</span><span>414</span><span>415</span><span>416</span><span>417</span><span>418</span><span class="sold">419</span><span class="sold">420</span><span>421</span><span>422</span><span>423</span><span>424</span>
-                    </div>
+                    
 
                 </div>
                 <div id="torre2" class="tab-content">
+                <div class="floors">
+                    <h4>Casas</h4>
+                    <span class="sold">33</span><span class="sold">34</span><span class="sold">35</span><span
+                        class="sold">35</span><span class="sold">36</span><span class="sold">37</span><span class="sold">38</span><span
+                        class="sold">39</span><span class="sold">40</span><span class="sold">41</span><span class="sold">42</span><span
+                        class="sold">43</span><span class="sold">44</span><span class="sold">45</span><span class="sold">46</span><span class="sold">47</span><span
+                            class="sold">48</span><span class="sold">49</span><span class="sold">50</span><span class="sold">51</span><span
+                            class="sold">52</span><span class="sold">53</span><span class="sold">54</span><span class="sold">55</span>
+                </div>
                     <div class="floors">
-                        <h4>Piso 2</h4>
-                        <span class="sold">201</span><span>202</span><span>203</span><span>204</span><span >205</span><span>206</span><span class="sold">207</span><span class="sold">208</span><span class="sold">209</span><span class="sold">210</span><span class="sold">211</span><span class="sold">212</span><span class="sold">213</span><span class="sold">214</span><span class="sold">215</span><span class="sold">216</span><span class="sold">217</span><span class="sold">218</span><span class="sold">219</span><span class="sold">220</span><span class="sold">221</span><span class="sold">222</span><span class="sold">223</span><span class="sold">224</span>
-                    </div>
-                    <div class="floors">
-                        <h4>Piso 3</h4>
-                        <span>301</span><span>302</span><span class="sold">303</span><span class="sold">304</span><span>305</span><span class="sold">306</span><span>307</span><span>308</span><span>309</span><span class="sold">310</span><span class="sold">311</span><span class="sold">312</span><span class="sold">313</span><span class="sold">314</span><span class="sold">315</span><span class="sold">316</span><span class="sold">317</span><span class="sold">318</span><span class="sold">319</span><span class="sold">320</span><span class="sold">321</span><span class="sold">322</span><span class="sold">323</span><span class="sold">324</span>
+                        <h4>Casas</h4>
+                        <span class="sold">56</span><span class="sold">57</span><span class="">58</span><span
+                            class="sold">59</span><span class="">60</span><span class="sold">61</span><span class="sold">62</span><span
+                            class="sold">63</span><span class="sold">64</span><span class="sold">65</span><span class="">66</span><span
+                            class="sold">67</span><span class="sold">68</span><span class="sold">69</span><span class="sold">70</span><span
+                            class="sold">71</span><span class="sold">72</span><span class="">73</span><span class="">74</span><span
+                            class="sold">75</span><span class="">76</span><span class="sold">77</span><span class="sold">78</span><span
+                            class="sold">79</span>
                     </div>
 
                     <div class="floors">
-                        <h4>Piso 4</h4>
-                        <span class="sold">401</span><span
-                            class="sold">402</span><span class="sold">403</span><span>404</span><span class="sold">405</span><span class="sold">406</span><span class="sold">407</span><span
-                            class="sold">408</span><span class="sold">409</span><span
-                            class="sold">410</span><span class="sold">411</span><span class="sold">412</span><span class="sold">413</span><span class="sold">414</span><span class="sold">415</span><span class="sold">416</span><span class="sold">417</span><span class="sold">418</span><span class="sold">419</span><span class="sold">420</span><span class="sold">421</span><span class="sold">422</span><span class="sold">423</span><span class="sold">424</span>
+                        <h4>Casas</h4>
+                        <span class="sold">80</span><span class="sold">81</span><span class="sold">82</span><span
+                            class="sold">83</span><span class="sold">84</span><span class="sold">85</span><span class="sold">86</span><span
+                            class="sold">87</span><span class="sold">88</span><span class="sold">89</span><span class="sold">90</span><span
+                            class="">91</span><span class="sold">92</span>
+                            
+                           
                     </div>
                 </div>
             </div>
@@ -390,7 +445,7 @@
     }
     .logo{
         /* margin-top:7%; */
-        width:18%;
+        width:12%;
     }
 
     .sites h3 {

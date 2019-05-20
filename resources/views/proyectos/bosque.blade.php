@@ -106,33 +106,54 @@
                             <!-- <div>
                                 <img src="/img/modelo-1.jpg">
                             </div>  -->
-                        </div>
+                        </div> <br>
+                        <p>Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
+                        
                     </div>
+                    
                     <img src="">
                     <table>
                         <tr> 
                             <td>Habitaciones</td>
                             <td>2 + Family Room</td>
                         </tr>
+                        
                         <tr>
                             <td>Baños</td>
                             <td>3</td>
                         </tr>
                         <tr>
+                            <td>Baño principal con tina</td>
+                        </tr>
+                        <tr>
+                            <td>Sala y Comedor</td>
+                        </tr>
+                        <tr>
+                            <td>Estudio</td>
+                        </tr>
+                        <tr>
+                            <td>Cocina tipo americano</td>
+                        </tr>
+                        <tr>
+                            <td>Parqueadero cubierto</td>
+                        </tr>
+                        <tr>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td>Area Total</td>
-                            <td>145 m2</td>
+                            <td>Area Construida</td>
+                            <td>145,45 m2</td>
                         </tr>
                         
                         <tr>
                             <td>&nbsp;</td>
                         </tr>
+                        
                         <tr>
                             <td><strong>Precio desde:</strong></td>
                             <td><strong>$720.000.000</strong></td>
                         </tr>
+                        
                         <tr>
                             <td>&nbsp;</td>
                         </tr>
@@ -157,7 +178,8 @@
                             <!-- <div>
                                                     <img src="/img/modelo-1.jpg">
                                                 </div>  -->
-                        </div>
+                        </div> <br>
+                        <p>Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
                     </div>
                     <table>
                         <tr>
@@ -166,7 +188,25 @@
                         </tr>
                         <tr>
                             <td>Baños</td>
-                            <td>3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Baño principal con tina</td>
+                        </tr>
+                        <tr>
+                            <td>Sala y Comedor</td>
+                        </tr>
+                        <tr>
+                            <td>Estudio</td>
+                        </tr>
+                        <tr>
+                            <td>Cocina tipo americano</td>
+                        </tr>
+                        <tr>
+                            <td>Deposito</td>
+                        </tr>
+                        <tr>
+                            <td>Parqueadero cubierto</td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
@@ -181,7 +221,7 @@
                         </tr>
                         <tr>
                             <td><strong>Precio desde:</strong></td>
-                            <td><strong>$694.000.000</strong></td>
+                            <td><strong>$875.500.000</strong></td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
@@ -254,6 +294,38 @@
                 </div> -->
                 <div id="urbanismo" class="tab-content">
                     <img src="/images/bosque/BM_GENERAL -BROCH.jpg">
+
+                    <table>
+                        <tr>
+                            <td>Piscinas</td>
+                        </tr>
+                        <tr>
+                            <td>Salón social</td>
+                        </tr>
+                        <tr>
+                            <td>Cancha de tenis</td>
+                        </tr>
+                        <tr>
+                            <td>Cancha múltiple</td>
+                        </tr>
+                        <tr>
+                            <td>Juegos infantiles</td>
+                        </tr>
+                        <tr>
+                            <td>Sendero Ecológico.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                       
+                    
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        
+                        
+                    </table>
                    
                 </div>
             </div>
