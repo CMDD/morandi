@@ -389,7 +389,7 @@
     }
     .logo{
         /* margin-top:7%; */
-        width:18%;
+        width:15%;
     }
 
     .sites h3 {
