@@ -97,7 +97,7 @@
                     <span data-tab="tipo1" class="txt active">Piso 1</span>
                     <span data-tab="tipo2" class="txt">Piso 2</span>
                     <span data-tab="tipo3" class="txt">Altillo</span>
-                    <!--<span data-tab="tipo4" class="txt">Urbanismo</span> -->
+                    <span data-tab="urbanismo" class="txt">Urbanismo</span>
                 </div>
                 <div id="tipo1" class="tab-content active">
                     <div class="slider">
@@ -285,13 +285,44 @@
                             <td colspan="2"><a download="plantas" href="/images/caney/plantas.pdf">Descarga PDF de las plantas</a></td>
                         </tr>
                     </table>
+                   
+                </div>
+                <div id="urbanismo" class="tab-content">
+                    <img style="width: 40%" src="/images/caney/urbanismo.jpg">
+                
+                    <table>
+                        <tr>
+                            <td>64 casas</td>
+                        </tr>
+                        <tr>
+                            <td>Conjunto Cerrado</td>
+                        </tr>
+                        <tr>
+                            <td>Deportes al aire libre</td>
+                        </tr>
+                        <tr>
+                            <td>Juegos infantiles</td>
+                        </tr>
+                        
+                
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                
+                
+                
+                
+                    </table>
+                
                 </div>
             </div>
             <h3>Disponibilidad</h3>
             <div class="torres">
                 <div class="tabs">
-                    <span data-tab="torre1" class="active">Torre 1</span>
-                    <span data-tab="torre2">Torre 2</span>
+                    <span data-tab="torre1" class="active">Etapa 1</span>
+                    <span data-tab="torre2">Etapa 2</span>
+                    <span data-tab="torre3">Etapa 3</span>
+                    <span data-tab="torre2">Etapa 4</span>
                     <div class="about">
                         <div>Disponible</div>
                         <div class="sold">Vendido</div>
@@ -299,36 +330,31 @@
                 </div>
                 <div id="torre1" class="tab-content active">
                     <div class="floors">
-                        <h4>Piso 2</h4>
-                        <span>201</span><span>202</span><span class="">203</span><span>204</span><span>205</span><span>206</span><span class="">207</span><span>208</span><span>209</span><span>210</span><span class="">211</span><span class="">212</span><span>213</span><span class="">214</span><span>215</span><span class="sold">216</span><span>217</span><span>218</span><span>219</span><span class="sold">220</span><span>221</span><span>222</span><span>223</span><span>224</span>
-                    </div>
-                    <div class="floors">
-                        <h4>Piso 3</h4>
-                        <span class="sold">301</span><span>302</span><span>303</span><span>304</span><span >305</span><span class="sold">306</span><span class="sold">307</span><span class="sold">308</span><span>309</span><span>310</span><span class="sold">311</span><span>312</span><span class="sold">313</span><span>314</span><span>315</span><span >316</span><span>317</span><span>318</span><span>319</span><span>320</span><span>321</span><span class="sold">322</span><span>323</span><span>324</span>
-                    </div>
-                    <div class="floors">
-                        <h4>Piso 4</h4>
-                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span><span>405</span><span>406</span><span >407</span><span class="sold">408</span><span class="sold">409</span><span class="sold">410</span><span>411</span><span >412</span><span>413</span><span>414</span><span>415</span><span>416</span><span>417</span><span>418</span><span class="sold">419</span><span class="sold">420</span><span>421</span><span>422</span><span>423</span><span>424</span>
+                        <h4>Casas</h4>
+                        <span class="sold">1</span><span class="sold">2</span><span class="sold">3</span><span class="sold">4</span><span class="sold">5</span><span class="sold">6</span><span class="sold">7</span><span class="sold">8</span><span class="sold">9</span><span class="sold">10</span><span class="sold">11</span><span class="sold">12</span><span class="">13</span><span class="sold">14</span><span class="sold">15</span><span class="sold">16</span>
                     </div>
 
                 </div>
                 <div id="torre2" class="tab-content">
                     <div class="floors">
-                        <h4>Piso 2</h4>
-                        <span class="sold">201</span><span>202</span><span>203</span><span>204</span><span >205</span><span>206</span><span class="sold">207</span><span class="sold">208</span><span class="sold">209</span><span class="sold">210</span><span class="sold">211</span><span class="sold">212</span><span class="sold">213</span><span class="sold">214</span><span class="sold">215</span><span class="sold">216</span><span class="sold">217</span><span class="sold">218</span><span class="sold">219</span><span class="sold">220</span><span class="sold">221</span><span class="sold">222</span><span class="sold">223</span><span class="sold">224</span>
+                        <h4>Casas</h4>
+                        <span class="sold">17</span><span class="sold">18</span><span class="sold">19</span><span class="sold">20</span><span class="sold">21</span><span class="">22</span><span class="sold">23</span><span class="sold">24</span><span class="sold">25</span><span class="sold">26</span><span class="sold">27</span><span class="sold">28</span><span class="sold">29</span><span class="">30</span><span class="">31</span><span class="sold">32</span>
                     </div>
+                    
+                </div>
+                <div id="torre3" class="tab-content">
                     <div class="floors">
-                        <h4>Piso 3</h4>
-                        <span>301</span><span>302</span><span class="sold">303</span><span class="sold">304</span><span>305</span><span class="sold">306</span><span>307</span><span>308</span><span>309</span><span class="sold">310</span><span class="sold">311</span><span class="sold">312</span><span class="sold">313</span><span class="sold">314</span><span class="sold">315</span><span class="sold">316</span><span class="sold">317</span><span class="sold">318</span><span class="sold">319</span><span class="sold">320</span><span class="sold">321</span><span class="sold">322</span><span class="sold">323</span><span class="sold">324</span>
+                        <h4>Casas</h4>
+                        <span class="sold">33</span><span class="">34</span><span class="sold">35</span><span class="sold">36</span><span class="sold">37</span><span class="sold">38</span><span class="sold">39</span><span class="sold">40</span><span class="">41</span><span class="sold">42</span><span class="sold">43</span><span class="sold">44</span><span class="sold">45</span><span class="sold">46</span><span class="sold">47</span><span class="sold">48</span>
                     </div>
-
+                    
+                </div>
+                <div id="torre3" class="tab-content">
                     <div class="floors">
-                        <h4>Piso 4</h4>
-                        <span class="sold">401</span><span
-                            class="sold">402</span><span class="sold">403</span><span>404</span><span class="sold">405</span><span class="sold">406</span><span class="sold">407</span><span
-                            class="sold">408</span><span class="sold">409</span><span
-                            class="sold">410</span><span class="sold">411</span><span class="sold">412</span><span class="sold">413</span><span class="sold">414</span><span class="sold">415</span><span class="sold">416</span><span class="sold">417</span><span class="sold">418</span><span class="sold">419</span><span class="sold">420</span><span class="sold">421</span><span class="sold">422</span><span class="sold">423</span><span class="sold">424</span>
+                        <h4>Casas</h4>
+                        <span class="sold">49</span><span class="sold">50</span><span class="sold">51</span><span class="sold">52</span><span class="sold">53</span><span class="sold">54</span><span class="sold">55</span><span class="sold">56</span><span class="sold">57</span><span class="sold">58</span><span class="">59</span><span class="">60</span><span class="sold">61</span><span class="sold">62</span><span class="">63</span><span class="sold">64</span>
                     </div>
+                
                 </div>
             </div>
         </div>
