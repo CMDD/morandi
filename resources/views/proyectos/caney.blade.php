@@ -6,11 +6,11 @@
     <div class="container-fluid">
         <div class="row align-items-center my-5">
             <div class="col-lg-7 col-xl-6 subtitle" data-aos-delay="100" data-aos="zoom-out-right">
-                <h3><span class="top">DESCUBRE EL HOGAR QUE  </span> SIEMPRE HAS ESPERADO TENER <span class="bottom"></span>
+                <h3><span class="top">Un lugar para compartir en  </span> <span class="bottom">familia</span>
                 </h3>
             </div>
             <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
-                <p>Casas en conjunto cerrado, de 2 niveles + altillo, 3 alcobas con baño privado, en el altillo encuentras la alcoba principal completamente privada con terraza. El proyecto está ubicado en el municipio de Chía, vereda bojaca.
+                <p>Caney Condominio Residencial, se encuentra ubicado en el municipio de Chía, en la vereda Bojacá, integrado por  64 casas de 2 niveles +altillo, con zonas sociales en las que disfrutaras momentos inolvidables, por su ubicación cuenta con excelentes vías de acceso como la carrera 9 y la vía principal Chía – Cajicá.
                 </p>
             </div>
         </div>
@@ -35,18 +35,23 @@
                     <div><img src="/images/caney/icons/gym15.jpg"><span>Zona para GYM</span></div>
                     <div><img src="/images/caney/icons/parque infantil16.jpg"><span>Parque Infantil</span></div>
                     <div><img src="/images/caney/icons/teatrino18.jpg"><span>Teatrino</span></div>
+                    <div><img src="/images/caney/icons/sauna o turco25.jpg"><span>Sauna y Turco</span></div>
+                    <div><img src="/images/caney/icons/zona de masajes49.jpg"><span>Zona de relajación</span></div>
+                    <div><img src="/images/caney/icons/zonas verdes con cenderos peatonales51.jpg"><span>Zonas verdes</span></div>
+                    <div><img src="/images/caney/icons/cancha multiple06.jpg"><span>Cancha múltiple</span></div>
                        
                 </div>
             </div>
             <div class="col-md-6 py-5 sites">
                 <h3>Sitios de <span>interés</span></h3>
                 <ul>
-                    <li><img src="/images/senior/icons/universidad.png">Universidad Manuela Beltrán</li>
-                    <li><img src="/images/senior/icons/restaurante.png">Universidad Militar</li>
-                    <li><img src="/images/senior/icons/universidad.png">Universidad de la Sabana</li>
-                    <li><img src="/images/senior/icons/centro comercial.png">Centro Comercial Fontanar</li>
-                    <li><img src="/images/caney/icons/puente_comun.png">Puente del Común </li>
-                    <li><img src="/images/caney/icons/Jaime Duque.png">Parque Jaime Duque</li>
+                    <li><img src="/images/senior/icons/universidad.png">Clinica Marly</li>
+                    <li><img src="/images/senior/icons/restaurante.png">Colegio Maryland</li>
+                    <li><img src="/images/senior/icons/universidad.png">Centro comercial Fontanar</li>
+                    <li><img src="/images/senior/icons/centro comercial.png">Centro comercial Bazar</li>
+                    <li><img src="/images/caney/icons/puente_comun.png">Universidad Manuela Beltrán </li>
+                    <li><img src="/images/caney/icons/Jaime Duque.png">Universidad de la Sabana</li>
+                    <li><img src="/images/caney/icons/Jaime Duque.png">Gimnasio BodyTech</li>
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
                         Maps</span>
@@ -55,24 +60,27 @@
         </div>
         <div class="row gallery">
             <div class="col-sm-8 gallery-1">
-                <div class="gallery-item he1"><a href="/images/caney/galeria/8.jpg"
-                        style="background-image: url(/images/caney/galeria/8.jpg);"></a></div>
-                <div class="gallery-item wi2l he2"><a href="/images/caney/galeria/3.jpg"
+                <div class="gallery-item he1"><a href="/images/caney/galeria/1.jpg"
+                        style="background-image: url(/images/caney/galeria/1.jpg);"></a></div>
+                <div class="gallery-item wi2l he2"><a href="/images/caney/galeria/2.jpg"
+                        style="background-image: url(/images/caney/galeria/2.jpg);"></a></div>
+                <div class="gallery-item wi2r he2"><a href="/images/caney/galeria/3.jpg"
                         style="background-image: url(/images/caney/galeria/3.jpg);"></a></div>
-                <div class="gallery-item wi2r he2"><a href="/images/caney/galeria/4.jpg"
-                        style="background-image: url(/images/caney/galeria/4.jpg);"></a></div>
             </div>
             <div class="col-sm-4 gallery-2">
-                <div class="gallery-item he2"><a href="/images/caney/galeria/5.jpg" style="background-image: url(/images/caney/galeria/5.jpg);"></a>
+                <div class="gallery-item he2"><a href="/images/caney/galeria/4.jpg" style="background-image: url(/images/caney/galeria/4.jpg);"></a>
                 </div>
-                <div class="gallery-item he3"><a href="/images/caney/galeria/6.jpg" style="background-image: url(/images/caney/galeria/6.jpg);"></a>
+                <div class="gallery-item he3"><a href="/images/caney/galeria/5.jpg" style="background-image: url(/images/caney/galeria/5.jpg);"></a>
                 </div>
-                <div class="gallery-item he4"><a href="/images/caney/galeria/7.jpg"
-                        style="background-image: url(/images/caney/galeria/7.jpg);"></a></div>
+                <div class="gallery-item he4"><a href="/images/caney/galeria/6.jpg"
+                        style="background-image: url(/images/caney/galeria/6.jpg);"></a></div>
             </div>
             <div class="gallery-hide">
-                <a href="/images/caney/galeria/2.jpg"></a>
-                <a href="/images/caney/galeria/1.jpg"></a>
+                <a href="/images/caney/galeria/7.jpg"></a>
+                <a href="/images/caney/galeria/8.jpg"></a>
+                <a href="/images/caney/galeria/9.jpg"></a>
+                <a href="/images/caney/galeria/10.jpg"></a>
+                <a href="/images/caney/galeria/11.jpg"></a>
 
                
             </div>
@@ -82,13 +90,13 @@
     
     <div class="row">
         <div class="col models">
-            <h3>Pisos</h3>
+            <h3>Plantas</h3>
             <!-- <p>Selecciona un tipo de apartamento para ver la disponibilidad</p> -->
             <div class="tipos">
                 <div class="tabs">
-                    <span data-tab="tipo1" class="active">1</span>
-                    <span data-tab="tipo2">2</span>
-                    <span data-tab="tipo3">3</span>
+                    <span data-tab="tipo1" class="txt active">Piso 1</span>
+                    <span data-tab="tipo2" class="txt">Piso 2</span>
+                    <span data-tab="tipo3" class="txt">Altillo</span>
                     <!--<span data-tab="tipo4" class="txt">Urbanismo</span> -->
                 </div>
                 <div id="tipo1" class="tab-content active">
@@ -108,7 +116,7 @@
                     <table>
                         <tr>
                             <td>Habitaciones</td>
-                            <td>3</td>
+                            <td>2</td>
                         </tr>
                         <tr>
                             <td>Baños</td>
@@ -118,16 +126,17 @@
                             <td>Sala - Comedor</td>
                         </tr>
                         <tr>
-                            <td>Cocina abierta</td>
+                            <td>Patio interior</td>
                         </tr>
                         <tr>
-                            <td>Estufa y calentador eléctrico</td>
+                            <td>Terraza en altillo</td>
                         </tr>
+                        
                         <tr>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td>Area Total</td>
+                            <td>Área construida</td>
                             <td>96,33 m2</td>
                         </tr>
                         <!-- <tr>
@@ -169,26 +178,27 @@
                     <table>
                         <tr>
                             <td>Habitaciones</td>
-                            <td>3</td>
+                            <td>2</td>
                         </tr>
                         <tr>
                             <td>Baños</td>
                             <td>4</td>
                         </tr>
-                        <tr>
+                       <tr>
                             <td>Sala - Comedor</td>
                         </tr>
                         <tr>
-                            <td>Cocina abierta</td>
+                            <td>Patio interior</td>
                         </tr>
                         <tr>
-                            <td>Estufa y calentador eléctrico</td>
+                            <td>Terraza en altillo</td>
                         </tr>
+                        
                         <tr>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td>Area Total</td>
+                            <td>Área construida</td>
                             <td>96,33 m2</td>
                         </tr>
                         <!-- <tr>
@@ -231,7 +241,7 @@
                     <table>
                         <tr>
                             <td>Habitaciones</td>
-                            <td>3</td>
+                            <td>2</td>
                         </tr>
                         <tr>
                             <td>Baños</td>
@@ -241,16 +251,17 @@
                             <td>Sala - Comedor</td>
                         </tr>
                         <tr>
-                            <td>Cocina abierta</td>
+                            <td>Patio interior</td>
                         </tr>
                         <tr>
-                            <td>Estufa y calentador eléctrico</td>
+                            <td>Terraza en altillo</td>
                         </tr>
+                        
                         <tr>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td>Area Total</td>
+                            <td>Área construida</td>
                             <td>96,33 m2</td>
                         </tr>
                         <!-- <tr>
