@@ -286,7 +286,7 @@
                 </div>
 
                 <div id="urbanismo" class="tab-content">
-                    <img src="/images/bosque/BM_GENERAL -BROCH.jpg">
+                    <img src="/images/fique/urbanismo.jpg">
                 
                     <table>
                         <tr>
@@ -339,7 +339,6 @@
                             class="sold">27</span><span class="sold">28</span><span class="sold">29</span><span
                             class="sold">30</span><span class="sold">31</span><span class="sold">32</span>
                     </div>
-                    
 
                 </div>
                 <div id="torre2" class="tab-content">
