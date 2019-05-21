@@ -1,6 +1,6 @@
 @extends('layouts.web')
 @section('content')
-    <div class="cover to-left" style="background-image: url(/images/caney/caney_home.jpg);">
+    <div class="cover to-left" style="background-image: url(/images/caney/banner_caney.jpg;">
         <img class="logo" src="/images/caney/logo Caney.png">
     </div>
     <div class="container-fluid">
@@ -46,12 +46,12 @@
                 <h3>Sitios de <span>interés</span></h3>
                 <ul>
                     <li><img src="/images/senior/icons/clinica.png">Clinica Marly</li>
-                    <li><img src="/images/senior/icons/universidad.png">Colegio Maryland</li>
+                    <li><img src="/images/caney/icons/colegio.png">Colegio Maryland</li>
                     <li><img src="/images/senior/icons/centro comercial.png">Centro comercial Fontanar</li>
                     <li><img src="/images/senior/icons/centro comercial.png">Centro comercial Bazar</li>
                     <li><img src="/images/senior/icons/universidad.png">Universidad Manuela Beltrán </li>
                     <li><img src="/images/senior/icons/universidad.png">Universidad de la Sabana</li>
-                    <li><img src="/images/caney/icons/Jaime Duque.png">Gimnasio BodyTech</li>
+                    <li><img src="/images/caney/icons/gym.png">Gimnasio BodyTech</li>
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
                         Maps</span>
