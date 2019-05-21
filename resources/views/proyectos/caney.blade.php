@@ -45,12 +45,12 @@
             <div class="col-md-6 py-5 sites">
                 <h3>Sitios de <span>interés</span></h3>
                 <ul>
-                    <li><img src="/images/senior/icons/universidad.png">Clinica Marly</li>
-                    <li><img src="/images/senior/icons/restaurante.png">Colegio Maryland</li>
-                    <li><img src="/images/senior/icons/universidad.png">Centro comercial Fontanar</li>
+                    <li><img src="/images/senior/icons/clinica.png">Clinica Marly</li>
+                    <li><img src="/images/senior/icons/universidad.png">Colegio Maryland</li>
+                    <li><img src="/images/senior/icons/centro comercial.png">Centro comercial Fontanar</li>
                     <li><img src="/images/senior/icons/centro comercial.png">Centro comercial Bazar</li>
-                    <li><img src="/images/caney/icons/puente_comun.png">Universidad Manuela Beltrán </li>
-                    <li><img src="/images/caney/icons/Jaime Duque.png">Universidad de la Sabana</li>
+                    <li><img src="/images/senior/icons/universidad.png">Universidad Manuela Beltrán </li>
+                    <li><img src="/images/senior/icons/universidad.png">Universidad de la Sabana</li>
                     <li><img src="/images/caney/icons/Jaime Duque.png">Gimnasio BodyTech</li>
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
@@ -322,7 +322,7 @@
                     <span data-tab="torre1" class="active">Etapa 1</span>
                     <span data-tab="torre2">Etapa 2</span>
                     <span data-tab="torre3">Etapa 3</span>
-                    <span data-tab="torre2">Etapa 4</span>
+                    <span data-tab="torre4">Etapa 4</span>
                     <div class="about">
                         <div>Disponible</div>
                         <div class="sold">Vendido</div>
@@ -349,7 +349,7 @@
                     </div>
                     
                 </div>
-                <div id="torre3" class="tab-content">
+                <div id="torre4" class="tab-content">
                     <div class="floors">
                         <h4>Casas</h4>
                         <span class="sold">49</span><span class="sold">50</span><span class="sold">51</span><span class="sold">52</span><span class="sold">53</span><span class="sold">54</span><span class="sold">55</span><span class="sold">56</span><span class="sold">57</span><span class="sold">58</span><span class="">59</span><span class="">60</span><span class="sold">61</span><span class="sold">62</span><span class="">63</span><span class="sold">64</span>

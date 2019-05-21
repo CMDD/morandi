@@ -46,8 +46,8 @@
                     <li><img src="/images/bosque/icons/centro comercial_wh.png">Centro Comercial Fontanar</li>
                     <li><img src="/images/bosque/icons/universidad_wh.png">Universidad de la Sabana</li>
                     <li><img src="/images/bosque/icons/universidad_wh.png">Universidad Militar</li>
-                    <li><img src="/images/bosque/icons/universidad_wh.png">Montaña la Cumbre: senderismo, Ciclomontañismo</li>
-                    <li><img src="/images/bosque/icons/puente del comun_wh.png">Termales de Tabio</li>
+                    <li><img src="/images/bosque/icons/montaña.png">Montaña la Cumbre: senderismo, Ciclomontañismo</li>
+                    <li><img src="/images/bosque/icons/termales.png">Termales de Tabio</li>
                     <li><img src="/images/bosque/icons/Jaime Duque_wh.png">Parque Jaime Duque</li>
                     <li><img src="/images/bosque/icons/iglesia_wh.png">Catedral de Zipaquirá</li>
                 </ul>
@@ -164,7 +164,7 @@
                             <td colspan="2"><a download="Plantas" href="/images/bosque/plantas.pdf">Descarga PDF de las plantas</a></td>
                         </tr>
                     </table>
-                    @include('partials.bosque_disponible')
+                    
                 </div>
                 <div id="tipo2" class="tab-content">
                     <div class="slider">
@@ -328,6 +328,8 @@
                     </table>
                    
                 </div>
+
+                @include('partials.bosque_disponible')
             </div>
         </div>
     
