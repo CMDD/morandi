@@ -18,7 +18,7 @@
                                         <img src="/images/bosque/logo_home.png">
                                     </div>
                                     <div class="text text-bosque">
-                                        <span>Casas campestres de 145m2 y 189m2</span><strong>Desde $694.000.000</strong>
+                                        <span>Casas campestres de 145m2 y 189m2</span><strong>Desde $720.000.000</strong>
                                         <span>Vereda Chuntame, Barrio Santa Inés, Sobre la vía Cajicá - tabio</span>
                                     </div>
                                 </div>
@@ -67,11 +67,29 @@
                                         <img src="/images/fique/logobanner_Mesa de trabajo 1.png">
                                     </div>
                                     <div class="text text-caney">
-                                        <span>Casas de 103 m2 y 26 m2 </span><strong>Desde $400.000.000</strong>
+                                        <span>Casas de 103 m2 y 26 m2 </span><strong>Desde $420.000.000</strong>
                                         <span> Ubicado en Chía Cundinamarca &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
                                         </span>
                                     </div>
                                 </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="box" style="background-image: url(images/ofipietra/banner.jpg);">
+                                <a href="{{'proyecto/oficinas_pietra'}}">
+                                    <div class="info">
+                                        <div class="brand brand-caney">
+                                            <img src="/images/ofipietra/logo_page.png">
+                                        </div>
+                                        <div class="text text-caney">
+                                            <span>Casas de 103 m2 y 26 m2 </span><strong>Desde $420.000.000</strong>
+                                            <span> Ubicado en Chía Cundinamarca &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                            </span>
+                                        </div>
+                                    </div>
                                 </a>
                             </div>
                         </div>
