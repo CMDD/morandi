@@ -1,6 +1,9 @@
 @extends('layouts.web')
 @section('content')
 <div class="slide-home">
+    <div class="outer">
+        <div class="inner"></div>
+    </div>
     <img class="go-to" src="img/arrow.svg">
 </div>
 <div id="projects" class="container-fluid">

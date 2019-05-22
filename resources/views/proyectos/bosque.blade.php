@@ -1,6 +1,9 @@
 @extends('layouts.web')
 @section('content')
-    <div class="cover to-left" style="background-image: url(/images/bosque/banner.jpg);">
+    <div class="cover to-left">
+        <div class="outer">
+            <div class="inner" style="background-image: url(/images/bosque/banner.jpg);"></div>
+        </div>
         <img class="logo" src="/img/brand-03.svg">
     </div>
     <div class="container-fluid">
@@ -82,253 +85,179 @@
                 <a href="/images/bosque/galeria/13.jpg"></a>
             </div>
         </div>
-    
-    
+
         <div class="row">
             <div class="col models">
                 <h3>Tipos de Casas</h3>
                 <p>Selecciona un tipo de casa para ver la disponibilidad</p>
-                <div class="tabs">
-                    <span data-tab="tipo1" class="txt active">Anís</span>
-                    <span data-tab="tipo2" class="txt">Bambú</span>
-                    <!-- <span data-tab="tipo3">3</span> -->
-                    <span data-tab="urbanismo" class="txt">Urbanismo</span>
-                </div>
-                <div id="tipo1" class="tab-content active">
-                    <div class="slider">
-                        <div class="slide-type">
-                            <div>
-                                <img src="/images/bosque/casatipoA.jpg">
-                            </div>
-                             <div>
-                                <img src="/images/bosque/CASATIPOA2PISO.jpg">
-                            </div>
-                            <!-- <div>
-                                <img src="/img/modelo-1.jpg">
-                            </div>  -->
-                        </div> <br>
-                        <p>Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
-                        
+                <div class="tipos">
+                    <div class="tabs">
+                        <span data-tab="tipo1" class="txt active">Anís</span>
+                        <span data-tab="tipo2" class="txt">Bambú</span>
+                        <!-- <span data-tab="tipo3">3</span> -->
+                        <span data-tab="urbanismo" class="txt">Urbanismo</span>
                     </div>
-                    
-                    <img src="">
-                    <table>
-                        <tr> 
-                            <td>Habitaciones</td>
-                            <td>2 + Family Room</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Baños</td>
-                            <td>3</td>
-                        </tr>
-                        <tr>
-                            <td>Baño principal con tina</td>
-                        </tr>
-                        <tr>
-                            <td>Sala y Comedor</td>
-                        </tr>
-                        <tr>
-                            <td>Estudio</td>
-                        </tr>
-                        <tr>
-                            <td>Cocina tipo americano</td>
-                        </tr>
-                        <tr>
-                            <td>Parqueadero cubierto</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td>Area Construida</td>
-                            <td>145,45 m2</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        
-                        <tr>
-                            <td><strong>Precio desde:</strong></td>
-                            <td><strong>$720.000.000</strong></td>
-                        </tr>
-                        
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><a download="brochere" href="/images/bosque/brochure.pdf">Descarga PDF del brochure</a></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><a download="Plantas" href="/images/bosque/plantas.pdf">Descarga PDF de las plantas</a></td>
-                        </tr>
-                    </table>
-                    
-                </div>
-                <div id="tipo2" class="tab-content">
-                    <div class="slider">
-                        <div class="slide-type">
-                            <div>
-                                <img src="/images/bosque/CASATIPOB.jpg">
-                            </div>
-                            <div>
-                                <img src="/images/bosque/CASATIPOB2PISO.jpg">
-                            </div>
-                            <!-- <div>
-                                                    <img src="/img/modelo-1.jpg">
-                                                </div>  -->
-                        </div> <br>
-                        <p>Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
-                    </div>
-                    <table>
-                        <tr>
-                            <td>Habitaciones</td>
-                            <td>3 + Family Room</td>
-                        </tr>
-                        <tr>
-                            <td>Baños</td>
-                            <td>4</td>
-                        </tr>
-                        <tr>
-                            <td>Baño principal con tina</td>
-                        </tr>
-                        <tr>
-                            <td>Sala y Comedor</td>
-                        </tr>
-                        <tr>
-                            <td>Estudio</td>
-                        </tr>
-                        <tr>
-                            <td>Cocina tipo americano</td>
-                        </tr>
-                        <tr>
-                            <td>Deposito</td>
-                        </tr>
-                        <tr>
-                            <td>Parqueadero cubierto</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td>Area Total</td>
-                            <td>180 m2</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Precio desde:</strong></td>
-                            <td><strong>$875.500.000</strong></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><a download="brochure" href="/images/bosque/brochure.pdf">Descarga PDF del brochure</a></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><a download="Plantas" href="/images/bosque/plantas.pdf">Descarga PDF de las plantas</a></td>
-                        </tr>
-                    </table>
-                    
-                   
-                </div>
-                <!-- <div id="tipo3" class="tab-content">
-                    <img src="/images/bosque/plantas.pdf">
-                    <table>
-                        <tr>
-                            <td>Habitaciones</td>
-                            <td>3</td>
-                        </tr>
-                        <tr>
-                            <td>Baños</td>
-                            <td>5</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td>Area Construida</td>
-                            <td>124.3 m2</td>
-                        </tr>
-                        <tr>
-                            <td>Area Privada</td>
-                            <td>6.5 m2</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Precio desde:</strong></td>
-                            <td><strong>$409.500.000</strong></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><a href="#">Descarga PDF del brochure</a></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><a href="#">Descarga PDF de las plantas</a></td>
-                        </tr>
-                    </table>
-                    <h3>Disponibles</h3>
-                    <div class="floors">
-                        <span class="vacant">201</span><span class="sold">202</span><span>203</span><span
-                            class="vacant">204</span>
-                        <span class="vacant">301</span><span>302</span><span class="sold">303</span><span
-                            class="vacant">304</span>
-                        <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span>
-                        <span class="vacant">501</span><span class="sold">502</span><span>503</span><span
-                            class="sold">504</span>
-                        <span class="vacant">601</span><span class="sold">602</span><span class="sold">603</span><span
-                            class="sold">604</span>
-                        <div class="about">
-                            <div class="vacant">Disponible</div>
-                            <div class="sold">Vendido</div>
+                    <div id="tipo1" class="tab-content active">
+                        <div class="slider">
+                            <div class="slide-type">
+                                <div>
+                                    <img src="/images/bosque/casatipoA.jpg">
+                                </div>
+                                 <div>
+                                    <img src="/images/bosque/CASATIPOA2PISO.jpg">
+                                </div>
+                                <!-- <div>
+                                    <img src="/img/modelo-1.jpg">
+                                </div>  -->
+                            </div> <br>
+                            <p>Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
                         </div>
+                        <table>
+                            <tr>
+                                <td>Habitaciones</td>
+                                <td>2 + Family Room</td>
+                            </tr>
+                            <tr>
+                                <td>Baños</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Baño principal con tina</td>
+                            </tr>
+                            <tr>
+                                <td>Sala y Comedor</td>
+                            </tr>
+                            <tr>
+                                <td>Estudio</td>
+                            </tr>
+                            <tr>
+                                <td>Cocina tipo americano</td>
+                            </tr>
+                            <tr>
+                                <td>Parqueadero cubierto</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>Area Construida</td>
+                                <td>145,45 m2</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Precio desde:</strong></td>
+                                <td><strong>$720.000.000</strong></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><a download="brochere" href="/images/bosque/brochure.pdf">Descarga PDF del brochure</a></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><a download="Plantas" href="/images/bosque/plantas.pdf">Descarga PDF de las plantas</a></td>
+                            </tr>
+                        </table>
                     </div>
-                </div> -->
-                <div id="urbanismo" class="tab-content">
-                    <img src="/images/bosque/BM_GENERAL -BROCH.jpg">
-
-                    <table>
-                        <tr>
-                            <td>Piscinas</td>
-                        </tr>
-                        <tr>
-                            <td>Salón social</td>
-                        </tr>
-                        <tr>
-                            <td>Cancha de tenis</td>
-                        </tr>
-                        <tr>
-                            <td>Cancha múltiple</td>
-                        </tr>
-                        <tr>
-                            <td>Juegos infantiles</td>
-                        </tr>
-                        <tr>
-                            <td>Sendero Ecológico.</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                       
-                    
-                        <tr>
-                            <td>&nbsp;</td>
-                        </tr>
-                        
-                        
-                    </table>
-                   
+                    <div id="tipo2" class="tab-content">
+                        <div class="slider">
+                            <div class="slide-type">
+                                <div>
+                                    <img src="/images/bosque/CASATIPOB.jpg">
+                                </div>
+                                <div>
+                                    <img src="/images/bosque/CASATIPOB2PISO.jpg">
+                                </div>
+                                <!-- <div>
+                                                        <img src="/img/modelo-1.jpg">
+                                                    </div>  -->
+                            </div> <br>
+                            <p>Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
+                        </div>
+                        <table>
+                            <tr>
+                                <td>Habitaciones</td>
+                                <td>3 + Family Room</td>
+                            </tr>
+                            <tr>
+                                <td>Baños</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>Baño principal con tina</td>
+                            </tr>
+                            <tr>
+                                <td>Sala y Comedor</td>
+                            </tr>
+                            <tr>
+                                <td>Estudio</td>
+                            </tr>
+                            <tr>
+                                <td>Cocina tipo americano</td>
+                            </tr>
+                            <tr>
+                                <td>Deposito</td>
+                            </tr>
+                            <tr>
+                                <td>Parqueadero cubierto</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>Area Total</td>
+                                <td>180 m2</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Precio desde:</strong></td>
+                                <td><strong>$875.500.000</strong></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><a download="brochure" href="/images/bosque/brochure.pdf">Descarga PDF del brochure</a></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><a download="Plantas" href="/images/bosque/plantas.pdf">Descarga PDF de las plantas</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="urbanismo" class="tab-content">
+                        <img src="/images/bosque/BM_GENERAL -BROCH.jpg">
+                        <table>
+                            <tr>
+                                <td>Piscinas</td>
+                            </tr>
+                            <tr>
+                                <td>Salón social</td>
+                            </tr>
+                            <tr>
+                                <td>Cancha de tenis</td>
+                            </tr>
+                            <tr>
+                                <td>Cancha múltiple</td>
+                            </tr>
+                            <tr>
+                                <td>Juegos infantiles</td>
+                            </tr>
+                            <tr>
+                                <td>Sendero Ecológico.</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
-
                 @include('partials.bosque_disponible')
             </div>
         </div>

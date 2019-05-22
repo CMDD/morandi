@@ -1,0 +1,190 @@
+.cover {
+    position: relative;
+    background-image: url(../img/avance-cover.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height: 400px;
+}
+.cover .content {
+    position: absolute;
+    right: 10%;
+    top: 150px;
+    max-width: 350px;
+    text-align: right;
+    color: #011238;
+}
+.cover h1 {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 3.5rem;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.cover h1 span {
+    font-weight: 300;
+    display: block;
+}
+.cover p {
+    max-width: 450px;
+    font-weight: 500;
+    font-size: .9rem;
+    margin-left: 10%;
+}
+
+.logo {
+    text-align: center;
+}
+
+.gallery {
+    letter-spacing: -0.31em;
+    *letter-spacing: normal;
+    *word-spacing: -0.43em;
+    text-rendering: optimizespeed;
+    margin-top: 80px;
+}
+.gallery .gallery-item, .gallery .gallery-title, .gallery .gallery-video {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: middle;
+    text-rendering: auto;
+    position: relative;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.gallery h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.gallery h3 span {
+    font-weight: 300;
+}
+.gallery-1, .gallery-2 {
+    padding: 0;
+}
+.gallery a {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-size: cover;
+    background-position: center;
+}
+.gallery a:before {
+    content: '';
+    background: #000;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    opacity: .5;
+    -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+}
+.gallery a:hover:before {
+    opacity: 0;
+}
+.gallery .wi2l, .gallery .wi2r {
+    width: 50%;
+}
+.gallery .wi2l a {
+    right: 2px;
+}
+.gallery .wi2r a {
+    left: 3px;
+}
+.gallery .he1, .gallery .he4 {
+    height: 200px;
+}
+.gallery .he2, .gallery .he3 {
+    height: 150px;
+}
+.gallery-hide {
+    display: none;
+}
+
+.gallery .gallery-video {
+    background: #000;
+    padding: 40px 4%;
+}
+.video-embed {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 56.25%;
+}
+.video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media (min-width: 576px){
+
+    .cover {
+        height: 600px;
+    }
+    .cover h1 {
+        font-size: 5rem;
+        margin-bottom: 40px;
+    }
+    .logo {
+        margin-top: -100px;
+    }
+
+    .gallery-1 {
+        padding-right: 2px;
+    }
+    .gallery-2 {
+        padding-left: 3px;
+    }
+    .gallery .he1 {
+        height: 400px;
+    }
+    .gallery .he2 {
+        height: 150px;
+    }
+    .gallery .he3 {
+        height: 150px;
+    }
+    .gallery .he4 {
+        height: 245px;
+    }
+
+    .gallery .gallery-video {
+        padding: 60px 10%;
+    }
+
+}
+
+@media (min-width: 768px){
+
+
+}
+
+@media (min-width:992px){
+
+    .gallery .gallery-item {
+        height: 600px;
+    }
+    .gallery .he2 {
+        height: 300px;
+    }
+    .gallery .he3 {
+        height: 195px;
+    }
+    .gallery .he4 {
+        height: 400px;
+    }
+
+}
+
+@media (min-width:1200px){
+
+
+}

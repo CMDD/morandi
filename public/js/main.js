@@ -116,7 +116,8 @@ $(document).ready(function () {
         $(this).parent().parent().find('.tab-content').removeClass('active').hide();
         var selectTab = $(this).data('tab');
         $('#' + selectTab).addClass('active').fadeIn();
-        $('.slide-type').slick('reinit');
+        //$('.slide-type').slick('reinit');
+        $(this).parent().parent().find('.slide-type').slick('reinit');
     });
     
     /* slider proyecto */
