@@ -408,7 +408,7 @@
                     <h3>Avance de obra</h3>
                     <p>Ingresa para ver le progreso de tu futura vivienda, conoce los pormenores de la obra y mira las fotos
                         de los avances en este proyecto.</p>
-                    <a href="#">Entrar</a>
+                    <a href="/avance/fique">Entrar</a>
                 </div>
             </div>
         </div>

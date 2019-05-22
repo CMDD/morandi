@@ -38,7 +38,19 @@
                             
                         </ul>
                     </li>
-                    <li><a href="#">Proyectos Realizados</a></li>
+                    <li class="has-children"><a href="#">Proyectos Realizados</a>
+                        <ul class="sub">
+                            <li><a href="/realizados/114">114</a></li>
+                            <li><a href="{{url('/realizados/canelon')}}">Canelon</a></li>
+                            <li><a href="{{url('/realizados/san-diego')}}">San Diego</a></li>
+                            <li><a href="{{url('/realizados/bambu')}}">Bambu</a></li>
+                            <li><a href="{{url('/realizados/villas-san-felipe')}}">Villas de san felipe</a></li>
+                            <li><a href="{{url('/realizados/san-felipe')}}">san felipe</a></li>
+                            <li><a href="{{url('/realizados/guaymaral')}}">Guaymaral</a></li>
+                            <li><a href="{{url('/realizados/hacienda-san-luis')}}">Hacienda san luis</a></li>                       
+                        </ul>
+                    </li>
+                    
                     <li><a href="#">Avances obra</a></li>
                     <li><a href="/blog">Blog Morandi</a></li>
                     <li><a href="{{url('postventa')}}">Postventa</a></li>

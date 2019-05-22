@@ -19,3 +19,4 @@ Route::get('admin', function () {return view('admin.index');});
 Route::get('blog', function () {return view('blog');});
 
 Route::get('realizados/{project}','ProjectController@realizados');
+Route::get('avance/{project}','ProjectController@avance');
