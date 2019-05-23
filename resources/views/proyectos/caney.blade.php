@@ -1,6 +1,9 @@
 @extends('layouts.web')
 @section('content')
-    <div class="cover to-left" style="background-image: url(/images/caney/banner_caney.jpg;">
+    <div class="cover to-left">
+        <div class="outer">
+            <div class="inner" style="background-image: url(/images/caney/banner_caney.jpg;"></div>
+        </div>
         <img class="logo" src="/images/caney/logo Caney.png">
     </div>
     <div class="container-fluid">
