@@ -52,7 +52,16 @@
                         </ul>
                     </li>
                     
-                    <li><a href="#">Avances obra</a></li>
+                    <li class="has-children"><a href="#">Avance de obra</a>
+                        <ul class="sub">
+                            <li><a href="/avance/bosque">Bosque Montaña</a></li>
+                            <li><a href="{{url('/avance/senior')}}">Senior Suites</a></li>
+                            <li><a href="{{url('/avance/caney')}}">Caney</a></li>
+                            <li><a href="{{url('/avance/fique')}}">Fique</a></li>
+                            <li><a href="{{url('/avance/oficinas-pietra')}}">Oficinas Pietra</a></li>
+                            
+                        </ul>
+                    </li>
                     <li><a href="/blog">Blog Morandi</a></li>
                     <li><a href="{{url('postventa')}}">Postventa</a></li>
                 </ul>

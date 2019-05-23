@@ -49,7 +49,7 @@
                     <li><img src="/images/bosque/icons/centro comercial_wh.png">Centro Comercial Fontanar</li>
                     <li><img src="/images/bosque/icons/universidad_wh.png">Universidad de la Sabana</li>
                     <li><img src="/images/bosque/icons/universidad_wh.png">Universidad Militar</li>
-                    <li><img src="/images/bosque/icons/montaña.png">Montaña la Cumbre: senderismo, Ciclomontañismo</li>
+                    <li><img src="/images/bosque/icons/montana.png">Montaña la Cumbre: senderismo, Ciclomontañismo</li>
                     <li><img src="/images/bosque/icons/termales.png">Termales de Tabio</li>
                     <li><img src="/images/bosque/icons/Jaime Duque_wh.png">Parque Jaime Duque</li>
                     <li><img src="/images/bosque/icons/iglesia_wh.png">Catedral de Zipaquirá</li>
