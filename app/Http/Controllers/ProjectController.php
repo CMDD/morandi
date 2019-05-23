@@ -85,7 +85,7 @@ class ProjectController extends Controller
 
                 return view('avance.fique');
                 break;
-            case 'pietra':
+            case 'oficinas-pietra':
 
                 return view('avance.oficinas_pietra');
                 break;
