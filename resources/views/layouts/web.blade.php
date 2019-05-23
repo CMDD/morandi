@@ -45,7 +45,8 @@
                             <li><a href="{{url('/realizados/san-diego')}}">San Diego</a></li>
                             <li><a href="{{url('/realizados/bambu')}}">Bambu</a></li>
                             <li><a href="{{url('/realizados/villas-san-felipe')}}">Villas de san felipe</a></li>
-                            <li><a href="{{url('/realizados/san-felipe')}}">san felipe</a></li>
+                            <li><a href="{{url('/realizados/san-felipe')}}">San felipe</a></li>
+                            
                             <li><a href="{{url('/realizados/guaymaral')}}">Guaymaral</a></li>
                             <li><a href="{{url('/realizados/hacienda-san-luis')}}">Hacienda san luis</a></li>                       
                         </ul>
