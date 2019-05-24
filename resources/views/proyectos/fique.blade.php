@@ -37,6 +37,8 @@
                 <h3>En Fique <span>podrás disfrutar de</span></h3>
                 <div class="slide-items">
                     <div><img src="/images/fique/icons/cancha de tennis05.jpg"><span>Cancha de Tennis</span></div>
+                    <div><img src="/images/fique/icons/club_house.png"><span>Club House</span></div>
+                    <div><img src="/images/fique/icons/Zona de mascotas.png"><span>Zona de Mascotas</span></div>
                     <div><img src="/images/fique/icons/cancha multiple17.jpg"><span>Cancha Multiple</span></div>
                     <div><img src="/images/fique/icons/cancha microfut21.jpg"><span>Cancha Micro Futbol</span></div>
                     <div><img src="/images/fique/icons/club hause infantil23.jpg"><span>Juegos Infantiles</span></div>
