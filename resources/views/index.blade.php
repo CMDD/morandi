@@ -36,7 +36,7 @@
                                         <img src="img/brand-01.svg">
                                     </div>
                                     <div class="text text-senior">
-                                        <span>Suite de 37m2 y 60m2</span><strong>Desde $195.457.000</strong>
+                                        <span>Suite de 37m2 y 60m2</span><strong>Desde $205.457.000</strong>
                                         <span>
                                             Vía Guaymaral, Vereda la balsa, Sector las Juntas, Chía – Cundinamarca.
                                         </span>
