@@ -62,8 +62,8 @@
         </div>
         <div class="row gallery">
             <div class="col-sm-8 gallery-1">
-                <div class="gallery-item he1"><a href="/images/ofipietra/galeria/2.jpg"
-                        style="background-image: url(/images/ofipietra/galeria/2.jpg);"></a></div>
+                <div class="gallery-item he1"><a href="/images/ofipietra/galeria/FachadainternaNoche.jpg"
+                        style="background-image: url(/images/ofipietra/galeria/FachadainternaNoche.jpg);"></a></div>
                 <div class="gallery-item wi2l he2"><a href="/images/ofipietra/galeria/3.jpg"
                         style="background-image: url(/images/ofipietra/galeria/3.jpg);"></a></div>
                 <div class="gallery-item wi2r he2"><a href="/images/ofipietra/galeria/4.jpg"
@@ -80,6 +80,11 @@
             </div>
             <div class="gallery-hide">
                 <a href="/images/ofipietra/galeria/7.jpg"></a>
+                <a href="/images/ofipietra/galeria/2.jpg"></a>
+                <a href="/images/ofipietra/galeria/Plazoleta 3.jpg"></a>
+                <a href="/images/ofipietra/galeria/Fachada principal torre Oficinas.jpg"></a>
+                <a href="/images/ofipietra/galeria/Plazoleta 2.jpg"></a>
+                <a href="/images/ofipietra/galeria/azotea restaurante pietra f 2.jpg"></a>
                
             </div>
             
@@ -99,7 +104,7 @@
                     <div class="slider">
                         <div class="slide-type">
                             <div>
-                                <img style="width:60%;" src="/images/ofipietra/planta de oficina.jpg">
+                                <img style="width:60%;" src="/images/ofipietra/plantaoficina.png">
                             </div>
                              <!-- <div>
                                 <img src="/images/senior/planta2.png">
@@ -144,10 +149,10 @@
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td colspan="2"><a download="brochure" href="/images/fique/brochure.pdf">Descarga PDF del brochure</a></td>
+                            <td colspan="2"><a download="brochure" href="/images/ofipietra/brochure.pdf">Descarga PDF del brochure</a></td>
                         </tr>
                         <tr>
-                            <td colspan="2"><a download="plantas" href="/images/fique/plantas.pdf">Descarga PDF de las plantas</a></td>
+                            <td colspan="2"><a download="plantas" href="/images/ofipietra/plantas.pdf">Descarga PDF de las plantas</a></td>
                         </tr>
                     </table>
                 </div>

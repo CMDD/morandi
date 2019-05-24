@@ -60,7 +60,7 @@
                     <li><img src="/images/fique/icons/centro comercial_wh.png">Centro comercial Bazar </li>
                     <li><img src="/images/fique/icons/universidad_wh.png">Universidad Manuela Beltrán</li>
                     <li><img src="/images/fique/icons/universidad_wh.png">Universidad de la Sabana</li>
-                    <li><img src="/images/fique/icons/Jaime Duque_wh.png">Gimnasio BodyTech</li>
+                    <li><img src="/images/fique/icons/gym_wht.png">Gimnasio BodyTech</li>
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
                         Maps</span>
