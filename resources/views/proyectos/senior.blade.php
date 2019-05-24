@@ -170,14 +170,14 @@
                         <div class="slider">
                             <div class="slide-type">
                                 <div>
-                                <img src="/images/senior/planta3.png">
+                                    <img src="/images/senior/planta3.png">
                                 </div>
-                                 <div>
+                                 <!-- <div>
                                     <img src="/img/modelo-1.jpg">
                                 </div>
                                 <div>
                                     <img src="/img/modelo-1.jpg">
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <table>

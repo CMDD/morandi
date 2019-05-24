@@ -46,6 +46,8 @@
                     <div><img src="/images/fique/icons/bbq29.jpg"><span>Zona para BBQ</span></div>    
                     <div><img src="/images/fique/icons/minimarket20.jpg"><span>MiniMarket</span></div>    
                 </div>
+                <p class="info">* Las canchas no tienen medidas reglamentarias <br> * Minimarket: Zona operada por un tercero.
+             </p>
                 <!-- <p>Las canchas no tienen medidas reglamentarias, son de uso recreativo.</p>
                 <p>Zona operada por un tercero.</p> -->
             </div>
@@ -75,7 +77,7 @@
                         style="background-image: url(/images/fique/galeria/3.jpg);"></a></div>
             </div>
             <div class="col-sm-4 gallery-2">
-                <div class="gallery-item he2"><a href="/images/fique/galeria/4.jpg" style="background-image: url(/images/fique/galeria/4.jpg);"></a>
+                <div class="gallery-item he2"><a href="/images/fique/galeria/7.jpg" style="background-image: url(/images/fique/galeria/7.jpg);"></a>
                 </div>
                 <div class="gallery-item he3"><a href="/images/fique/galeria/5.jpg" style="background-image: url(/images/fique/galeria/5.jpg);"></a>
                 </div>
@@ -83,9 +85,9 @@
                         style="background-image: url(/images/fique/galeria/6.jpg);"></a></div>
             </div>
             <div class="gallery-hide">
-                <a href="/images/fique/galeria/7.jpg"></a>
-                <a href="/images/fique/galeria/7.jpg"></a>
-                <a href="/images/fique/galeria/9.jpg"></a>
+                <a href="/images/fique/galeria/4.jpg"></a>
+                
+                
 
                
             </div>
@@ -118,6 +120,8 @@
                                 <img src="/img/modelo-1.jpg">
                             </div>  -->
                         </div>
+                        <br>
+                        <p>* Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
                     </div>
                     <table>
                         <tr>
@@ -134,15 +138,17 @@
                         <tr>
                             <td>Cocina abierta</td>
                         </tr>
-                        <tr>
-                            <td>Estufa y calentador eléctrico</td>
-                        </tr>
+                        
                         <tr>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
                             <td>Área Construida Casa medianera</td>
                             <td>103, 26 m2</td>
+                        </tr>
+                        <tr>
+                            <td>Área Construida Casa esquinera</td>
+                            <td>113, 61 m2</td>
                         </tr>
                         <!-- <tr>
                             <td>Area Privada</td>
@@ -179,6 +185,8 @@
                                 <img src="/img/modelo-1.jpg">
                             </div> -->
                         </div>
+                        <br>
+                        <p>* Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
                     </div>
                     <table>
                         <tr>
@@ -240,7 +248,8 @@
                                             <div>
                                                 <img src="/img/modelo-1.jpg">
                                             </div> -->
-                        </div>
+                        </div> <br>
+                        <p>* Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
                     </div>
                     <table>
                         <tr>
@@ -363,15 +372,15 @@
                             class="sold">63</span><span class="sold">64</span><span class="sold">65</span><span class="">66</span><span
                             class="sold">67</span><span class="sold">68</span><span class="sold">69</span><span class="sold">70</span><span
                             class="sold">71</span><span class="sold">72</span><span class="">73</span><span class="">74</span><span
-                            class="sold">75</span><span class="">76</span><span class="sold">77</span><span class="sold">78</span><span
-                            class="sold">79</span>
+                            class="sold">75</span><span class="">76</span><span class="">77</span><span class="">78</span><span
+                            class="">79</span>
                     </div>
 
                     <div class="floors">
                         <h4>Casas</h4>
-                        <span class="sold">80</span><span class="sold">81</span><span class="sold">82</span><span
-                            class="sold">83</span><span class="sold">84</span><span class="sold">85</span><span class="sold">86</span><span
-                            class="sold">87</span><span class="sold">88</span><span class="sold">89</span><span class="sold">90</span><span
+                        <span class="">80</span><span class="">81</span><span class="">82</span><span
+                            class="">83</span><span class="">84</span><span class="">85</span><span class="">86</span><span
+                            class="">87</span><span class="">88</span><span class="">89</span><span class="">90</span><span
                             class="">91</span><span class="sold">92</span>
                             
                            
@@ -455,6 +464,12 @@
     .sites h3 {
    
     color: white;
+}
+.info{
+    font-size:10px;
+    margin-top:8%;
+    color:#b3b3b3;
+    margin-left:15%;
 }
 </style>
 @endpush

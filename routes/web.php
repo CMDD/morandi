@@ -16,7 +16,13 @@ Route::get('/nosotros', function () {return view('nosotros');});
 Route::get('/postventa', function () {return view('postventa');});
 Route::get('/proyecto/{project}', 'ProjectController@enVenta');
 Route::get('admin', function () {return view('admin.index');});
-Route::get('blog', function () {return view('blog');});
+Route::get('blog','BlogController@index');
 
 Route::get('realizados/{project}','ProjectController@realizados');
 Route::get('avance/{project}','ProjectController@avance');
+
+// Admin
+
+Route::get('crear-blog','BlogController@create');
+
+Route::post('crear-blog','BlogController@store');

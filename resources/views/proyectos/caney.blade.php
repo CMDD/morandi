@@ -44,6 +44,8 @@
                     <div><img src="/images/caney/icons/cancha multiple06.jpg"><span>Cancha múltiple</span></div>
                        
                 </div>
+                <p class="info">* No incluyen dotación <br> * Las canchas son de uso recreativo no para microfutbol y voleibol, no tienen medidas reglamentarias.
+             </p>
             </div>
             <div class="col-md-6 py-5 sites">
                 <h3>Sitios de <span>interés</span></h3>
@@ -63,8 +65,8 @@
         </div>
         <div class="row gallery">
             <div class="col-sm-8 gallery-1">
-                <div class="gallery-item he1"><a href="/images/caney/galeria/1.jpg"
-                        style="background-image: url(/images/caney/galeria/1.jpg);"></a></div>
+                <div class="gallery-item he1"><a href="/images/caney/galeria/8.jpg"
+                        style="background-image: url(/images/caney/galeria/8.jpg);"></a></div>
                 <div class="gallery-item wi2l he2"><a href="/images/caney/galeria/2.jpg"
                         style="background-image: url(/images/caney/galeria/2.jpg);"></a></div>
                 <div class="gallery-item wi2r he2"><a href="/images/caney/galeria/3.jpg"
@@ -80,7 +82,7 @@
             </div>
             <div class="gallery-hide">
                 <a href="/images/caney/galeria/7.jpg"></a>
-                <a href="/images/caney/galeria/8.jpg"></a>
+                <a href="/images/caney/galeria/1.jpg"></a>
                 <a href="/images/caney/galeria/9.jpg"></a>
                 <a href="/images/caney/galeria/10.jpg"></a>
                 <a href="/images/caney/galeria/11.jpg"></a>
@@ -114,7 +116,8 @@
                             <!-- <div>
                                 <img src="/img/modelo-1.jpg">
                             </div>  -->
-                        </div>
+                        </div> <br>
+                        <p>* Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
                     </div>
                     <table>
                         <tr>
@@ -177,6 +180,8 @@
                                 <img src="/img/modelo-1.jpg">
                             </div> -->
                         </div>
+                        <br>
+                        <p>* Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
                     </div>
                     <table>
                         <tr>
@@ -240,6 +245,8 @@
                                                 <img src="/img/modelo-1.jpg">
                                             </div> -->
                         </div>
+                        <br>
+                        <p>* Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
                     </div>
                     <table>
                         <tr>
@@ -291,6 +298,8 @@
                    
                 </div>
                 <div id="urbanismo" class="tab-content">
+
+                        
                     <img style="width: 40%" src="/images/caney/urbanismo.jpg">
                 
                     <table>
@@ -439,6 +448,12 @@
     .sites li {
    
     color: #673b15;
+}
+.info{
+    font-size:10px;
+    margin-top:8%;
+    color:#b3b3b3;
+    margin-left:15%;
 }
 </style>
 @endpush

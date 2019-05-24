@@ -40,6 +40,10 @@
                     <div><img src="/images/ofipietra/icons/planta electrica36.jpg"><span>Planta eléctrica de emergencia</span></div>                  
                     <div><img src="/images/ofipietra/icons/terraza37.jpg"><span>Terraza panorámica</span></div>                  
                 </div>
+
+                <p class="info">* 2 Ascensores: Capacidad para 8 personas <br> * Baños para personas con mibilidad reducida 
+             </p>
+                
             </div>
             <div class="col-md-6 py-5 sites">
                 <h3>Sitios de <span>interés</span></h3>
@@ -107,7 +111,7 @@
                     </div>
                     <table>
                         <tr>
-                            <td>Coloca 52 oficinas</td>
+                            <td>52 oficinas</td>
                             
                         </tr>
                         <tr>
@@ -115,7 +119,7 @@
                             
                         </tr>
                         <tr>
-                            <td>Ascensores</td>
+                            <td>2 Ascensores</td>
                         </tr>
                         
                         <tr>
@@ -181,7 +185,7 @@
                 <div id="torre3" class="tab-content">
                     <div class="floors">
                         <h4>Oficinas</h4>
-                        <span class="sold">401</span><span class="sold">402</span><span class="sold">403</span><span>404</span><span
+                        <span class="sold">401</span><span class="sold">402</span><span class="sold">403</span><span class="sold">404</span><span
                             class="sold">405</span><span class="sold">406</span><span class="sold">407</span><span
                             class="sold">408</span><span class="sold">409</span><span>410</span><span
                             class="sold">411</span><span >412</span><span >413</span>
@@ -274,6 +278,13 @@
     .sites h3 {
    
     color: white;
+}
+
+.info{
+    font-size:10px;
+    margin-top:8%;
+    color:#b3b3b3;
+    margin-left:15%;
 }
 </style>
 @endpush

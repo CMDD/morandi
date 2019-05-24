@@ -28,6 +28,7 @@ Vue.component('project-senior', require('./web/proyectos/SeniorSuite.vue').defau
  */
  Vue.component('admin-dashboard', require('./admin/Dashboard.vue').default);
  Vue.component('create-project', require('./admin/CreateProject.vue').default);
+ Vue.component('create-blog', require('./admin/blog/Crear.vue').default);
 
 
 
