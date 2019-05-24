@@ -42,6 +42,10 @@
                     <div><img src="/images/bosque/icons/sendero ecologico08.jpg"><span>Sendero Ecológico</span></div>
                     <div><img src="/images/bosque/icons/bioparque09.jpg"><span>Bio Parque</span></div>
                 </div>
+
+                <p class="info">* Las Zonas comunes no incluyen dotación.
+             </p>
+
             </div>
             <div class="col-md-6 py-5 sites">
                 <h3>Sitios de <span>interés</span></h3>
@@ -311,6 +315,13 @@
    .sites{
        background: #391700;
    }
+
+   .info{
+    font-size:10px;
+    margin-top:8%;
+    color:#b3b3b3;
+    margin-left:15%;
+}
    
 </style>
 @endpush
