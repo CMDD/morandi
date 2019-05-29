@@ -22,7 +22,7 @@
       <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
             <a class="navbar-brand" href="/"><img src="/img/logo.svg" alt="Morandi"></a>
             <span class="navbar-text justify-content-end">
-                <a href="#" class="show-menu open-menu">MENU</a><a href="#" class="icon"><img src="/img/facebook-head.svg"></a><a href="#" class="icon"><img src="/img/instagram-head.svg"></a>
+                <a href="#" class="show-menu open-menu">MENU</a><a  target="_blank"  href="https://www.facebook.com/MorandiConstrucciones/" class="icon"><img src="/img/facebook-head.svg"></a><a  target="_blank" href="https://www.instagram.com/morandiconstrucciones/" class="icon"><img src="/img/instagram-head.svg"></a>
             </span>
             <div class="menu-float">
                 <ul>
