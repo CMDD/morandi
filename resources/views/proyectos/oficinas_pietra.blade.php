@@ -9,7 +9,7 @@
     <div class="container-fluid">
         <div class="row align-items-center my-5">
             <div class="col-lg-7 col-xl-6 subtitle" data-aos-delay="100" data-aos="zoom-out-right">
-                <h3><span class="top">LA MEJOR UBICACIÓN PARA   </span> TU NEGOCIO ESTA  <span class="bottom">en pietra</span>
+                <h3><span class="top">LA MEJOR UBICACIÓN PARA   </span> TU NEGOCIO ESTA  <span class="bottom">en Pietra</span>
                 </h3>
             </div>
             <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
@@ -35,25 +35,26 @@
                     <div><img src="/images/ofipietra/icons/biometrico31.jpg"><span>Control de Acceso Biométrico</span></div>
                     <div><img src="/images/ofipietra/icons/ascensores32.jpg"><span>Ascensores</span></div>
                     <div><img src="/images/ofipietra/icons/sala de reuniones33.jpg"><span>Salas de reuniones</span></div>
-                    <div><img src="/images/ofipietra/icons/baños34.jpg"><span>Baños en cada piso</span></div>
+                    <div><img src="/images/ofipietra/icons/banos34.jpg"><span>Baños en cada piso</span></div>
                     <div><img src="/images/ofipietra/icons/circuito de cerrado de tv35.jpg"><span>Circuito cerrado de TV</span></div>
                     <div><img src="/images/ofipietra/icons/planta electrica36.jpg"><span>Planta eléctrica de emergencia</span></div>                  
                     <div><img src="/images/ofipietra/icons/terraza37.jpg"><span>Terraza panorámica</span></div>                  
                 </div>
 
-                <p class="info">* 2 Ascensores: Capacidad para 8 personas <br> * Baños para personas con mibilidad reducida 
+                <p class="info">* 2 Ascensores: Capacidad para 8 personas <br> * Baños para personas con movilidad reducida 
              </p>
                 
             </div>
             <div class="col-md-6 py-5 sites">
                 <h3>Sitios de <span>interés</span></h3>
                 <ul>
-                    <!-- <li><img src="/images/ofipietra/icons/universidad_wh.png">Universidad Manuela Beltrán</li>
-                    <li><img src="/images/ofipietra/icons/universidad_wh.png">Universidad Militar</li>
-                    <li><img src="/images/ofipietra/icons/universidad_wh.png">Universidad de la Sabana</li>
-                    <li><img src="/images/ofipietra/icons/centro comercial_wh.png">Centro Comercial Fontanar</li>
-                    <li><img src="/images/ofipietra/icons/puente del comun_wh.png">Puente del Común </li>
-                    <li><img src="/images/ofipietra/icons/Jaime Duque_wh.png">Parque Jaime Duque</li> -->
+                    <li><img src="/images/ofipietra/icons/Jaime Duque_wh.png">Parque Industrial y Comercial Cajicá</li>
+                    <li><img src="/images/ofipietra/icons/universidad_wh.png">Zona Franca Sabana Centro</li>
+                    <li><img src="/images/ofipietra/icons/universidad_wh.png">Vías 4G: Perimetral de Oriente, IP Accesos Norte</li>
+                   
+                    <li><img src="/images/ofipietra/icons/centro comercial_wh.png">Hoteles, Restaurantes</li>
+                    <li><img src="/images/ofipietra/icons/centro comercial_wh.png">C.C. Fontanar, Centro Chía, Plaza Mayor</li>
+                    <li><img src="/images/ofipietra/icons/Jaime Duque_wh.png">Clínica Marly, Concesionarios de automóviles/li>
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
                         Maps</span>
@@ -113,6 +114,7 @@
                                 <img src="/img/modelo-1.jpg">
                             </div>  -->
                         </div>
+                        <p>* Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
                     </div>
                     <table>
                         <tr>
@@ -151,9 +153,9 @@
                         <tr>
                             <td colspan="2"><a download="brochure" href="/images/ofipietra/brochure.pdf">Descarga PDF del brochure</a></td>
                         </tr>
-                        <tr>
+                        <!-- <tr>
                             <td colspan="2"><a download="plantas" href="/images/ofipietra/plantas.pdf">Descarga PDF de las plantas</a></td>
-                        </tr>
+                        </tr> -->
                     </table>
                 </div>
 

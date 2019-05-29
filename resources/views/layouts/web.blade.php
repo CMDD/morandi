@@ -28,12 +28,12 @@
                 <ul>
                     <li><a href="/" class="active">Inicio</a></li>
                     <li><a href="{{url('nosotros')}}">Nosotros</a></li>
-                    <li class="has-children"><a href="#">Proyectos</a>
+                    <li class="has-children"><a href="#">Proyectos en Venta</a>
                         <ul class="sub">
+                             <li><a href="{{url('proyecto/senior')}}">Senior Suites</a></li>
+                             <li><a href="{{url('proyecto/fique')}}">Fique</a></li>
+                             <li><a href="{{url('proyecto/caney')}}">Caney</a></li>
                             <li><a href="/proyecto/bosque">Bosque Montaña</a></li>
-                            <li><a href="{{url('proyecto/senior')}}">Senior Suites</a></li>
-                            <li><a href="{{url('proyecto/caney')}}">Caney</a></li>
-                            <li><a href="{{url('proyecto/fique')}}">Fique</a></li>
                             <li><a href="{{url('proyecto/oficinas_pietra')}}">Oficinas Pietra</a></li>
                             
                         </ul>

@@ -93,7 +93,7 @@
         <div class="row">
             <div class="col models">
                 <h3>Tipos de Casas</h3>
-                <p>Selecciona un tipo de casa para ver la disponibilidad</p>
+                <!-- <p>Selecciona un tipo de casa para ver la disponibilidad</p> -->
                 <div class="tipos">
                     <div class="tabs">
                         <span data-tab="tipo1" class="txt active">Anís</span>
@@ -146,6 +146,10 @@
                             <tr>
                                 <td>Area Construida</td>
                                 <td>145,45 m2</td>
+                            </tr>
+                            <tr>
+                                <td>Area Privada</td>
+                                <td>132,78 m2</td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
@@ -211,8 +215,12 @@
                                 <td>&nbsp;</td>
                             </tr>
                             <tr>
-                                <td>Area Total</td>
-                                <td>180 m2</td>
+                                <td>Area Construida</td>
+                                <td>180,20 m2</td>
+                            </tr>
+                            <tr>
+                                <td>Area Privada</td>
+                                <td>164,15 m2</td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
@@ -235,6 +243,9 @@
                     <div id="urbanismo" class="tab-content">
                         <img src="/images/bosque/BM_GENERAL -BROCH.jpg">
                         <table>
+                            <tr>
+                                <td>102 Casas</td>
+                            </tr>
                             <tr>
                                 <td>Piscinas</td>
                             </tr>

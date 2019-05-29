@@ -13,9 +13,7 @@
                 </h3>
             </div>
             <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
-                <p>Proyecto Residencial enfocado en el adulto mayor activo e independiente, donde la única condición para habitarlo es ser mayor de 50 años.
-                    Se encuentra ubicado cerca de la ciudad de Bogotá, en una zona afortunada de Guaymaral con un entorno único, natural y tranquilo, como solo lo ofrece la sabana norte.
-                    Nuestra propuesta logra entender las necesidades de personas que buscan un lugar tranquilo, elegante, con todas las comodidades y espacios de recreación y socialización que promueven su independencia y autonomía.
+                <p> Proyecto Residencial para el Adulto Mayor Activo e Independiente. Diseñado a la medida, en espacios de socializacion y relajación que promueven la autonomia, con servicios complementarios que lo convierten en un lugar elegante, comodo y exclusivo para vivir los mejores momento de la vida. Ubicado al norte de Bogotá en la via Guaymaral, Chia - Cundinamarca.
                 </p>
             </div>
         </div>
@@ -43,22 +41,24 @@
                     <div><img src="/images/senior/icons/oratorio45.jpg"><span>Oratorio</span></div>
                     <div><img src="/images/senior/icons/piscina46.jpg"><span>Piscina</span></div>
                     <div><img src="/images/senior/icons/Gym47.jpg"><span>Gimnasio</span></div>
-                    <div><img src="/images/senior/icons/sauna y turco48.jpg"><span>Sauna</span></div>
+                    <div><img src="/images/senior/icons/sauna y turco48.jpg"><span>Sauna y Turco</span></div>
                     <div><img src="/images/senior/icons/zona de masajes49.jpg"><span>Zona de Masajes</span></div>
-                    <div><img src="/images/senior/icons/enfermeria primeros auxilios50.jpg"><span>Enfermería</span></div>
+                    <div><img src="/images/senior/icons/enfermeria primeros auxilios50.jpg"><span>Enfermeria Preventiva</span></div>
                     <div><img src="/images/senior/icons/zonas verdes con cenderos peatonales51.jpg"><span>Zonas verdes</span></div>
+                    <div><img src="/images/senior/icons/cancha de tennis05.jpg"><span>Cancha de Tenis</span></div>
                    
                 </div>
             </div>
             <div class="col-md-6 py-5 sites">
                 <h3>Sitios de <span>interés</span></h3>
                 <ul>
+                    <li><img src="/images/senior/icons/centro comercial.png">Centro Comercial Centro Chía</li>
+                     <li><img src="/images/senior/icons/centro comercial.png">Centro Comercial Fontanar</li>
+                     <li><img src="/images/senior/icons/clinica.png">Clínica Marly</li>
+                     <li><img src="/images/senior/icons/clinica.png">Clínica la Sabana</li>
                     <li><img src="/images/senior/icons/restaurante.png">Restaurante Andres Carne de Res</li>
-                    <li><img src="/images/senior/icons/universidad.png">Universidad de la Sabana</li>
-                    <li><img src="/images/senior/icons/centro comercial.png">Centro Comercial Fontanar</li>
-                    <li><img src="/images/senior/icons/clinica.png">Clínica Marly</li>
-                    <li><img src="/images/senior/icons/centro comercial.png">Centro Chía</li>
-                    
+                    <!-- <li><img src="/images/senior/icons/universidad.png">Universidad de la Sabana</li> -->
+  
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
                         Maps</span></a>
@@ -102,8 +102,8 @@
                     <div class="tabs">
                         <span data-tab="tipo1" class="active">1</span>
                         <span data-tab="tipo2">2</span>
-                        <!-- <span data-tab="tipo3">3</span>
-                        <span data-tab="tipo4" class="txt">Urbanismo</span> -->
+                        <!-- <span data-tab="tipo3">3</span>-->
+                        <span data-tab="urbanismo" class="txt">Urbanismo</span> 
                     </div>
                     <div id="tipo1" class="tab-content active">
                         <div class="slider">
@@ -118,6 +118,7 @@
                                     <img src="/img/modelo-1.jpg">
                                 </div>  -->
                             </div>
+                            <p>* Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
                         </div>
                         <table>
                             <tr>
@@ -135,7 +136,22 @@
                                 <td>Cocina abierta</td>
                             </tr>
                             <tr>
-                                <td>Estufa y calentador eléctrico</td>
+                                <td>Estufa</td>
+                            </tr>
+                            <tr>
+                                <td>Botón de panico</td>
+                            </tr>
+                            <tr>
+                                <td>Parqueadero privado 1</td>
+                            </tr>
+                            <tr>
+                                <td>Servicio a la Suite</td>
+                            </tr>
+                            <tr>
+                                <td>Distribucion para movilidad <br> en silla de ruedas</td>
+                            </tr>
+                            <tr>
+                                <td>Servicio de mantenimiento y <br> aseo a la suite</td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
@@ -153,7 +169,7 @@
                             </tr>
                             <tr>
                                 <td><strong>Precio desde:</strong></td>
-                                <td><strong>$205.570.000</strong></td>
+                                <td><strong>$305.570.000</strong></td>
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
@@ -179,6 +195,7 @@
                                     <img src="/img/modelo-1.jpg">
                                 </div> -->
                             </div>
+                            <p>* Las imágenes son ilustrativas y pueden estar sujetas a cambios sin previo aviso.</p>
                         </div>
                         <table>
                             <tr>
@@ -196,14 +213,29 @@
                                 <td>Cocina abierta</td>
                             </tr>
                             <tr>
-                                <td>Estufa y calentador eléctrico</td>
+                                <td>Estufa</td>
+                            </tr>
+                            <tr>
+                                <td>Botón de panico</td>
+                            </tr>
+                            <tr>
+                                <td>Parqueadero privado 1</td>
+                            </tr>
+                            <tr>
+                                <td>Servicio a la Suite</td>
+                            </tr>
+                            <tr>
+                                <td>Distribucion para movilidad <br> en silla de ruedas</td>
+                            </tr>
+                            <tr>
+                                <td>Servicio de mantenimiento y <br> aseo a la suite</td>
                             </tr>
 
                             <tr>
                                 <td>&nbsp;</td>
                             </tr>
                             <tr>
-                                <td>Area Construida</td>
+                                <td>Area Construida incluye balcón</td>
                                 <td>37.23 m2</td>
                             </tr>
 
@@ -225,6 +257,49 @@
                             </tr>
                         </table>
                     </div>
+                    <div id="urbanismo" class="tab-content">
+                        <img src="/images/bosque/BM_GENERAL -BROCH.jpg">
+                        <table>
+                            <tr>
+                                <td>4 Torres - 288 Suites</td>
+                            </tr>
+                            <tr>
+                                <td>Personal de recepción hotelero</td>
+                            </tr>
+                            <tr>
+                                <td>Servicios de Spa</td>
+                            </tr>
+                            <tr>
+                                <td>Seguridad 24 Hrs</td>
+                            </tr>
+                            <tr>
+                                <td>Servicio de Restaurante</td>
+                            </tr>
+                            <tr>
+                                <td>Servicio de lavanderia</td>
+                            </tr>
+                            <tr>
+                                <td>Actividades y recración</td>
+                            </tr>
+                            <tr>
+                                <td>Servicio de enfermeria <br> preventiva 24 hrs</td>
+                            </tr>
+                            <tr>
+                                <td>Circuito cerrado de Tv</td>
+                            </tr>
+                            <tr>
+                                <td>Wifi en zonas comunes</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>*Los servicios pueden tener un costo adicional</td>
+                            </tr>
+                            
+                        </table>
+                    </div>
                 </div>
                 <h3>Disponibilidad</h3>
                 <div class="torres">
@@ -243,11 +318,11 @@
                         </div>
                         <div class="floors">
                             <h4>Piso 3</h4>
-                            <span class="sold">301</span><span>302</span><span>303</span><span>304</span><span >305</span><span class="sold">306</span><span class="sold">307</span><span class="sold">308</span><span>309</span><span>310</span><span class="sold">311</span><span>312</span><span class="sold">313</span><span>314</span><span>315</span><span >316</span><span>317</span><span>318</span><span>319</span><span>320</span><span>321</span><span class="sold">322</span><span>323</span><span>324</span>
+                            <span class="sold">301</span><span>302</span><span>303</span><span>304</span><span class="sold">305</span><span class="sold">306</span><span class="sold">307</span><span class="sold">308</span><span>309</span><span>310</span><span class="sold">311</span><span>312</span><span class="sold">313</span><span>314</span><span>315</span><span >316</span><span>317</span><span>318</span><span>319</span><span>320</span><span>321</span><span class="sold">322</span><span>323</span><span>324</span>
                         </div>
                         <div class="floors">
                             <h4>Piso 4</h4>
-                            <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span><span>405</span><span>406</span><span >407</span><span class="sold">408</span><span class="sold">409</span><span class="sold">410</span><span>411</span><span >412</span><span>413</span><span>414</span><span>415</span><span>416</span><span>417</span><span>418</span><span class="sold">419</span><span class="sold">420</span><span>421</span><span>422</span><span>423</span><span>424</span>
+                            <span class="sold">401</span><span class="sold">402</span><span>403</span><span>404</span><span>405</span><span>406</span><span >407</span><span class="sold">408</span><span class="sold">409</span><span class="sold">410</span><span>411</span><span >412</span><span>413</span><span>414</span><span>415</span><span>416</span><span>417</span><span>418</span><span class="sold">419</span><span class="sold">420</span><span>421</span><span>422</span><span>423</span><span class="sold">424</span>
                         </div>
 
                     </div>
@@ -258,7 +333,7 @@
                         </div>
                         <div class="floors">
                             <h4>Piso 3</h4>
-                            <span>301</span><span>302</span><span class="sold">303</span><span class="sold">304</span><span>305</span><span class="sold">306</span><span>307</span><span>308</span><span>309</span><span class="sold">310</span><span class="sold">311</span><span class="sold">312</span><span class="sold">313</span><span class="sold">314</span><span class="sold">315</span><span class="sold">316</span><span class="sold">317</span><span class="sold">318</span><span class="sold">319</span><span class="sold">320</span><span class="sold">321</span><span class="sold">322</span><span class="sold">323</span><span class="sold">324</span>
+                            <span>301</span><span class="sold">302</span><span class="sold">303</span><span class="sold">304</span><span>305</span><span class="sold">306</span><span>307</span><span>308</span><span>309</span><span class="sold">310</span><span class="sold">311</span><span class="sold">312</span><span class="sold">313</span><span class="sold">314</span><span class="sold">315</span><span class="sold">316</span><span class="sold">317</span><span class="sold">318</span><span class="sold">319</span><span class="sold">320</span><span class="sold">321</span><span class="sold">322</span><span class="sold">323</span><span class="sold">324</span>
                         </div>
 
                         <div class="floors">

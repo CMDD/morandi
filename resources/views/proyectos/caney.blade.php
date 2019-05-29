@@ -44,7 +44,7 @@
                     <div><img src="/images/caney/icons/cancha multiple06.jpg"><span>Cancha múltiple</span></div>
                        
                 </div>
-                <p class="info">* No incluyen dotación <br> * Las canchas son de uso recreativo no para microfutbol y voleibol, no tienen medidas reglamentarias.
+                <p class="info">* Las zonas comunes no incluyen dotación <br> * Las canchas son de uso recreativo  para microfutbol y voleibol, no tienen medidas reglamentarias.
              </p>
             </div>
             <div class="col-md-6 py-5 sites">
@@ -56,7 +56,7 @@
                     <li><img src="/images/senior/icons/centro comercial.png">Centro comercial Bazar</li>
                     <li><img src="/images/senior/icons/universidad.png">Universidad Manuela Beltrán </li>
                     <li><img src="/images/senior/icons/universidad.png">Universidad de la Sabana</li>
-                    <li><img src="/images/caney/icons/gym.png">Gimnasio BodyTech</li>
+                    <!-- <li><img src="/images/caney/icons/gym.png">Gimnasio BodyTech</li> -->
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
                         Maps</span>

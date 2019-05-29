@@ -14,6 +14,58 @@
                 <div class="col-12 p-0">
                     <div class="slide-projects">
                         <div>
+                            <div class="box" style="background-image: url(images/senior/imagen_home.jpg);">
+                                <a href="{{'proyecto/senior'}}">
+                                    <div class="info">
+                                        <div class="brand brand-senior">
+                                            <img src="img/brand-01.svg">
+                                        </div>
+                                        <div class="text text-senior">
+                                            <span>Suites de 37m2 y 60m2</span><strong>Desde $205.457.000</strong>
+                                            <span>
+                                                Vía Guaymaral, Vereda la balsa, Sector las Juntas, Chía – Cundinamarca.
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="box" style="background-image: url(images/fique/fachada.jpg);">
+                                <a href="{{'proyecto/fique'}}">
+                                    <div class="info">
+                                        <div class="brand brand-caney">
+                                            <img src="/images/fique/logobanner_Mesa de trabajo 1.png">
+                                        </div>
+                                        <div class="text text-caney">
+                                            <span>Casas de 103 m2 y 113 m2 </span><strong>Desde $420.000.000</strong>
+                                            <span> Vereda bojaca carrera 9, Chía  - Cundinamarca &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="box" style="background-image: url(images/caney/caney_home.jpg);">
+                                <a href="{{'proyecto/caney'}}">
+                                    <div class="info">
+                                        <div class="brand brand-caney">
+                                            <img src="/images/caney/logo_home.png">
+                                        </div>
+                                        <div class="text text-caney">
+                                            <span>Casas de 96,33 m2 </span><strong>Desde $409.000.000</strong>
+                                            <span>Vereda Bojacá, calle 26 con carrera 9, Chía  - Cundinamarca &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
                             <div class="box" style="background-image: url(/images/bosque/home.jpg);">
                                 <a href="{{url('proyecto/bosque')}}">
                                 <div class="info">
@@ -21,63 +73,14 @@
                                         <img src="/images/bosque/logo_home.png">
                                     </div>
                                     <div class="text text-bosque">
-                                        <span>Casas campestres de 145,45 m2</span><strong>Desde $720.000.000</strong>
-                                        <span>Vereda Chuntame, Barrio Santa Inés, Sobre la vía Cajicá - Tabio</span>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="box" style="background-image: url(images/senior/imagen_home.jpg);">
-                                <a href="{{'proyecto/senior'}}">
-                                <div class="info">
-                                    <div class="brand brand-senior">
-                                        <img src="img/brand-01.svg">
-                                    </div>
-                                    <div class="text text-senior">
-                                        <span>Suite de 37m2 y 60m2</span><strong>Desde $205.457.000</strong>
-                                        <span>
-                                            Vía Guaymaral, Vereda la balsa, Sector las Juntas, Chía – Cundinamarca.
-                                        </span>
+                                        <span>Casas campestres de 145,45 m2 y 180 m2</span><strong>Desde $720.000.000</strong>
+                                        <span>Vereda Chuntame, Km 2 Vía Cajicá - Tabio</span>
                                     </div>
                                 </div>
                                 </a>
                             </div>
                         </div>
 
-                        <div>
-                            <div class="box" style="background-image: url(images/caney/caney_home.jpg);">
-                                <a href="{{'proyecto/caney'}}">
-                                <div class="info">
-                                    <div class="brand brand-caney">
-                                        <img src="/images/caney/logo_home.png">
-                                    </div>
-                                    <div class="text text-caney">
-                                        <span>Casas de 96 m2 y 33 m2 </span><strong>Desde $409.000.000</strong>
-                                        <span>  Ubicado en chía en la vereda bojacá. &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-                                        </span>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="box" style="background-image: url(images/fique/fique_home.jpg);">
-                                <a href="{{'proyecto/fique'}}">
-                                <div class="info">
-                                    <div class="brand brand-caney">
-                                        <img src="/images/fique/logobanner_Mesa de trabajo 1.png">
-                                    </div>
-                                    <div class="text text-caney">
-                                        <span>Casas de 103 m2 y 26 m2 </span><strong>Desde $420.000.000</strong>
-                                        <span> Ubicado en Chía Cundinamarca &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-                                        </span>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-                        </div>
                         <div>
                             <div class="box" style="background-image: url(images/ofipietra/banner.jpg);">
                                 <a href="{{'proyecto/oficinas_pietra'}}">
@@ -87,9 +90,9 @@
                                         </div>
                                         <div class="text text-caney">
                                             <span>Oficinas de 45 m2 a 107 m2 </span><strong>Desde $392.171.000</strong>
-                                            <span> Ubicado en Cajicá, Cundinamarca &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                            <span>Carrera 5 No. 4 a Sur -79 Cajicá – Cundinamarca. &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
                                                 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-                                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;
                                             </span>
                                         </div>
                                     </div>

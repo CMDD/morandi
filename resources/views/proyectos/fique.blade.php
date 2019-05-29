@@ -48,7 +48,8 @@
                     <div><img src="/images/fique/icons/bbq29.jpg"><span>Zona para BBQ</span></div>    
                     <div><img src="/images/fique/icons/minimarket20.jpg"><span>MiniMarket</span></div>    
                 </div>
-                <p class="info">* Las canchas no tienen medidas reglamentarias <br> * Minimarket: Zona operada por un tercero.
+                <p class="info">* La cancha de microfultbol es en cesped natural <br> * Las canchas no tienen medidas reglamentarias, son de uso recreativo. <br> 
+                * MiniMarket operado por un tercero
              </p>
                 <!-- <p>Las canchas no tienen medidas reglamentarias, son de uso recreativo.</p>
                 <p>Zona operada por un tercero.</p> -->
@@ -62,7 +63,7 @@
                     <li><img src="/images/fique/icons/centro comercial_wh.png">Centro comercial Bazar </li>
                     <li><img src="/images/fique/icons/universidad_wh.png">Universidad Manuela Beltrán</li>
                     <li><img src="/images/fique/icons/universidad_wh.png">Universidad de la Sabana</li>
-                    <li><img src="/images/fique/icons/gym_wht.png">Gimnasio BodyTech</li>
+                    <!-- <li><img src="/images/fique/icons/gym_wht.png">Gimnasio BodyTech</li> -->
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
                         Maps</span>
@@ -103,8 +104,8 @@
             <!-- <p>Selecciona un tipo de apartamento para ver la disponibilidad</p> -->
             <div class="tipos">
                 <div class="tabs">
-                    <span data-tab="tipo1" class="active">1</span>
-                    <span data-tab="tipo2">2</span>
+                    <span data-tab="tipo1" class="active txt"> Piso 1</span>
+                    <span data-tab="tipo2" class="txt">Piso 2</span>
                     <span data-tab="tipo3" class="txt ">Altillo</span>
                     <span data-tab="urbanismo" class="txt ">Urbanismo</span>
                     <!--<span data-tab="tipo4" class="txt">Urbanismo</span> -->
@@ -205,15 +206,17 @@
                         <tr>
                             <td>Cocina abierta</td>
                         </tr>
-                        <tr>
-                            <td>Estufa y calentador eléctrico</td>
-                        </tr>
+                        
                         <tr>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td>Area Total</td>
-                            <td>103,26 m2</td>
+                            <td>Área Construida Casa medianera</td>
+                            <td>103, 26 m2</td>
+                        </tr>
+                        <tr>
+                            <td>Área Construida Casa Esquinera</td>
+                            <td>113, 61 m2</td>
                         </tr>
                         <!-- <tr>
                             <td>Area Privada</td>
@@ -224,7 +227,7 @@
                         </tr>
                         <tr>
                             <td><strong>Precio desde:</strong></td>
-                            <td><strong>$400.000.000</strong></td>
+                            <td><strong>$420.000.000</strong></td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
