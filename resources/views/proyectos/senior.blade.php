@@ -157,7 +157,7 @@
                                 <td>&nbsp;</td>
                             </tr>
                             <tr>
-                                <td>Area Construida</td>
+                                <td>Area Construida incluye balcón</td>
                                 <td>60.12 m2</td>
                             </tr>
                             <!-- <tr>
@@ -279,7 +279,7 @@
                                 <td>Servicio de lavanderia</td>
                             </tr>
                             <tr>
-                                <td>Actividades y recración</td>
+                                <td>Actividades y recreación</td>
                             </tr>
                             <tr>
                                 <td>Servicio de enfermeria <br> preventiva 24 hrs</td>
@@ -295,7 +295,7 @@
                                 <td>&nbsp;</td>
                             </tr>
                             <tr>
-                                <td>*Los servicios pueden tener un costo adicional</td>
+                                <td>* Los servicios pueden tener un costo adicional</td>
                             </tr>
                             
                         </table>

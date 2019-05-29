@@ -2,7 +2,7 @@
 @section('content')
     <div class="cover to-left">
         <div class="outer">
-            <div class="inner" style="background-image: url(/images/bosque/banner.jpg);"></div>
+            <div class="inner" style="background-image: url(/images/bosque/fachada.jpg);"></div>
         </div>
         <img class="logo" src="/img/brand-03.svg">
     </div>
@@ -64,10 +64,10 @@
         </div>
         <div class="row gallery">
             <div class="col-sm-8 gallery-1">
-                <div class="gallery-item he1"><a href="/images/bosque/galeria/2.jpg"
-                        style="background-image: url(/images/bosque/galeria/2.jpg);"></a></div>
-                <div class="gallery-item wi2l he2"><a href="/images/bosque/galeria/3.jpg"
-                        style="background-image: url(/images/bosque/galeria/3.jpg);"></a></div>
+                <div class="gallery-item he1"><a href="/images/bosque/galeria/bambu.jpg"
+                        style="background-image: url(/images/bosque/galeria/bambu.jpg);"></a></div>
+                <div class="gallery-item wi2l he2"><a href="/images/bosque/galeria/fachada.jpg"
+                        style="background-image: url(/images/bosque/galeria/fachada.jpg);"></a></div>
                 <div class="gallery-item wi2r he2"><a href="/images/bosque/galeria/4.jpg"
                         style="background-image: url(/images/bosque/galeria/4.jpg);"></a></div>
             </div>
@@ -85,8 +85,9 @@
                 <a href="/images/bosque/galeria/1.jpg"></a>
                 <a href="/images/bosque/galeria/9.jpg"></a>
                 <a href="/images/bosque/galeria/11.jpg"></a>
-                <a href="/images/bosque/galeria/12.jpg"></a>
-                <a href="/images/bosque/galeria/13.jpg"></a>
+                <a href="/images/bosque/galeria/2.jpg"></a>
+                <a href="/images/bosque/galeria/3.jpg"></a>
+                <a href="/images/bosque/galeria/mont.jpg"></a>
             </div>
         </div>
 

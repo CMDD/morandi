@@ -10,7 +10,7 @@
         <div class="row align-items-center my-5">
             <div class="col-lg-7 col-xl-6 subtitle">
                 
-                <h3><span class="top">el nuevo aire de  </span>  <span class="bottom">chía</span>
+                <h3><span class="top">el nuevo aire de  </span>  <span class="bottom">Chía</span>
                 </h3>
             </div>
             <div class="col-lg-5 description">

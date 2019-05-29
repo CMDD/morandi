@@ -2,7 +2,7 @@
 @section('content')
     <div class="cover to-left">
         <div class="outer">
-            <div class="inner" style="background-image: url(/images/canelon/banner.jpg);"></div>
+            <div class="inner" style="background-image: url(/images/canelon/banner2.jpg);"></div>
         </div>
         <img class="logo" src="/images/canelon/logo-01.png">
     </div>

@@ -83,7 +83,7 @@
             </div>
             <div class="col-sm-8 gallery-1">
                 <div class="gallery-item he1"><a href="/images/bosque/avances/2017j/5.jpg"
-                        style="background-image: url(/images/bosque/avances/2017/5.jpg);"></a></div>
+                        style="background-image: url(/images/bosque/avances/2017j/5.jpg);"></a></div>
                 <!-- <div class="gallery-item wi2l he2"><a href="/images/bosque/avances/2017j/6.jpg"
                         style="background-image: url(/images/bosque/avances/2017j/6.jpg);"></a></div> -->
         

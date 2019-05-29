@@ -125,6 +125,7 @@
 <style>
 .slide-projects .brand-bosque {
     background: #e2dede94; 
+    background:  rgb(226, 223, 220) ;
 }
 .slide-projects .brand-senior {
     background: #000; 
@@ -138,7 +139,8 @@
 }
 
 .slide-projects .brand-caney {
-    background: #e2dede94; 
+    /* background: #e2dede94;  */
+    background: rgb(226, 223, 220); 
 }
 .slide-projects .text-caney {  
     background: rgb(226, 223, 220);

@@ -10,7 +10,7 @@
         <div class="row align-items-center my-5">
             <div class="col-lg-7 col-xl-6 subtitle">
                 
-                <h3><span class="top"> El placer de regresar a</span>  <span class="bottom">casa</span>
+                <h3><span class="top"> El placer de regresar a</span>  <span class="bottom">Casa</span>
                 </h3>
             </div>
             <div class="col-lg-5 description">

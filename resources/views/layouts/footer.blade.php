@@ -2,7 +2,7 @@
             <div class="row gradient">
                 <div class="col">
                     <!-- <img class="logo" src="/img/logo-footer.svg" width="90" data-aos="fade-up"> -->
-                    <div class="row contact" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                    <div class="row contact" data-aos="fade-up" data-aos-delay="600" data-aos-duration="700">
                         <div class="col-12 col-md-6 to-r">
                             <strong>Oficina</strong> Calle 117 No. 11A-62 - Bogotá, Colombia
                         </div>
@@ -19,8 +19,8 @@
                     <div class="social" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000">
                         <span>Síguenos en:</span>
                         <div class="social-icons">
-                            <a href="#"><img src="/img/instagram.svg"></a>
-                            <a href="#"><img src="/img/facebook.svg"></a>
+                            <a target="_black" href="https://www.instagram.com/morandiconstrucciones/"><img src="/img/instagram.svg"></a>
+                            <a  target="_black" href="https://www.facebook.com/MorandiConstrucciones/"><img src="/img/facebook.svg"></a>
                         </div>
                     </div>
                 </div>

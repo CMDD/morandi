@@ -19,14 +19,21 @@
             </div>
         </div>
         <div class="row">
-            <div class="col p-0 full-img">
-                <!-- <img src="/images/bambu/1.jpg"> -->
+            <div class="col-12">
+                <!--<img src="img/img-proyecto-01.jpg">-->
+                <br>
+                <br>
+                <div class="video-embed">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pVD2yR0jmyc" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+                </div>
                 <br>
                 <br>
                 <br>
-                
             </div>
         </div>
+        
         
         <div class="row gallery">
             <div class="col-sm-8 gallery-1">
@@ -55,6 +62,8 @@
                 <a href="/images/bosque/galeria/13.jpg"></a> -->
             </div>
         </div>
+
+        
 
         
     </div>

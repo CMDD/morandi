@@ -48,8 +48,8 @@
                     <div><img src="/images/fique/icons/bbq29.jpg"><span>Zona para BBQ</span></div>    
                     <div><img src="/images/fique/icons/minimarket20.jpg"><span>MiniMarket</span></div>    
                 </div>
-                <p class="info">* La cancha de microfultbol es en cesped natural <br> * Las canchas no tienen medidas reglamentarias, son de uso recreativo. <br> 
-                * MiniMarket operado por un tercero
+                <p class="info">* La cancha de microfultbol es en cesped natural <br> ** Las canchas no tienen medidas reglamentarias, son de uso recreativo. <br> 
+                *** MiniMarket operado por un tercero
              </p>
                 <!-- <p>Las canchas no tienen medidas reglamentarias, son de uso recreativo.</p>
                 <p>Zona operada por un tercero.</p> -->
@@ -271,15 +271,17 @@
                         <tr>
                             <td>Cocina abierta</td>
                         </tr>
-                        <tr>
-                            <td>Estufa y calentador eléctrico</td>
-                        </tr>
+                        
                         <tr>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td>Area Total</td>
-                            <td>96,33 m2</td>
+                            <td>Área Construida Casa medianera</td>
+                            <td>103, 26 m2</td>
+                        </tr>
+                        <tr>
+                            <td>Área Construida Casa esquinera</td>
+                            <td>113, 61 m2</td>
                         </tr>
                         <!-- <tr>
                                             <td>Area Privada</td>
@@ -290,7 +292,7 @@
                         </tr>
                         <tr>
                             <td><strong>Precio desde:</strong></td>
-                            <td><strong>$409.000.000</strong></td>
+                            <td><strong>$420.000.000</strong></td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>

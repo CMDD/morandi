@@ -36,7 +36,7 @@
 
         <div class="floors">
             <h4>Manzana 3</h4>
-            <span class="sold">19</span><span class="sold">20</span><span class="sold">21</span><span class="sold">22</span><span class="">23</span><span class="">24</span>
+            <span class="sold">19</span><span class="sold">20</span><span class="sold">21</span><span class="">22</span><span class="">23</span><span class="">24</span>
         </div>
     </div>
     <div id="etapa3" class="tab-content">
