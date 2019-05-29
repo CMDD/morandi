@@ -9,22 +9,20 @@
     <div class="container-fluid">
         <div class="row align-items-center my-5">
             <div class="col-lg-7 col-xl-6 subtitle">
-                <h3><span class="top"></span>  <span class="bottom"></span>
+                
+                <h3><span class="top">vive en un ambiente de</span>  <span class="bottom">armonía</span>
                 </h3>
             </div>
             <div class="col-lg-5 description">
-                <p>Condominio con 2 etapas de 40 inmuebles cada una. amplios espacios y zonas comunes compuestas por salón social, zona para gimnasio y parque infantil.
+                <p>Conjunto de 82 casas de 3 niveles , en 2 tipos de diseños con terrazas que permiten disfrutar del paisaje alrededor, cuenta con club house dotado con sauna, turco, zona para gimnasio, salón social y cancha múltiple.
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col p-0 full-img">
-                <!--<img src="img/img-proyecto-01.jpg">-->
-                <div class="video-embed">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lDU9mnCvuoQ" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
+                <!-- <img src="/images/bambu/1.jpg"> -->
+                <br>
+                <br>
                 <br>
                 
             </div>

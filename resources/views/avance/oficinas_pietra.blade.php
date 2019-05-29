@@ -32,10 +32,10 @@
             <div class="col-sm-4 gallery-2">
                 <div class="gallery-item he2"><a href="/images/ofipietra/avances/2018o/IMG_0946.JPG" style="background-image: url(/images/ofipietra/avances/2018o/IMG_0946.JPG);"></a>
                 </div>
-                <div class="gallery-item he3"><a href="/images/ofipietra/avances/2018o/IMG_0944.JPG" style="background-image: url(/images/ofipietra/avances/2018o/IMG_0944.JPG);"></a>
-                </div>
-                <div class="gallery-item he4"><a href="/images/ofipietra/avances/2018o/IMG_1853.JPG"
-                        style="background-image: url(/images/ofipietra/avances/2018o/IMG_1853.JPG);"></a></div>
+                <!-- <div class="gallery-item he3"><a href="/images/ofipietra/avances/2018o/IMG_0944.JPG" style="background-image: url(/images/ofipietra/avances/2018o/IMG_0944.JPG);"></a>
+                </div> -->
+                <!-- <div class="gallery-item he4"><a href="/images/ofipietra/avances/2018o/IMG_1853.JPG"
+                        style="background-image: url(/images/ofipietra/avances/2018o/IMG_1853.JPG);"></a></div> -->
             </div>
             <!-- <div class="col-12 gallery-video">
                 <div class="video-embed">
@@ -68,9 +68,12 @@
                 </div>
                 <div class="gallery-item he3"><a href="/images/ofipietra/avances/2018f/IMG_7081.JPG" style="background-image: url(/images/ofipietra/avances/2018f/IMG_7081.JPG);"></a>
                 </div>
-                <div class="gallery-item he4"><a href="/images/ofipietra/avances/2018f/IMG_7099.JPG"
-                        style="background-image: url(/images/ofipietra/avances/2018f/IMG_7099.JPG);"></a></div>
+                <!-- <div class="gallery-item he4"><a href="/images/ofipietra/avances/2018f/IMG_7099.JPG"
+                        style="background-image: url(/images/ofipietra/avances/2018f/IMG_7099.JPG);"></a></div> -->
             </div>
+            <!-- <div class="gallery-hide">
+                <a href="/images/bosque/galeria/10.jpg"></a>            
+            </div> -->
            
         </div>
 
@@ -97,6 +100,9 @@
                 <div class="gallery-item he4"><a href="/images/ofipietra/avances/2017f/IMG_9031.JPG"
                         style="background-image: url(/images/ofipietra/avances/2017f/IMG_9031.JPG);"></a></div>
             </div>
+            <div class="gallery-hide">
+                <a href="/images/ofipietra/avances/2017f/IMG_9018.JPG"></a>
+            </div>
             
         </div>
 
@@ -117,13 +123,65 @@
                 <div class="gallery-item he2"><a href="/images/ofipietra/avances/2016a/IMG_4367.JPG"
                         style="background-image: url(/images/ofipietra/avances/2016a/IMG_4367.JPG);"></a>
                 </div>
-                <div class="gallery-item he3"><a href="/images/ofipietra/avances/2016a/IMG_4374.JPG"
+                <!-- <div class="gallery-item he3"><a href="/images/ofipietra/avances/2016a/IMG_4374.JPG"
                         style="background-image: url(/images/ofipietra/avances/2016a/IMG_4374.JPG);"></a>
-                </div>
+                </div> -->
                 <div class="gallery-item he4"><a href="/images/ofipietra/avances/2016a/IMG_4370.JPG"
                         style="background-image: url(/images/ofipietra/avances/2016a/IMG_4370.JPG);"></a></div>
             </div>
             
+        </div>
+
+        <div class="row gallery">
+            <div class="col-12 gallery-title">
+                <h3><span>Mayo</span> 2016</h3>
+            </div>
+            <div class="col-sm-8 gallery-1">
+                <div class="gallery-item he1"><a href="/images/ofipietra/avances/2016m/DSC01298.JPG"
+                        style="background-image: url(/images/ofipietra/avances/2016m/DSC01298.JPG);"></a></div>
+                <div class="gallery-item wi2l he2"><a href="/images/ofipietra/avances/2016m/DSC01304.JPG"
+                        style="background-image: url(/images/ofipietra/avances/2016m/DSC01304.JPG);"></a></div>
+        
+                <div class="gallery-item wi2r he2"><a href="/images/ofipietra/avances/2016m/DSC01300.JPG"
+                        style="background-image: url(/images/ofipietra/avances/2016m/DSC01300.JPG);"></a></div>
+            </div>
+            <div class="col-sm-4 gallery-2">
+                <div class="gallery-item he2"><a href="/images/ofipietra/avances/2016m/DSC01296.JPG"
+                        style="background-image: url(/images/ofipietra/avances/2016m/DSC01296.JPG);"></a>
+                </div>
+                <!-- <div class="gallery-item he3"><a href="/images/ofipietra/avances/2016a/IMG_4374.JPG"
+                                style="background-image: url(/images/ofipietra/avances/2016a/IMG_4374.JPG);"></a>
+                        </div> -->
+                <div class="gallery-item he4"><a href="/images/ofipietra/avances/2016m/DSC01294.JPG"
+                        style="background-image: url(/images/ofipietra/avances/2016m/DSC01294.JPG);"></a></div>
+            </div>
+        
+        </div>
+
+        <div class="row gallery">
+            <div class="col-12 gallery-title">
+                <h3><span>Enero</span> 2016</h3>
+            </div>
+            <div class="col-sm-8 gallery-1">
+                <div class="gallery-item he1"><a href="/images/ofipietra/avances/2016e/DSC00872.JPG"
+                        style="background-image: url(/images/ofipietra/avances/2016e/DSC00872.JPG);"></a></div>
+                <div class="gallery-item wi2l he2"><a href="//images/ofipietra/avances/2016e/DSC00870.JPG"
+                        style="background-image: url(/images/ofipietra/avances/2016e/DSC00870.JPG);"></a></div>
+        
+                <div class="gallery-item wi2r he2"><a href="/images/ofipietra/avances/2016e/DSC00860.JPG"
+                        style="background-image: url(/images/ofipietra/avances/2016e/DSC00860.JPG);"></a></div>
+            </div>
+            <div class="col-sm-4 gallery-2">
+                <div class="gallery-item he2"><a href="/images/ofipietra/avances/2016e/DSC00869.JPG"
+                        style="background-image: url(/images/ofipietra/avances/2016e/DSC00869.JPG);"></a>
+                </div>
+                <!-- <div class="gallery-item he3"><a href="/images/ofipietra/avances/2016a/IMG_4374.JPG"
+                                style="background-image: url(/images/ofipietra/avances/2016a/IMG_4374.JPG);"></a>
+                        </div> -->
+                <!-- <div class="gallery-item he4"><a href="/images/ofipietra/avances/2016a/IMG_4370.JPG"
+                        style="background-image: url(/images/ofipietra/avances/2016a/IMG_4370.JPG);"></a></div> -->
+            </div>
+        
         </div>
 
     </div>

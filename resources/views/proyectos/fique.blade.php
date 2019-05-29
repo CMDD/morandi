@@ -71,8 +71,8 @@
         </div>
         <div class="row gallery">
             <div class="col-sm-8 gallery-1">
-                <div class="gallery-item he1"><a href="/images/fique/galeria/9.jpg"
-                        style="background-image: url(/images/fique/galeria/9.jpg);"></a></div>
+                <div class="gallery-item he1"><a href="/images/fique/galeria/noche.jpg"
+                        style="background-image: url(/images/fique/galeria/noche.jpg);"></a></div>
                 <div class="gallery-item wi2l he2"><a href="/images/fique/galeria/2.jpg"
                         style="background-image: url(/images/fique/galeria/2.jpg);"></a></div>
                 <div class="gallery-item wi2r he2"><a href="/images/fique/galeria/3.jpg"

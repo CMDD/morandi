@@ -9,24 +9,20 @@
     <div class="container-fluid">
         <div class="row align-items-center my-5">
             <div class="col-lg-7 col-xl-6 subtitle">
-                <h3><span class="top"></span>  <span class="bottom"></span>
+                
+                <h3><span class="top"> El placer de regresar a</span>  <span class="bottom">casa</span>
                 </h3>
             </div>
             <div class="col-lg-5 description">
-                <p>Conjunto de 82 casas de 3 niveles , en 2  tipos de diseños con terrazas 
-                    que permiten disfrutar del paisaje alrededor, cuenta con club house 
-                    dotado con sauna, turco, zona para imnasio, salón social y canchaa multiple.
+                <p>Ubicado frente al club La Hacienda de Cajicá, el condominio cuenta con 54 casas campestres de 2 niveles en lotes con zonas verdes privadas, club house dotado con sauna, turco, jacuzzi, zona para gym y masajes, salón de eventos y cinema. Amplias zonas verdes cancha de tenis y parques recreativos infantiles.
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col p-0 full-img">
                 <!--<img src="img/img-proyecto-01.jpg">-->
-                <div class="video-embed">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lDU9mnCvuoQ" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
+                
+                <br>
                 <br>
                 
             </div>

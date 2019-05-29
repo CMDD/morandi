@@ -11,7 +11,7 @@
 
         <div class="row logo">
             <div class="col">
-                <img src="/images/caney/caney.png">
+                <img src="/images/caney/logo Caney.png">
             </div>
         </div>
 
@@ -34,8 +34,8 @@
                 </div>
                 <div class="gallery-item he3"><a href="/images/caney/avances/2019m/IMG_4689.JPG" style="background-image: url(/images/caney/avances/2019m/IMG_4689.JPG);"></a>
                 </div>
-                <div class="gallery-item he4"><a href="/images/caney/avances/2019m/IMG_4685.JPG"
-                        style="background-image: url(/images/caney/avances/2019m/IMG_4685.JPG);"></a></div>
+                <!-- <div class="gallery-item he4"><a href="/images/caney/avances/2019m/IMG_4685.JPG"
+                        style="background-image: url(/images/caney/avances/2019m/IMG_4685.JPG);"></a></div> -->
             </div>
             <!-- <div class="col-12 gallery-video">
                 <div class="video-embed">
@@ -66,12 +66,30 @@
             <div class="col-sm-4 gallery-2">
                 <div class="gallery-item he2"><a href="/images/caney/avances/2019f/IMG_3004.JPG" style="background-image: url(/images/caney/avances/2019f/IMG_3004.JPG);"></a>
                 </div>
-                <div class="gallery-item he3"><a href="/images/caney/avances/2019f/IMG_3002.JPG" style="background-image: url(/images/caney/avances/2019f/IMG_3002.JPG);"></a>
-                </div>
-                <div class="gallery-item he4"><a href="/images/caney/avances/2019f/IMG_3003.JPG"
-                        style="background-image: url(/images/caney/avances/2019f/IMG_3003.JPG);"></a></div>
+                <!-- <div class="gallery-item he3"><a href="/images/caney/avances/2019f/IMG_3002.JPG" style="background-image: url(/images/caney/avances/2019f/IMG_3002.JPG);"></a>
+                </div> -->
+                <!-- <div class="gallery-item he4"><a href="/images/caney/avances/2019f/IMG_3003.JPG"
+                        style="background-image: url(/images/caney/avances/2019f/IMG_3003.JPG);"></a></div> -->
             </div>
            
+        </div>
+
+        <div class="row">
+           
+            <div class="col-12 gallery-title text-center">
+                <br>
+                <br>
+                <h3><span>Enero</span> 2019</h3>
+            </div>
+            
+            <div class="col-12">
+                <!--<img src="img/img-proyecto-01.jpg">-->
+                <div class="video-embed">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_xegECFVKB4" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+            </div>
         </div>
 
         <div class="row gallery">
@@ -91,13 +109,33 @@
                 <div class="gallery-item he2"><a href="/images/caney/avances/2018a/IMG_0130.JPG"
                         style="background-image: url(/images/caney/avances/2018a/IMG_0130.JPG);"></a>
                 </div>
-                <div class="gallery-item he3"><a href="/images/caney/avances/2018a/IMG_7864.JPG"
+                <!-- <div class="gallery-item he3"><a href="/images/caney/avances/2018a/IMG_7864.JPG"
                         style="background-image: url(/images/caney/avances/2018a/IMG_7864.JPG);"></a>
                 </div>
                 <div class="gallery-item he4"><a href="/images/caney/avances/2018a/IMG_7865.JPG"
-                        style="background-image: url(/images/caney/avances/2018a/IMG_7865.JPG);"></a></div>
+                        style="background-image: url(/images/caney/avances/2018a/IMG_7865.JPG);"></a></div> -->
             </div>
             
+        </div>
+
+        <div class="row gallery">
+            <div class="col-12 gallery-title">
+                <h3><span>Febrero</span> 2018</h3>
+            </div>
+            <div class="col-sm-8 gallery-1">
+                <div class="gallery-item he1"><a href="/images/caney/avances/2018f/IMG_7864.JPG"
+                        style="background-image: url(/images/caney/avances/2018f/IMG_7864.JPG);"></a></div>
+               
+        
+                
+            </div>
+            <div class="col-sm-4 gallery-2">
+                <div class="gallery-item he2"><a href="/images/caney/avances/2018f/IMG_7865.JPG"
+                        style="background-image: url(/images/caney/avances/2018f/IMG_7865.JPG);"></a>
+                </div>
+                
+            </div>
+        
         </div>
 
         <div class="row gallery">
@@ -138,7 +176,7 @@
 
     <style>
     .logo img{
-        /* width:10%; */
+        width:13%;
     }
     </style>
 @endpush

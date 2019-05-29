@@ -9,13 +9,12 @@
     <div class="container-fluid">
         <div class="row align-items-center my-5">
             <div class="col-lg-7 col-xl-6 subtitle">
-                <h3><span class="top"></span>  <span class="bottom"></span>
+                
+                <h3><span class="top">el nuevo aire de  </span>  <span class="bottom">chía</span>
                 </h3>
             </div>
             <div class="col-lg-5 description">
-                <p>Conjunto de 76 casas de 3 niveles , un diseño atractivo con un axcelente
-distribución de los espacios , motivo por el cual se lanzó una segunda 
-etapa de este protecto. el conjunt cuenta con salón social y parque infantil.
+                <p>Conjunto de 76 casas de 3 niveles, un diseño atractivo con una excelente distribución de los espacios, motivo por el cual se lanzó una segunda etapa de este proyecto. El conjunto cuenta con salón social y parque infantil.
 
                 </p>
             </div>
@@ -23,11 +22,11 @@ etapa de este protecto. el conjunt cuenta con salón social y parque infantil.
         <div class="row">
             <div class="col p-0 full-img">
                 <!--<img src="img/img-proyecto-01.jpg">-->
-                <div class="video-embed">
+                <!-- <div class="video-embed">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/lDU9mnCvuoQ" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                </div>
+                </div> -->
                 <br>
                 
             </div>

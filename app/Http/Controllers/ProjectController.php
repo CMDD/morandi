@@ -34,6 +34,9 @@ class ProjectController extends Controller
             case 'hacienda-san-luis':
                 return view('realizados.hacienda_san_luis');
                 break;
+            case 'pietra-apartamento':
+                return view('realizados.pietra_apartamento');
+                break;
            
             
             

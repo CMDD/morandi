@@ -9,11 +9,12 @@
     <div class="container-fluid">
         <div class="row align-items-center my-5">
             <div class="col-lg-7 col-xl-6 subtitle">
-                <h3><span class="top"></span>  <span class="bottom"></span>
+                
+                <h3><span class="top">La armonía se vive </span> donde se construyen <span class="bottom">tus sueños</span>
                 </h3>
             </div>
             <div class="col-lg-5 description">
-                <p>Conjunto residencial referente en la zona, su arquitectura mezcla modernidad con un concepto campestre, ofrece un espacio para todo tipo de familias, cuenta con salones sociales, carril de nada, sauna y turco, zona para gimnasio y parque infantil.
+                <p>Un Conjunto Residencial referente en el municipio de Cajicá con una arquitectura que permite vivir en espacios diseñados especialmente para todo tipo de familias.
                 </p>
             </div>
         </div>

@@ -40,15 +40,15 @@
                     </li>
                     <li class="has-children"><a href="#">Proyectos Realizados</a>
                         <ul class="sub">
-                            <li><a href="/realizados/114">114</a></li>
-                            <li><a href="{{url('/realizados/canelon')}}">Canelon</a></li>
-                            <li><a href="{{url('/realizados/san-diego')}}">San Diego</a></li>
-                            <li><a href="{{url('/realizados/bambu')}}">Bambu</a></li>
-                            <li><a href="{{url('/realizados/villas-san-felipe')}}">Villas de san felipe</a></li>
-                            <li><a href="{{url('/realizados/san-felipe')}}">San felipe</a></li>
-                            
-                            <li><a href="{{url('/realizados/guaymaral')}}">Guaymaral</a></li>
-                            <li><a href="{{url('/realizados/hacienda-san-luis')}}">Hacienda san luis</a></li>                       
+                            <li><a href="{{url('/realizados/pietra-apartamento')}}">Pietra Apartamentos</a></li>
+                             <li><a href="{{url('/realizados/canelon')}}">Canelón</a></li>
+                             <li><a href="{{url('/realizados/bambu')}}">Bambu</a></li>
+                             <li><a href="{{url('/realizados/san-felipe')}}">San Felipe Reservado</a></li>
+                             <li><a href="{{url('/realizados/hacienda-san-luis')}}">Hacienda San Luis</a></li>
+                             <li><a href="{{url('/realizados/guaymaral')}}">Guaymaral</a></li>  
+                              <li><a href="{{url('/realizados/villas-san-felipe')}}">Villas de San Felipe</a></li>
+                               <li><a href="{{url('/realizados/san-diego')}}">San Diego</a></li>
+                            <li><a href="/realizados/114">114</a></li>                      
                         </ul>
                     </li>
                     

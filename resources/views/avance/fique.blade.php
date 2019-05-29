@@ -17,7 +17,7 @@
 
         <div class="row gallery">
             <div class="col-12 gallery-title">
-                <h3><span>Marzo</span> 2019</h3>
+                <h3><span>Lote del proyecto</span> </h3>
             </div>
             <div class="col-sm-8 gallery-1">
                 <div class="gallery-item he1"><a href="/images/fique/avances/1.jpg"

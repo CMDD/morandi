@@ -32,8 +32,8 @@
                 </div>
                 <div class="gallery-item he3"><a href="/images/bosque/avances/2019/5.jpg" style="background-image: url(/images/bosque/avances/2019/5.jpg);"></a>
                 </div>
-                <div class="gallery-item he4"><a href="/images/bosque/avances/2019/1.jpg"
-                        style="background-image: url(/images/bosque/avances/2019/1.jpg);"></a></div>
+                <!-- <div class="gallery-item he4"><a href="/images/bosque/avances/2019/1.jpg"
+                        style="background-image: url(/images/bosque/avances/2019/1.jpg);"></a></div> -->
             </div>
             <!-- <div class="col-12 gallery-video">
                 <div class="video-embed">
@@ -50,36 +50,64 @@
 
         <div class="row gallery">
             <div class="col-12 gallery-title">
-                <h3><span>Mayo</span> 2018</h3>
+                <h3><span>Abril</span> 2018</h3>
             </div>
             <div class="col-sm-8 gallery-1">
                 <div class="gallery-item he1"><a href="/images/bosque/avances/2018/1.jpg"
                         style="background-image: url(/images/bosque/avances/2018/1.jpg);"></a></div>
-                <div class="gallery-item wi2l he2"><a href="/images/bosque/avances/2018/3.jpg"
-                        style="background-image: url(/images/bosque/avances/2018/3.jpg);"></a></div>
+                <div class="gallery-item wi2l he2"><a href="/images/bosque/avances/2018/5.jpg"
+                        style="background-image: url(/images/bosque/avances/2018/5.jpg);"></a></div>
 
-                <div class="gallery-item wi2r he2"><a href="/images/bosque/avances/2018/1.jpg"
-                        style="background-image: url(/images/bosque/avances/2018/1.jpg);"></a></div>
+                <div class="gallery-item wi2r he2"><a href="/images/bosque/avances/2018/4.jpg"
+                        style="background-image: url(/images/bosque/avances/2018/4.jpg);"></a></div>
             </div>
             <div class="col-sm-4 gallery-2">
                 <div class="gallery-item he2"><a href="/images/bosque/avances/2018/3.jpg" style="background-image: url(/images/bosque/avances/2018/3.jpg);"></a>
                 </div>
-                <div class="gallery-item he3"><a href="/images/bosque/avances/2018/4.jpg" style="background-image: url(/images/bosque/avances/2018/4.jpg);"></a>
-                </div>
-                <div class="gallery-item he4"><a href="/images/bosque/avances/2018/3.jpg"
-                        style="background-image: url(/images/bosque/avances/2018/3.jpg);"></a></div>
+                <!-- <div class="gallery-item he3"><a href="/images/bosque/avances/2018/4.jpg" style="background-image: url(/images/bosque/avances/2018/4.jpg);"></a>
+                </div> -->
+                <!-- <div class="gallery-item he4"><a href="/images/bosque/avances/2018/5.jpg"
+                        style="background-image: url(/images/bosque/avances/2018/5.jpg);"></a></div> -->
             </div>
             <div class="gallery-hide">
-                <a href="/images/bosque/galeria/10.jpg"></a>
+                <!-- <a href="/images/bosque/galeria/10.jpg"></a>
                 <a href="/images/bosque/galeria/8.jpg"></a>
                 <a href="/images/bosque/galeria/1.jpg"></a>
-                <a href="/images/bosque/galeria/9.jpg"></a>
+                <a href="/images/bosque/galeria/9.jpg"></a> -->
             </div>
         </div>
 
         <div class="row gallery">
             <div class="col-12 gallery-title">
                 <h3><span>Junio</span> 2017</h3>
+            </div>
+            <div class="col-sm-8 gallery-1">
+                <div class="gallery-item he1"><a href="/images/bosque/avances/2017j/5.jpg"
+                        style="background-image: url(/images/bosque/avances/2017/5.jpg);"></a></div>
+                <!-- <div class="gallery-item wi2l he2"><a href="/images/bosque/avances/2017j/6.jpg"
+                        style="background-image: url(/images/bosque/avances/2017j/6.jpg);"></a></div> -->
+        
+                <!-- <div class="gallery-item wi2r he2"><a href="/images/bosque/avances/2017j/7.jpg"
+                        style="background-image: url(/images/bosque/avances/2017j/7.jpg);"></a></div> -->
+            </div>
+            <div class="col-sm-4 gallery-2">
+                <div class="gallery-item he2"><a href="/images/bosque/avances/2017j/6.jpg"
+                        style="background-image: url(/images/bosque/avances/2017j/6.jpg);"></a>
+                </div>
+                <div class="gallery-item he3"><a href="/images/bosque/avances/2017j/7.jpg"
+                                style="background-image: url(/images/bosque/avances/2017j/7.jpg);"></a>
+                        </div>
+                <!-- <div class="gallery-item he4"><a href="/images/bosque/avances/2017/6.jpg"
+                                style="background-image: url(/images/bosque/avances/2017/6.jpg);"></a></div> -->
+            </div>
+            <div class="gallery-hide">
+                <!-- <a href="/images/bosque/avances/2017/7.jpg"></a> -->
+            </div>
+        </div>
+
+        <div class="row gallery">
+            <div class="col-12 gallery-title">
+                <h3><span>Marzo</span> 2017</h3>
             </div>
             <div class="col-sm-8 gallery-1">
                 <div class="gallery-item he1"><a href="/images/bosque/avances/2017/1.jpg"
@@ -94,20 +122,21 @@
                 <div class="gallery-item he2"><a href="/images/bosque/avances/2017/4.jpg"
                         style="background-image: url(/images/bosque/avances/2017/4.jpg);"></a>
                 </div>
-                <div class="gallery-item he3"><a href="/images/bosque/avances/2017/5.jpg"
+                <!-- <div class="gallery-item he3"><a href="/images/bosque/avances/2017/5.jpg"
                         style="background-image: url(/images/bosque/avances/2017/5.jpg);"></a>
-                </div>
-                <div class="gallery-item he4"><a href="/images/bosque/avances/2017/6.jpg"
-                        style="background-image: url(/images/bosque/avances/2017/6.jpg);"></a></div>
+                </div> -->
+                <!-- <div class="gallery-item he4"><a href="/images/bosque/avances/2017/6.jpg"
+                        style="background-image: url(/images/bosque/avances/2017/6.jpg);"></a></div> -->
             </div>
             <div class="gallery-hide">
-                <a href="/images/bosque/avances/2017/7.jpg"></a>
+                <!-- <a href="/images/bosque/avances/2017/7.jpg"></a> -->
             </div>
         </div>
 
+
         <div class="row gallery">
             <div class="col-12 gallery-title">
-                <h3><span></span> 2016</h3>
+                <h3><span>Agosto</span> 2016</h3>
             </div>
             <div class="col-sm-8 gallery-1">
                 <div class="gallery-item he1"><a href="/images/bosque/avances/2016/1.jpg"

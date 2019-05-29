@@ -9,24 +9,23 @@
     <div class="container-fluid">
         <div class="row align-items-center my-5">
             <div class="col-lg-7 col-xl-6 subtitle">
-                <h3><span class="top"></span>  <span class="bottom"></span>
+                
+                <h3><span class="top">un Ambiente campestre muy  </span> cerca de la <span class="bottom">ciudad</span>
                 </h3>
             </div>
             <div class="col-lg-5 description">
-                <p>Conjunto de 82 casas de 3 niveles , en 2  tipos de diseños con terrazas 
-                    que permiten disfrutar del paisaje alrededor, cuenta con club house 
-                    dotado con sauna, turco, zona para imnasio, salón social y canchaa multiple.
+                <p> Conjunto de 99 casas de 3 niveles con 2 tipos de diseño, en donde se destacaban los amplios espacios, terrazas en todo el rededor del 3er piso de las casas. En el conjunto se puede disfrutar de club house con sauna, turco, salón de eventos, zonas verdes, cancha de tenis, parque infantil y cinema.
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col p-0 full-img">
                 <!--<img src="img/img-proyecto-01.jpg">-->
-                <div class="video-embed">
+                <!-- <div class="video-embed">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/lDU9mnCvuoQ" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                </div>
+                </div> -->
                 <br>
                 
             </div>
