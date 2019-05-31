@@ -62,7 +62,7 @@
                             
                         </ul>
                     </li>
-                    <li><a href="/blog">Blog Morandi</a></li>
+                    <li><a href="{{url('blog')}}">Blog Morandi</a></li>
                     <li><a href="{{url('postventa')}}">Postventa</a></li>
                 </ul>
             </div>

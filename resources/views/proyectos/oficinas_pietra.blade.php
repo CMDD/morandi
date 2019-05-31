@@ -52,9 +52,9 @@
                     <li><img src="/images/ofipietra/icons/zona_franca.png">Zona Franca Sabana Centro</li>
                     <li><img src="/images/ofipietra/icons/vias_4G.png">Vías 4G: Perimetral de Oriente, IP Accesos Norte</li>
                    
-                    <li><img src="/images/ofipietra/icons/centro comercial_wh.png">Hoteles, Restaurantes</li>
+                    <li><img src="/images/ofipietra/icons/hotel.png">Hoteles, Restaurantes</li>
                     <li><img src="/images/ofipietra/icons/centro comercial_wh.png">C.C. Fontanar, Centro Chía, Plaza Mayor</li>
-                    <li><img src="/images/ofipietra/icons/Jaime Duque_wh.png">Clínica Marly, Concesionarios de automóviles</li>
+                    <li><img src="/images/ofipietra/icons/clinica_wh.png">Clínica Marly, Concesionarios de automóviles</li>
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
                         Maps</span>
