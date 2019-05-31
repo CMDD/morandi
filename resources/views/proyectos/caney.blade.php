@@ -300,7 +300,7 @@
                 <div id="urbanismo" class="tab-content">
 
                         
-                    <img style="width: 40%" src="/images/caney/urbanismo.jpg">
+                    <img style="max-width: 500px" src="/images/caney/urbanismo.jpg">
                 
                     <table>
                         <tr>

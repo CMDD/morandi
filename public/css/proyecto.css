@@ -379,6 +379,7 @@
 .tab-content img {
     width: 100%;
     max-width: 900px;
+    margin: auto;
 }
 .tab-content table {
     display: inline-block;
@@ -584,12 +585,12 @@
 }
 
 @media (max-width: 570px){
-.cover.to-left .logo {
-    width: 45%;
-    top: 71%;
-    left: 28%;
-    text-align: center;
-}
+    .cover.to-left .logo {
+        transform: translateX(-50%);
+        left: 50%;
+        top: auto;
+        bottom: 0;
+    }
 }
 
 @media (min-width: 576px){
