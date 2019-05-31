@@ -48,9 +48,9 @@
             <div class="col-md-6 py-5 sites">
                 <h3>Sitios de <span>interés</span></h3>
                 <ul>
-                    <li><img src="/images/ofipietra/icons/Jaime Duque_wh.png">Parque Industrial y Comercial Cajicá</li>
-                    <li><img src="/images/ofipietra/icons/universidad_wh.png">Zona Franca Sabana Centro</li>
-                    <li><img src="/images/ofipietra/icons/universidad_wh.png">Vías 4G: Perimetral de Oriente, IP Accesos Norte</li>
+                    <li><img src="/images/ofipietra/icons/parque_industrial_wh.png">Parque Industrial y Comercial Cajicá</li>
+                    <li><img src="/images/ofipietra/icons/zona_franca.png">Zona Franca Sabana Centro</li>
+                    <li><img src="/images/ofipietra/icons/vias_4G.png">Vías 4G: Perimetral de Oriente, IP Accesos Norte</li>
                    
                     <li><img src="/images/ofipietra/icons/centro comercial_wh.png">Hoteles, Restaurantes</li>
                     <li><img src="/images/ofipietra/icons/centro comercial_wh.png">C.C. Fontanar, Centro Chía, Plaza Mayor</li>

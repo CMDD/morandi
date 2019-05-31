@@ -8,11 +8,11 @@
     </div>
     <div class="container-fluid">
         <div class="row align-items-center my-5">
-            <div class="col-lg-7 col-xl-6 subtitle">
+            <div class="col-lg-7 col-xl-6 subtitle" data-aos-delay="100" data-aos="zoom-out-right">
                 <h3><span class="top">disfruta un lugar</span> privelegiado <span class="bottom">en la ciudad</span>
                 </h3>
             </div>
-            <div class="col-lg-5 description">
+            <div class="col-lg-5 description"  data-aos-delay="200" data-aos="zoom-in-up">
                 <p>Ubicado estratégicamente en el sector residencial de chico-navarra. Rodeado de un paisaje urbano y zonas verdes que
                 invitan a disfrutar de la ciudad.
                 Es un edificio de 6 pisos, con 19 apartamentos a partir del 2do nivel y terraza panorámica en el séptimo, ascensor y

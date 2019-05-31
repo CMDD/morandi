@@ -8,12 +8,12 @@
     </div>
     <div class="container-fluid">
         <div class="row align-items-center my-5">
-            <div class="col-lg-7 col-xl-6 subtitle">
+            <div class="col-lg-7 col-xl-6 subtitle" data-aos-delay="100" data-aos="zoom-out-right">
                 
                 <h3><span class="top">un nuevo estilo de vida en un</span>  <span class="bottom">solo lugar</span>
                 </h3>
             </div>
-            <div class="col-lg-5 description">
+            <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
                 <p>Exclusividad y estilo destacan el concepto de vida que emerge en PIETRA. Inspirado en un estilo contemporáneo con atractivos diseños que imponen un nuevo estándar de vida urbana en Cajicá.
                 </p>
             </div>

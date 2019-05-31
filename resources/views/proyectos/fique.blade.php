@@ -72,23 +72,26 @@
         </div>
         <div class="row gallery">
             <div class="col-sm-8 gallery-1">
-                <div class="gallery-item he1"><a href="/images/fique/galeria/noche.jpg"
-                        style="background-image: url(/images/fique/galeria/noche.jpg);"></a></div>
-                <div class="gallery-item wi2l he2"><a href="/images/fique/galeria/2.jpg"
-                        style="background-image: url(/images/fique/galeria/2.jpg);"></a></div>
-                <div class="gallery-item wi2r he2"><a href="/images/fique/galeria/3.jpg"
-                        style="background-image: url(/images/fique/galeria/3.jpg);"></a></div>
+                <div class="gallery-item he1"><a href="/images/fique/galeria/F1.jpg"
+                        style="background-image: url(/images/fique/galeria/F1.jpg);"></a></div>
+                <div class="gallery-item wi2l he2"><a href="/images/fique/galeria/F2.jpg"
+                        style="background-image: url(/images/fique/galeria/F2.jpg);"></a></div>
+                <div class="gallery-item wi2r he2"><a href="/images/fique/galeria/F3.jpg"
+                        style="background-image: url(/images/fique/galeria/F3.jpg);"></a></div>
             </div>
             <div class="col-sm-4 gallery-2">
-                <div class="gallery-item he2"><a href="/images/fique/galeria/7.jpg" style="background-image: url(/images/fique/galeria/7.jpg);"></a>
+                <div class="gallery-item he2"><a href="/images/fique/galeria/F4.jpg" style="background-image: url(/images/fique/galeria/F4.jpg);"></a>
                 </div>
-                <div class="gallery-item he3"><a href="/images/fique/galeria/5.jpg" style="background-image: url(/images/fique/galeria/5.jpg);"></a>
+                <div class="gallery-item he3"><a href="/images/fique/galeria/F5.jpg" style="background-image: url(/images/fique/galeria/F5.jpg);"></a>
                 </div>
-                <div class="gallery-item he4"><a href="/images/fique/galeria/6.jpg"
-                        style="background-image: url(/images/fique/galeria/6.jpg);"></a></div>
+                <div class="gallery-item he4"><a href="/images/fique/galeria/F6.jpg"
+                        style="background-image: url(/images/fique/galeria/F6.jpg);"></a></div>
             </div>
             <div class="gallery-hide">
-                <a href="/images/fique/galeria/4.jpg"></a>
+                <a href="/images/fique/galeria/F7.jpg"></a>
+                <a href="/images/fique/galeria/F8.jpg"></a>
+                <a href="/images/fique/galeria/F9.jpg"></a>
+                <a href="/images/fique/galeria/F10.jpg"></a>
                 
                 
 
@@ -170,9 +173,9 @@
                         <tr>
                             <td colspan="2"><a download="brochure" href="/images/fique/brochure.pdf">Descarga PDF del brochure</a></td>
                         </tr>
-                        <tr>
+                        <!-- <tr>
                             <td colspan="2"><a download="plantas" href="/images/fique/plantas.pdf">Descarga PDF de las plantas</a></td>
-                        </tr>
+                        </tr> -->
                     </table>
                 </div>
                 <div id="tipo2" class="tab-content">
@@ -235,9 +238,9 @@
                         <tr>
                             <td colspan="2"><a download="brochure" href="/images/caney/brochure.pdf">Descarga PDF del brochure</a></td>
                         </tr>
-                        <tr>
+                        <!-- <tr>
                             <td colspan="2"><a download="plantas" href="/images/caney/plantas.pdf">Descarga PDF de las plantas</a></td>
-                        </tr>
+                        </tr> -->
                     </table>
                 </div>
 
@@ -300,9 +303,9 @@
                         <tr>
                             <td colspan="2"><a download="brochure" href="/images/fique/brochure.pdf">Descarga PDF del brochure</a></td>
                         </tr>
-                        <tr>
+                        <!-- <tr>
                             <td colspan="2"><a download="plantas" href="/images/fique/plantas.pdf">Descarga PDF de las plantas</a></td>
-                        </tr>
+                        </tr> -->
                     </table>
                 </div>
 

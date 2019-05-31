@@ -37,7 +37,7 @@
                     <div><img src="/images/caney/icons/salon_ninos.jpg"><span>Salon para niños</span></div>
                     <div><img src="/images/caney/icons/gym15.jpg"><span>Zona para GYM</span></div>
                     <div><img src="/images/caney/icons/parque infantil16.jpg"><span>Parque Infantil</span></div>
-                    <div><img src="/images/caney/icons/teatrino18.jpg"><span>Teatrino</span></div>
+                    <div><img src="/images/caney/icons/teatrino.jpg"><span>Teatrino</span></div>
                     <div><img src="/images/caney/icons/sauna o turco25.jpg"><span>Sauna y Turco</span></div>
                     <div><img src="/images/caney/icons/zona de masajes49.jpg"><span>Zona de relajación</span></div>
                     <div><img src="/images/caney/icons/zonas verdes con cenderos peatonales51.jpg"><span>Zonas verdes</span></div>
@@ -162,9 +162,9 @@
                         <tr>
                             <td colspan="2"><a download="brochure" href="/images/caney/brochure.pdf">Descarga PDF del brochure</a></td>
                         </tr>
-                        <tr>
+                        <!-- <tr>
                             <td colspan="2"><a download="plantas" href="/images/caney/plantas.pdf">Descarga PDF de las plantas</a></td>
-                        </tr>
+                        </tr> -->
                     </table>
                 </div>
                 <div id="tipo2" class="tab-content">
@@ -226,9 +226,9 @@
                         <tr>
                             <td colspan="2"><a download="brochure" href="/images/caney/brochure.pdf">Descarga PDF del brochure</a></td>
                         </tr>
-                        <tr>
+                        <!-- <tr>
                             <td colspan="2"><a download="plantas" href="/images/caney/plantas.pdf">Descarga PDF de las plantas</a></td>
-                        </tr>
+                        </tr> -->
                     </table>
                 </div>
 
@@ -291,9 +291,9 @@
                         <tr>
                             <td colspan="2"><a download="brochure" href="/images/caney/brochure.pdf">Descarga PDF del brochure</a></td>
                         </tr>
-                        <tr>
+                        <!-- <tr>
                             <td colspan="2"><a download="plantas" href="/images/caney/plantas.pdf">Descarga PDF de las plantas</a></td>
-                        </tr>
+                        </tr> -->
                     </table>
                    
                 </div>

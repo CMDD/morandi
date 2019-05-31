@@ -57,7 +57,7 @@
                      <li><img src="/images/senior/icons/clinica.png">Clínica Marly</li>
                      <li><img src="/images/senior/icons/clinica.png">Clínica la Sabana</li>
                     <li><img src="/images/senior/icons/restaurante.png">Restaurante Andres Carne de Res</li>
-                    <!-- <li><img src="/images/senior/icons/universidad.png">Universidad de la Sabana</li> -->
+                    <li><img src="/images/senior/icons/montana_oso.png">Parque la montaña del oso</li>
   
                 </ul>
                 <a href="#" class="maps"><img src="/img/google-maps.svg"><span>Encuentra este proyecto en Google
@@ -66,29 +66,36 @@
         </div>
         <div class="row gallery">
             <div class="col-sm-8 gallery-1">
-                <div class="gallery-item he1"><a href="/images/senior/galeria/8.jpg"
-                        style="background-image: url(/images/senior/galeria/8.jpg);"></a></div>
-                <div class="gallery-item wi2l he2"><a href="/images/senior/galeria/3.jpg"
-                        style="background-image: url(/images/senior/galeria/3.jpg);"></a></div>
-                <div class="gallery-item wi2r he2"><a href="/images/senior/galeria/4.jpg"
-                        style="background-image: url(/images/senior/galeria/4.jpg);"></a></div>
+                <div class="gallery-item he1"><a href="/images/senior/galeria/SS1.jpg"
+                        style="background-image: url(/images/senior/galeria/SS1.jpg);"></a></div>
+                <div class="gallery-item wi2l he2"><a href="/images/senior/galeria/SS2.jpg"
+                        style="background-image: url(/images/senior/galeria/SS2.jpg);"></a></div>
+                <div class="gallery-item wi2r he2"><a href="/images/senior/galeria/SS3.jpg"
+                        style="background-image: url(/images/senior/galeria/SS3.jpg);"></a></div>
             </div>
             <div class="col-sm-4 gallery-2">
-                <div class="gallery-item he2"><a href="/images/senior/galeria/5.jpg" style="background-image: url(/images/senior/galeria/5.jpg);"></a>
+                <div class="gallery-item he2"><a href="/images/senior/galeria/SS4.jpg" style="background-image: url(/images/senior/galeria/SS4.jpg);"></a>
                 </div>
-                <div class="gallery-item he3"><a href="/images/senior/galeria/6.jpg" style="background-image: url(/images/senior/galeria/6.jpg);"></a>
+                <div class="gallery-item he3"><a href="/images/senior/galeria/SS5.jpg" style="background-image: url(/images/senior/galeria/SS5.jpg);"></a>
                 </div>
-                <div class="gallery-item he4"><a href="/images/senior/galeria/7.jpg"
-                        style="background-image: url(/images/senior/galeria/7.jpg);"></a></div>
+                <div class="gallery-item he4"><a href="/images/senior/galeria/SS6.jpg"
+                        style="background-image: url(/images/senior/galeria/SS6.jpg);"></a></div>
             </div>
             <div class="gallery-hide">
-                <a href="/images/senior/galeria/8.jpg"></a>
-                <a href="/images/senior/galeria/seniorHOME.jpg"></a>
+                <a href="/images/senior/galeria/SS7.jpg"></a>
+                <a href="/images/senior/galeria/SS8.jpg"></a>
                 
-                <a href="/images/senior/galeria/11.jpg"></a>
-                <a href="/images/senior/galeria/10.jpg"></a>
-                <a href="/images/senior/galeria/1.jpg"></a>
-                <a href="/images/senior/galeria/9.jpg"></a>
+                <a href="/images/senior/galeria/SS9.jpg"></a>
+                <a href="/images/senior/galeria/SS10.jpg"></a>
+                <a href="/images/senior/galeria/SS11.jpg"></a>
+                <a href="/images/senior/galeria/SS12.jpg"></a>
+                <a href="/images/senior/galeria/SS13.jpg"></a>
+                <a href="/images/senior/galeria/SS14.jpg"></a>
+                <a href="/images/senior/galeria/SS15.jpg"></a>
+                <a href="/images/senior/galeria/SS16.jpg"></a>
+                <a href="/images/senior/galeria/SS17.jpg"></a>
+                <a href="/images/senior/galeria/SS18.jpg"></a>
+                <a href="/images/senior/galeria/SS19.jpg"></a>
                
             </div>
             
@@ -177,9 +184,9 @@
                             <tr>
                                 <td colspan="2"><a download="brochure" href="/images/senior/SeniorSuites_Brochure.pdf">Descarga PDF del brochure</a></td>
                             </tr>
-                            <tr>
+                            <!-- <tr>
                                 <td colspan="2"><a download="plantas" href="/images/senior/plantas.pdf">Descarga PDF de las plantas</a></td>
-                            </tr>
+                            </tr> -->
                         </table>
                     </div>
                     <div id="tipo2" class="tab-content">
@@ -252,13 +259,13 @@
                             <tr>
                                 <td colspan="2"><a download="brochure" href="/images/senior/SeniorSuites_Brochure.pdf">Descarga PDF del brochure</a></td>
                             </tr>
-                            <tr>
+                            <!-- <tr>
                                 <td colspan="2"><a download="plantas" href="/images/senior/plantas.pdf">Descarga PDF de las plantas</a></td>
-                            </tr>
+                            </tr> -->
                         </table>
                     </div>
                     <div id="urbanismo" class="tab-content">
-                        <img src="/images/bosque/BM_GENERAL -BROCH.jpg">
+                        <img src="/images/senior/urbanismo_Senior_Suites.png">
                         <table>
                             <tr>
                                 <td>4 Torres - 288 Suites</td>

@@ -8,12 +8,12 @@
     </div>
     <div class="container-fluid">
         <div class="row align-items-center my-5">
-            <div class="col-lg-7 col-xl-6 subtitle">
+            <div class="col-lg-7 col-xl-6 subtitle" data-aos-delay="100" data-aos="zoom-out-right">
                 
                 <h3><span class="top">vive en un ambiente de</span>  <span class="bottom">armonía</span>
                 </h3>
             </div>
-            <div class="col-lg-5 description">
+            <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
                 <p>Conjunto de 82 casas de 3 niveles , en 2 tipos de diseños con terrazas que permiten disfrutar del paisaje alrededor, cuenta con club house dotado con sauna, turco, zona para gimnasio, salón social y cancha múltiple.
                 </p>
             </div>

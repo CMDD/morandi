@@ -8,11 +8,11 @@
     </div>
     <div class="container-fluid">
         <div class="row align-items-center my-5">
-            <div class="col-lg-7 col-xl-6 subtitle">
+            <div class="col-lg-7 col-xl-6 subtitle" data-aos-delay="100" data-aos="zoom-out-right">
                 <h3><span class="top">Tu Nuevo hogar en donde</span> la mejor decoración <span class="bottom">entra por la ventana</span>
                 </h3>
             </div>
-            <div class="col-lg-5 description">
+            <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
                 <p>Un condominio campestre ubicado contiguo a la zona forestal de Cajicá, que te permite disfrutar de la montaña, el bosque, el aire fresco y la calma de la sabana. En donde podrás practicar deportes al aire libre y disfrutar de todas las comodidades de un club.
                 </p>
             </div>
@@ -165,9 +165,9 @@
                             <tr>
                                 <td colspan="2"><a download="brochere" href="/images/bosque/brochure.pdf">Descarga PDF del brochure</a></td>
                             </tr>
-                            <tr>
+                            <!-- <tr>
                                 <td colspan="2"><a download="Plantas" href="/images/bosque/plantas.pdf">Descarga PDF de las plantas</a></td>
-                            </tr>
+                            </tr> -->
                         </table>
                     </div>
                     <div id="tipo2" class="tab-content">
@@ -236,9 +236,9 @@
                             <tr>
                                 <td colspan="2"><a download="brochure" href="/images/bosque/brochure.pdf">Descarga PDF del brochure</a></td>
                             </tr>
-                            <tr>
+                            <!-- <tr>
                                 <td colspan="2"><a download="Plantas" href="/images/bosque/plantas.pdf">Descarga PDF de las plantas</a></td>
-                            </tr>
+                            </tr> -->
                         </table>
                     </div>
                     <div id="urbanismo" class="tab-content">

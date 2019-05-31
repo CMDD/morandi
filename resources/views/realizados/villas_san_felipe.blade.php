@@ -8,12 +8,12 @@
     </div>
     <div class="container-fluid">
         <div class="row align-items-center my-5">
-            <div class="col-lg-7 col-xl-6 subtitle">
+            <div class="col-lg-7 col-xl-6 subtitle" data-aos-delay="100" data-aos="zoom-out-right">
                 
                 <h3><span class="top">el nuevo aire de  </span>  <span class="bottom">Chía</span>
                 </h3>
             </div>
-            <div class="col-lg-5 description">
+            <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
                 <p>Conjunto de 76 casas de 3 niveles, un diseño atractivo con una excelente distribución de los espacios, motivo por el cual se lanzó una segunda etapa de este proyecto. El conjunto cuenta con salón social y parque infantil.
 
                 </p>
