@@ -22,7 +22,7 @@ class BlogController extends Controller
         $blog->estado = $request->estado;
         $blog->descripcion = $request->descripcion;
         $blog->descripcion_corta = $request->descripcion_corta;
-        $blog->image = $request->file('image')->store('blog');
+        $blog->image = $request->file('image')->store('blogs');
         $blog->save();
         return back();
     }
