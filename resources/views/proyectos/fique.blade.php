@@ -26,9 +26,9 @@
             <div class="col p-0 full-img">
                 <!--<img src="img/img-proyecto-01.jpg">-->
                 <div class="video-embed">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/F9VcZdGfjPg" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                    
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VZAqDtXDpTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                 </div>
             </div>
         </div>
@@ -88,6 +88,10 @@
                         style="background-image: url(/images/fique/galeria/F6.jpg);"></a></div>
             </div>
             <div class="gallery-hide">
+                <a href="/images/fique/galeria/piscina_.jpg"></a>
+                <a href="/images/fique/galeria/gimnasio.jpg"></a>
+                <a href="/images/fique/galeria/Spa2_.jpg"></a>
+                <a href="/images/fique/galeria/Spa_.jpg"></a>
                 <a href="/images/fique/galeria/F7.jpg"></a>
                 <a href="/images/fique/galeria/F8.jpg"></a>
                 <a href="/images/fique/galeria/F9.jpg"></a>
