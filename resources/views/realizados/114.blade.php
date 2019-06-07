@@ -78,9 +78,6 @@
    .sites{
        background: #391700;
    }
-   .logo{
-       width: 10%;
-   }
    
 </style>
 @endpush

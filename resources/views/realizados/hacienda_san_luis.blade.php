@@ -72,10 +72,7 @@
    .sites{
        background: #391700;
    }
-   .logo{
-       width: 17%;
-   }
-   
+
 </style>
 @endpush
 @push('scripts')

@@ -77,9 +77,9 @@
    .sites{
        background: #391700;
    }
-   .logo{
-       width: 15%;
-   }
+    .subtitle h3 .top {
+        white-space: normal;
+    }
    
 </style>
 @endpush
