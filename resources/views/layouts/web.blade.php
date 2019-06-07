@@ -30,7 +30,7 @@
                     <li><a href="{{url('nosotros')}}">Nosotros</a></li>
                     <li class="has-children"><a href="#">Proyectos en Venta</a>
                         <ul class="sub">
-                             <li><a href="{{url('proyecto/senior')}}">Senior Suites</a></li>
+                             <li><a href="{{url('proyecto/senior')}}">Senior Suites Guaymaral</a></li>
                              <li><a href="{{url('proyecto/fique')}}">Fique</a></li>
                              <li><a href="{{url('proyecto/caney')}}">Caney</a></li>
                             <li><a href="/proyecto/bosque">Bosque Montaña</a></li>
@@ -40,22 +40,23 @@
                     </li>
                     <li class="has-children"><a href="#">Proyectos Realizados</a>
                         <ul class="sub">
+                            <li><a href="/realizados/114">114 Street</a></li>     
                             <li><a href="{{url('/realizados/pietra-apartamento')}}">Pietra Apartamentos</a></li>
                              <li><a href="{{url('/realizados/canelon')}}">Canelón</a></li>
                              <li><a href="{{url('/realizados/bambu')}}">Bambu</a></li>
                              <li><a href="{{url('/realizados/san-felipe')}}">San Felipe Reservado</a></li>
                              <li><a href="{{url('/realizados/hacienda-san-luis')}}">Hacienda San Luis</a></li>
-                             <li><a href="{{url('/realizados/guaymaral')}}">Guaymaral</a></li>  
+                             <li><a href="{{url('/realizados/guaymaral')}}">Guaymaral reservado</a></li>  
                               <li><a href="{{url('/realizados/villas-san-felipe')}}">Villas de San Felipe</a></li>
                                <li><a href="{{url('/realizados/san-diego')}}">San Diego</a></li>
-                            <li><a href="/realizados/114">114</a></li>                      
+                                             
                         </ul>
                     </li>
                     
                     <li class="has-children"><a href="#">Avance de obra</a>
                         <ul class="sub">
                             <li><a href="/avance/bosque">Bosque Montaña</a></li>
-                            <li><a href="{{url('/avance/senior')}}">Senior Suites</a></li>
+                            <li><a href="{{url('/avance/senior')}}">Senior Suites Guaymaral</a></li>
                             <li><a href="{{url('/avance/caney')}}">Caney</a></li>
                             <li><a href="{{url('/avance/fique')}}">Fique</a></li>
                             <li><a href="{{url('/avance/oficinas-pietra')}}">Oficinas Pietra</a></li>
