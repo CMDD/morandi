@@ -277,10 +277,6 @@
     .tabs span.active {
         border-color: #00274B;
     }
-    .logo{
-        /* margin-top:7%; */
-        width:14%;
-    }
 
     .sites h3 {
    

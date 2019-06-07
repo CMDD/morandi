@@ -193,12 +193,6 @@
 
 @push('styles')
     <link rel="stylesheet" href="../css/avance.css" type='text/css' media='all'>
-
-    <style>
-    .logo img{
-        width:10%;
-    }
-    </style>
 @endpush
 
 @push('scripts')

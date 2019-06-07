@@ -32,8 +32,11 @@
 }
 
 .logo {
-    text-align: left;
-    margin-left: 10%;
+    text-align: center;
+}
+.logo img {
+    max-height: 200px;
+    max-width: 250px;
 }
 
 .gallery {

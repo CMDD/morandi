@@ -14,6 +14,8 @@
     bottom: 50px;
     right: 20%;
     z-index: 3;
+    max-height: 200px;
+    max-width: 250px;
 }
 .cover.to-left .logo {
     left: 15%;
