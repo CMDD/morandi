@@ -1,6 +1,10 @@
-<h1>Nombre: {{$request->nombre}}</h1>
-<h1>Email: {{$request->email}}</h1>
-<h1>Telefono: {{$request->tel}}</h1>
-<h1>Me enteré por: {{$request->enteraste}}</h1>
-<h1>Acepto: {{$request->politicas}}</h1>
-<h1>Quiero información de: {{$request->proyecto}}</h1>
+
+<h1>Quiero saber del proyecto  {{$request->proyecto}}</h1>
+<hr>
+
+<h2>Nombre: {{$request->nombre}}</h2>
+<h2>Email: {{$request->email}}</h2>
+<h2>Telefono: {{$request->tel}}</h2>
+<h2>Me enteré por: {{$request->enteraste}}</h2>
+<h2>Acepto Politicas: {{$request->politicas}}</h2>
+<!-- <h2>Quiero información de: {{$request->proyecto}}</h2> -->

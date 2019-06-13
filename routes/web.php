@@ -15,7 +15,7 @@ Route::get('/', function () {return view('index');});
 Route::get('/nosotros', function () {return view('nosotros');});
 Route::get('/postventa', function () {return view('postventa');});
 Route::get('/proyecto/{project}', 'ProjectController@enVenta');
-Route::get('admin', function () {return view('admin.index');});
+Route::get('admin', function () {return view('admin.index');})->middleware('auth');
 Route::get('politicas', function () {return view('politicas');});
 Route::get('/blog','BlogController@index');
 
@@ -30,3 +30,7 @@ Route::get('detalle-blog/{id}','BlogController@detail');
 Route::post('crear-blog','BlogController@store');
 Route::post('email-proyect','ProjectController@email');
 Route::post('postventa','ProjectController@postventa');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
