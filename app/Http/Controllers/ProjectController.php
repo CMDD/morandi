@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mail\ProyectoEmail;
 use App\Mail\Postventa;
+use App\Cliente;
 use Mail;
 
 class ProjectController extends Controller
@@ -108,13 +109,34 @@ class ProjectController extends Controller
 
     public function email(Request $request){
 
+
+
         Mail::to('jhon54plex@hotmail.com','Notificacion')
         ->send(new ProyectoEmail($request));
+        $cliente = new Cliente();
+        $cliente->nombre = $request->nombre;
+        $cliente->email = $request->email;
+        $cliente->tel = $request->tel;
+        $cliente->entere = $request->enteraste;
+        $cliente->interes = $request->proyecto;
+        $cliente->politica = (boolean)$request->politicas;
+        $cliente->save();
+        return back();
     }
 
     public function postventa(Request $request){
 
         Mail::to('jhon54plex@hotmail.com','Notificacion')
         ->send(new Postventa($request));
+
+        $cliente = new Cliente();
+        $cliente->nombre = $request->nombre;
+        $cliente->email = $request->email;
+        $cliente->tel = $request->tel;
+
+        $cliente->interes = $request->proyecto;
+        $cliente->politica = (boolean)$request->politicas;
+        $cliente->save();
+        return back();
     }
 }
