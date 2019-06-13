@@ -14,8 +14,11 @@
             </div>
             <div class="col-lg-5 description"  data-aos-delay="200" data-aos="zoom-in-up">
                 <p>Ubicado estratégicamente en el sector residencial de Chicó – San Patricio, Rodeado de un paisaje urbano y zonas verdes que invitan a disfrutar de la ciudad, 6 pisos y terraza panorámica de en el 7mo piso, se destacan los espacios abierto, ventanas piso techo, espacios modernos, con vista exterior en todos los apartamentos.
-
                 </p>
+                <ul>
+                    <li>asda sdasd</li>
+                    <li>ddfdfdfdf</li>
+                </ul>
             </div>
         </div>
         <div class="row">

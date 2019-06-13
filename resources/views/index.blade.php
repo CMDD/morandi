@@ -14,8 +14,8 @@
                 <div class="col-12 p-0">
                     <div class="slide-projects">
                         <div>
-                            <div class="box" style="background-image: url(images/senior/imagen_home.jpg);">
-                                <a href="{{'proyecto/senior'}}">
+                            <a href="{{'proyecto/senior'}}">
+                                <div class="box" style="background-image: url(images/senior/imagen_home.jpg);">
                                     <div class="info">
                                         <div class="brand brand-senior">
                                             <img src="img/brand-01.svg">
@@ -27,12 +27,13 @@
                                             </span>
                                         </div>
                                     </div>
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                         </div>
                         <div>
+                            <a href="{{'proyecto/fique'}}">
                             <div class="box" style="background-image: url(images/fique/fachada.jpg);">
-                                <a href="{{'proyecto/fique'}}">
+
                                     <div class="info">
                                         <div class="brand brand-caney">
                                             <img src="/images/fique/logobanner_Mesa de trabajo 1.png">
@@ -45,12 +46,14 @@
                                             </span>
                                         </div>
                                     </div>
-                                </a>
+
                             </div>
+                            </a>
                         </div>
                         <div>
-                            <div class="box" style="background-image: url(images/caney/caney_home.jpg);">
-                                <a href="{{'proyecto/caney'}}">
+                            <a href="{{'proyecto/caney'}}">
+                                <div class="box" style="background-image: url(images/caney/caney_home.jpg);">
+
                                     <div class="info">
                                         <div class="brand brand-caney">
                                             <img src="/images/caney/logo_home.png">
@@ -62,12 +65,14 @@
                                             </span>
                                         </div>
                                     </div>
-                                </a>
-                            </div>
+
+                                </div>
+                            </a>
                         </div>
                         <div>
+                            <a href="{{url('proyecto/bosque')}}">
                             <div class="box" style="background-image: url(/images/bosque/home.jpg);">
-                                <a href="{{url('proyecto/bosque')}}">
+
                                 <div class="info">
                                     <div class="brand brand-bosque">
                                         <img src="/images/bosque/logo_home.png">
@@ -77,13 +82,15 @@
                                         <span>Vereda Chuntame, Km 2 Vía Cajicá - Tabio</span>
                                     </div>
                                 </div>
-                                </a>
+
                             </div>
+                            </a>
                         </div>
 
                         <div>
+                            <a href="{{'proyecto/oficinas_pietra'}}">
                             <div class="box" style="background-image: url(images/ofipietra/banner.jpg);">
-                                <a href="{{'proyecto/oficinas_pietra'}}">
+
                                     <div class="info">
                                         <div class="brand brand-caney">
                                             <img src="/images/ofipietra/logo_page.png">
@@ -96,8 +103,9 @@
                                             </span>
                                         </div>
                                     </div>
-                                </a>
+
                             </div>
+                            </a>
                         </div>
                         <!-- <div>
                             <div class="box" style="background-image: url(img/proyecto-home-1.jpg);">
