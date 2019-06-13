@@ -1,5 +1,6 @@
 @extends('layouts.web')
 @section('content')
+    <div class="go-contact">CONTACTO</div>
     <div class="cover to-left">
         <div class="outer">
             <div class="inner" style="background-image: url(/images/caney/banner_caney.jpg;"></div>

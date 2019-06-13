@@ -1,6 +1,6 @@
 @extends('layouts.web')
 @section('content')
-  <div class="cover">
+        <div class="cover">
             <div class="text">
                 <h2>Conoce más<br>sobre <span>nosotros</span></h2>
                 <p>
@@ -15,10 +15,10 @@
                 </svg>
                 <div class="col-lg-7">
                     <div class="circle">
-                        <div class="top"><span class="count">791</span><span>Inmuebles<br>residenciales<br>construidos</span></div>
-                        <div class="right"><span class="count">13</span><span>Proyectos<br>realizados</span></div>
-                        <div class="bottom"><span class="count">127003</span></div>
-                        <div class="left"><span class="count">52</span><span>Inmuebles<br>comerciales<br>construidos</span></div>
+                        <div class="top"><span class="count" data-count="791">0</span><span>Inmuebles<br>residenciales<br>construidos</span></div>
+                        <div class="right"><span class="count" data-count="13">0</span><span>Proyectos<br>realizados</span></div>
+                        <div class="bottom"><span class="count" data-count="127003">0</span><span>Metros cuadrados<br>de área construida</span></div>
+                        <div class="left"><span class="count" data-count="52">0</span><span>Inmuebles<br>comerciales<br>construidos</span></div>
                     </div>
                 </div>
                 <div class="col-lg-5 mb-5 mb-lg-0">
@@ -37,7 +37,7 @@
                                 <h3>2005</h3>
                                 <h4>Nacimiento</h4>
                                 <p>Nos Constituimos como Mandal Construcciones Ltda y lanzamos a ventas nuestros primeros proyectos San Diego y Villas de
-                                San Felipe en el municipio de Chía.</span>
+                                San Felipe en el municipio de Chía.</p>
                             </div>
                         </div>
                         <div>
@@ -45,7 +45,7 @@
                                 <h3>2007</h3>
                                 <h4>Inicios</h4>
                                 <p>Iniciamos construcción de los proyectos San Diego y Villas de San Felipe, paralelo a esto lanzamos a ventas una 2da
-                                etapa del proyecto San Diego gracias al éxito y la acogida que tuvo por su diseño y ubicación.</span>
+                                etapa del proyecto San Diego gracias al éxito y la acogida que tuvo por su diseño y ubicación.</p>
                             </div>
                         </div>
                         <div>
@@ -54,7 +54,7 @@
                                 <h4>Lanzamientos</h4>
                                 <p>Lanzamos a ventas 3 nuevos proyectos en Chía y Cajicá; San Felipe Reservado, Guaymaral Reservado y Hacienda San Luis
                                 respectivamente, e iniciamos la construcción de estos 3 proyectos en 2010 consolidando nuestra presencia en 2 de los
-                                municipios más destacados de la sabana norte de la ciudad de Bogotá.</span>
+                                municipios más destacados de la sabana norte de la ciudad de Bogotá.</p>
                             </div>
                         </div>
                         <div>
@@ -131,5 +131,5 @@
 
 @push('scripts')
 <script type="text/javascript" src="js/slick.min.js"></script>
-
+<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
  @endpush

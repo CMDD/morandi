@@ -90,6 +90,11 @@ svg.bottom {
     font-size: 12px;
     font-weight: 200;
     line-height: 1;
+
+}
+.circle .bottom .count {
+    display: block;
+    min-width: 170px;
 }
 .circle .top {
     top: 0;
