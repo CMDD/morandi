@@ -15,41 +15,48 @@
                     <p><span>L - V:</span> 10AM - 5PM<br><span>SABADO:</span> 10AM - 6PM<br><span>DOMINGO:</span> CERRADO</p>
                 </div>
                 <div class="col-md-6 form">
-                    <form>
-                        <input type="text" placeholder="NOMBRE">
-                        <input type="email" placeholder="EMAIL">
-                        <input type="tel" placeholder="TEL/CEL">
+                    <form action="{{url('postventa')}}" method="POST">
+                        {!!csrf_field()!!}
+                        <input type="text" name="nombre" placeholder="NOMBRE">
+                        <input type="email" name="email" placeholder="EMAIL">
+                        <input type="tel" name="tel" placeholder="TEL/CEL">
                         <label>
-                            <span>PROYECTO</span><select>
+                            <span>PROYECTO</span>
+                            <select name="proyecto">
                                 <option>Seleccione...</option>
-                                <option>Proyecto 1</option>
-                                <option>Proyecto 2</option>
-                                <option>Proyecto 3</option>
+                                <option>Senior Suites Guaymaral</option>
+                                <option>Fique</option>
+                                <option>Caney</option>
+                                <option>Bosque Montaña</option>
+                                <option>Oficinas Pietra</option>
                             </select>
                         </label>
                         <label>
-                            <span>TIPO DE INMUEBLE</span><select>
+                            <span>TIPO DE INMUEBLE</span>
+                            <select name="tipo">
                                 <option>Seleccione...</option>
                                 <option>Tipo 1</option>
                                 <option>Tipo 2</option>
                                 <option>Tipo 3</option>
                             </select>
                         </label>
-                        <textarea placeholder="MENSAJE"></textarea>
+                        <textarea name="mensaje" placeholder="MENSAJE"></textarea>
                         <strong>DATOS DEL INMUEBLE</strong>
-                        <input type="text" placeholder="PROPIETARIO">
-                        <input type="text" placeholder="TORRE (SI APLICA)">
-                        <input type="text" placeholder="APARTAMENTO / CASA / OFICINA">
+                        <input name="propietario" type="text" placeholder="PROPIETARIO">
+                        <input name="torre" type="text" placeholder="TORRE (SI APLICA)">
+                        <input name="otro" type="text" placeholder="APARTAMENTO / CASA / OFICINA">
                         <label>
-                            <span>FECHA DE ENTREGA DEL INMUEBLE</span><select>
+                            <span>FECHA DE ENTREGA DEL INMUEBLE</span>
+                            <input type="date" name="fecha">
+                            <!-- <select>
                                 <option>Seleccione...</option>
                                 <option>Fecha 1</option>
                                 <option>Fecha 2</option>
                                 <option>Fecha 3</option>
-                            </select>
+                            </select> -->
                         </label>
                         <div class="submit">
-                            <label><input type="checkbox"> Acepto política de tratamiento de datos</label><span><input type="submit" class="btn" value="Enviar"></span>
+                            <label><input name="politica" type="checkbox"> Acepto política de tratamiento de datos</label><span><input type="submit" class="btn" value="Enviar"></span>
                         </div>
                     </form>
                 </div>

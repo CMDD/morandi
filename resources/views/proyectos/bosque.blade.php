@@ -286,19 +286,24 @@
         <div class="col-md-6 form" data-aos="fade-up">
             <p class="title-form">Para saber mas de este proyecto…</p>
             <h3>Envíanos tus datos<br>y te contactaremos!</h3>
-            <form>
-                <input type="text" placeholder="NOMBRE">
-                <input type="email" placeholder="EMAIL">
-                <input type="tel" placeholder="TEL/CEL">
+            <form action="{{url('email-proyect')}}" method="POST">
+            {!!csrf_field()!!}
+                <input required type="text" name="nombre" placeholder="NOMBRE">
+                <input type="email" name="email" placeholder="EMAIL">
+                <input type="tel" name="tel" placeholder="TEL/CEL">
+                <input type="hidden" name="proyecto" value="Bosque">
                 <label>¿Como te enteraste del proyecto?
-                    <select>
+                    <select name="enteraste">
                         <option>Selecciona...</option>
-                        <option>Redes sociales</option>
-                        <option>Pagina web</option>
-                        <option>Revistas</option>
+                        <option>Facebook</option>
+                        <option>Instagram</option>
+                        <option>Google</option>
+                        <option>Estrenar Vivienda</option>
+                        <option>Metro Cuadrado</option>
+                        <option>Properati</option>
                     </select>
                 </label>
-                <label><input type="checkbox"> Acepto política de tratamiento de datos</label>
+                <label><input name="politicas" required type="checkbox"> Acepto política de tratamiento de datos</label>
                 <input type="submit" class="btn" value="Enviar">
             </form>
         </div>

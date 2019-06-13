@@ -14,7 +14,7 @@
                 </h3>
             </div>
             <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
-                <p>Conjunto de 82 casas de 3 niveles , en 2 tipos de diseños con terrazas que permiten disfrutar del paisaje alrededor, cuenta con club house dotado con sauna, turco, zona para gimnasio, salón social y cancha múltiple.
+                <p>Conjunto Residencial de casas en lotes independientes en el que se destacan el diseño de espacios abiertos, con ventilación e iluminación natural, que lo hacen único en el municipio de cajicá.
                 </p>
             </div>
         </div>

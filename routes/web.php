@@ -26,3 +26,5 @@ Route::get('avance/{project}','ProjectController@avance');
 Route::get('crear-blog','BlogController@create');
 
 Route::post('crear-blog','BlogController@store');
+Route::post('email-proyect','ProjectController@email');
+Route::post('postventa','ProjectController@postventa');

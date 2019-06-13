@@ -13,11 +13,7 @@
                 </h3>
             </div>
             <div class="col-lg-5 description"  data-aos-delay="200" data-aos="zoom-in-up">
-                <p>Ubicado estratégicamente en el sector residencial de chico-navarra. Rodeado de un paisaje urbano y zonas verdes que
-                invitan a disfrutar de la ciudad.
-                Es un edificio de 6 pisos, con 19 apartamentos a partir del 2do nivel y terraza panorámica en el séptimo, ascensor y
-                zona para gimnasio. 4 tipos de apartamentos en cada nivel en los que se destacan modernos espacios abiertos, ventanas
-                piso techo y vista exterior en todos los apartamentos.
+                <p>Ubicado estratégicamente en el sector residencial de Chicó – San Patricio, Rodeado de un paisaje urbano y zonas verdes que invitan a disfrutar de la ciudad, 6 pisos y terraza panorámica de en el 7mo piso, se destacan los espacios abierto, ventanas piso techo, espacios modernos, con vista exterior en todos los apartamentos.
 
                 </p>
             </div>
