@@ -304,7 +304,7 @@
                         <option>Properati</option>
                     </select>
                 </label>
-                <label><input name="politicas" required type="checkbox"> Acepto política de tratamiento de datos</label>
+                <label><input name="politicas" required type="checkbox"> Acepto <a href="{{url('politicas')}}" target="_blank">política de tratamiento de datos</a></label>
                 <input type="submit" class="btn" value="Enviar">
             </form>
         </div>

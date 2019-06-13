@@ -17,8 +17,8 @@
                 <div class="col-md-6 form">
                     <form action="{{url('postventa')}}" method="POST">
                         {!!csrf_field()!!}
-                        <input type="text" name="nombre" placeholder="NOMBRE">
-                        <input type="email" name="email" placeholder="EMAIL">
+                        <input required type="text" name="nombre" placeholder="NOMBRE">
+                        <input required type="email" name="email" placeholder="EMAIL">
                         <input type="tel" name="tel" placeholder="TEL/CEL">
                         <label>
                             <span>PROYECTO</span><select name="proyecto">
@@ -54,7 +54,7 @@
                             </select> -->
                         </label>
                         <div class="submit">
-                            <label><input name="politica" type="checkbox"> Acepto política de tratamiento de datos</label><span><input type="submit" class="btn" value="Enviar"></span>
+                            <label><input name="politicas" required type="checkbox"> Acepto <a href="{{url('politicas')}}" target="_blank">política de tratamiento de datos</a></label><span><input type="submit" class="btn" value="Enviar"></span>
                         </div>
                     </form>
                 </div>
