@@ -15,6 +15,10 @@ class BlogController extends Controller
     public function create(){
         return view('admin.blog.crear');
     }
+    public function detail($id){
+        $blog = Blog::find($id);
+        return view('detalle_blog')->with('blog',$blog);
+    }
 
     public function store(Request $request){
         $blog = new Blog();

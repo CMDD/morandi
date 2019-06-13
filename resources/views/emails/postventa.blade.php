@@ -1,5 +1,7 @@
-<h1>Nombre: {{$request->nombre}}</h1>
-<h1>Email: {{$request->email}}</h1>
-<h1>Telefono: {{$request->tel}}</h1>
+<h1>Información Postventa</h1>
 
-<h1>Acepto: {{$request->politicas}}</h1>
+<h2>Nombre: {{$request->nombre}}</h2>
+<h2>Email: {{$request->email}}</h2>
+<h2>Telefono: {{$request->tel}}</h2>
+
+<h2>Acepto: {{$request->politicas}}</h2>

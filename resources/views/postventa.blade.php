@@ -21,8 +21,7 @@
                         <input type="email" name="email" placeholder="EMAIL">
                         <input type="tel" name="tel" placeholder="TEL/CEL">
                         <label>
-                            <span>PROYECTO</span>
-                            <select name="proyecto">
+                            <span>PROYECTO</span><select name="proyecto">
                                 <option>Seleccione...</option>
                                 <option>Senior Suites Guaymaral</option>
                                 <option>Fique</option>
@@ -31,15 +30,14 @@
                                 <option>Oficinas Pietra</option>
                             </select>
                         </label>
-                        <label>
-                            <span>TIPO DE INMUEBLE</span>
-                            <select name="tipo">
+                        <!-- <label>
+                            <span>TIPO DE INMUEBLE</span><select name="tipo">
                                 <option>Seleccione...</option>
                                 <option>Tipo 1</option>
                                 <option>Tipo 2</option>
                                 <option>Tipo 3</option>
                             </select>
-                        </label>
+                        </label> -->
                         <textarea name="mensaje" placeholder="MENSAJE"></textarea>
                         <strong>DATOS DEL INMUEBLE</strong>
                         <input name="propietario" type="text" placeholder="PROPIETARIO">

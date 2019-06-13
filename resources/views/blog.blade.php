@@ -17,7 +17,7 @@
                     <h2>{{$blog->titulo}}</h2>
                     <p>{{$blog->descripcion_corta}}</p>
                     
-                    <div><a href="#">Leer más</a></div>
+                    <div><a href="{{url('detalle-blog',$blog->id)}}">Leer más</a></div>
                 </div>
             </div>
             @endforeach

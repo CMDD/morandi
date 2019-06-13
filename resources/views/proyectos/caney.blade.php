@@ -375,7 +375,7 @@
         
     
     
-        <div class="row align-items-center contact">
+        <div id="contact" class="row align-items-center contact">
             <div class="col-md-6 image" data-aos="fade-up">
                 <img src="/img/contact.png">
             </div>

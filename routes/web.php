@@ -25,6 +25,7 @@ Route::get('avance/{project}','ProjectController@avance');
 // Admin
 
 Route::get('crear-blog','BlogController@create');
+Route::get('detalle-blog/{id}','BlogController@detail');
 
 Route::post('crear-blog','BlogController@store');
 Route::post('email-proyect','ProjectController@email');
