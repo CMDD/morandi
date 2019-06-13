@@ -11,6 +11,23 @@ img {
     height: auto;
 }
 
+.go-contact {
+    position: fixed;
+    z-index: 8;
+    right: 1rem;
+    top: 75px;
+    background-color: #011238;
+    color: #fff;
+    padding: 6px 33px 4px 6px;
+    font-size: .8rem;
+    cursor: pointer;
+    display: block;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 24 24'%3E%3Cpath d='M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z'/%3E%3C/svg%3E");
+    background-size: 20px;
+    background-position: center right 6px;
+    background-repeat: no-repeat;
+}
+
 .navbar {
     background: rgba(255, 255, 255, 0.6);
     position: fixed;
@@ -189,6 +206,10 @@ img {
 
 @media (min-width: 768px){
     
+    .go-contact {
+        display: none;
+    }
+
     .footer {
         margin-top: 16px;
     }

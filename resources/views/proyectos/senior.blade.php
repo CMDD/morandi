@@ -1,5 +1,6 @@
 @extends('layouts.web')
 @section('content')
+    <div class="go-contact">CONTACTO</div>
     <div class="cover to-left">
         <div class="outer">
             <div class="inner" style="background-image: url(/images/senior/banner.jpg);"></div>
@@ -355,7 +356,7 @@
             </div>
         </div>
 
-        <div class="row align-items-center contact">
+        <div id="contact" class="row align-items-center contact">
             <div class="col-md-6 image" data-aos="fade-up">
                 <img src="/img/contact.png">
             </div>

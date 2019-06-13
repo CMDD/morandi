@@ -28,6 +28,12 @@ $(document).ready(function () {
 		return false;
 	});
     
+    /* desplazamiento contacto */
+    $('.go-contact').click(function () {
+		$("html, body").delay(200).animate({scrollTop: $('#contact').offset().top - 70 }, 1500);
+		return false;
+	});
+
     /* slider home */
     if ($('.slide-projects').length){
         $('.slide-projects').slick({
@@ -76,16 +82,26 @@ $(document).ready(function () {
     }
     
     /* contador - nosotros */
-    $('.count').each(function () {
-      var $this = $(this);
-      $({ Counter: 0 }).animate({ Counter: $this.text() }, {
-        duration: 2000,
-        easing: 'swing',
-        step: function () {
-            $this.text(Math.ceil(this.Counter));
-        }
-      });
-    });
+    if ($('.stats').length){
+        $('.stats').waypoint(function() {
+
+            $('.count').each(function () {
+                $(this).prop('Counter',0).animate({
+                    Counter: $(this).data('count')
+                }, {
+                    duration: 2000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now).toLocaleString());
+
+                    }
+                });
+            });
+
+            this.destroy();
+
+        }, { offset: '50%' });
+    }
     
     /* slider proyecto */
     if ($('.slide-items').length){
