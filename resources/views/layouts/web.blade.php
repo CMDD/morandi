@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Morandi</title>
+    <title>Constructora Morandi, Casas - Apartamentos - Oficinas en Bogota</title>
+    <meta name="description" content="Bienvenido a Morandi, encuentre una amplia oferta de exclusivos proyectos de vivienda en bogotá, con excelentes ubicaciones. Norte de bogotá, cajicá, chía."/>
     <link rel="stylesheet" href="/css/bootstrap.min.css" type='text/css' media='all'>
     <link rel="stylesheet" href="/css/main.css" type='text/css' media='all'>
     <link rel="stylesheet" href="/css/magnific-popup.css" type='text/css' media='all'>
@@ -13,6 +14,16 @@
     <link rel="stylesheet" href="/css/aos.css" type='text/css' media='all'>
     @stack('styles')
     
+    <!--Start of Zendesk Chat Script-->
+    <script type="text/javascript">
+    window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+    d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+    _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+    $.src="https://v2.zopim.com/?4r7ffS91l65nzrkUN6raAJZxkNmoj0nC";z.t=+new Date;$.
+    type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+    </script>
+    <!--End of Zendesk Chat Script-->
+
 </head>
 
 <body>

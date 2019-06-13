@@ -79,6 +79,11 @@
 .description p {
     margin: 0;
 }
+.description ul {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
 
 .full-img img {
     width: 100%;
