@@ -51000,7 +51000,8 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   }, {
     path: '/create-project',
     component: __webpack_require__(/*! ./admin/CreateProject.vue */ "./resources/js/admin/CreateProject.vue").default
-  }]
+  }],
+  mode: 'history'
 });
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',

@@ -47,7 +47,8 @@ Vue.component('project-senior', require('./web/proyectos/SeniorSuite.vue').defau
            component: require ('./admin/CreateProject.vue').default
          }
 
-       ]
+       ],
+   mode: 'history' 
  });
 
 const app = new Vue({
