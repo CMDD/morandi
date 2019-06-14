@@ -16,6 +16,18 @@
             <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
                 <p>Exclusividad y estilo destacan el concepto de vida que emerge en PIETRA. Inspirado en un estilo contemporáneo con atractivos diseños que imponen un nuevo estándar de vida urbana en Cajicá.
                 </p>
+                <ul>
+                    <li>Áreas de 49 a 93 m2</li>
+                    <li>2 torres de 5 pisos con Apartamentos de 1 a 3 alcobas</li>
+                    <li>Gimnasio dotado</li>
+                    <li>Zona de TV</li>
+                    <li>Bar Lounge</li>
+                    <li>Zona para restaurante</li>
+                    <li>Lavandería comunal dotada</li>
+                    <li>Baños para personal de servicio en cada piso</li>
+                    <li>Finalizado en Agosto de 2019</li>
+                   
+                </ul>
             </div>
         </div>
         <div class="row">

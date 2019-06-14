@@ -16,15 +16,23 @@
             <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
                 <p>Un Conjunto Residencial referente en el municipio de Cajicá con una arquitectura que permite vivir en espacios diseñados especialmente para todo tipo de familias.
                 </p>
+                 <ul>
+                    <li>74 Casas de 117 y 130 m2 de 3 niveles</li>
+                    <li>2 Parqueaderos por casa</li>
+                    <p>Características del conjunto</p>
+                    <li>Club house: Piscina, sauna, turco, zona para masajes y zona para gimnasio</li>
+                    <li>Salón social</li>
+                    <li>Salón de juegos</li>
+                    <li>Parque infantil</li>
+                    <li>Finalizado en Diciembre de 2016</li>
+                </ul>
             </div>
         </div>
         <div class="row">
             <div class="col p-0 full-img">
                 <!--<img src="img/img-proyecto-01.jpg">-->
                 <div class="video-embed">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lDU9mnCvuoQ" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EOKeUyKfsvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <br>
                 

@@ -8,7 +8,7 @@
 </div>
 <div id="projects" class="container-fluid">
             <div class="row" data-aos="zoom-in">
-                <h2 class="subtitle">Proyectos en <span>venta</span></h2>
+                <h2 class="subtitle sub">Proyectos en <span>Venta</span></h2>
             </div>
             <div class="row">
                 <div class="col-12 p-0">
@@ -155,6 +155,10 @@
 }
 a{
     color:black !important;
+}
+
+.sub{
+    text-transform: none !important;
 }
 </style>
 @endpush

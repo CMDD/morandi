@@ -155,8 +155,8 @@
                 <div class="gallery-item he2"><a href="/images/caney/avances/2017o/IMG_6354.JPG"
                         style="background-image: url(/images/caney/avances/2017o/IMG_6354.JPG);"></a>
                 </div>
-                <div class="gallery-item he3"><a href="/images/caney/avances/2017o/PFJO1016.JPG"
-                        style="background-image: url(/images/caney/avances/2017o/PFJO1016.JPG);"></a>
+                <!-- <div class="gallery-item he3"><a href="/images/caney/avances/2017o/PFJO1016.JPG"
+                        style="background-image: url(/images/caney/avances/2017o/PFJO1016.JPG);"></a> -->
                 </div>
                 <div class="gallery-item he4"><a href="/images/caney/avances/2017o/IMG_6350.JPG"
                         style="background-image: url(/images/caney/avances/2017o/IMG_6350.JPG);"></a></div>

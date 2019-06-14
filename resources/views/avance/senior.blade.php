@@ -17,7 +17,7 @@
 
         <div class="row gallery">
             <div class="col-12 gallery-title">
-                <h3><span>Lote</span></h3>
+                <h3><span>Lote del Proyecto</span></h3>
             </div>
             <div class="col-sm-8 gallery-1">
                 <div class="gallery-item he1"><a href="/images/senior/avances/lote.jpg"

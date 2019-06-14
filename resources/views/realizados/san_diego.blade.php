@@ -2,7 +2,7 @@
 @section('content')
     <div class="cover to-left">
         <div class="outer">
-            <div class="inner" style="background-image: url(/images/sandiego/banner.jpg);"></div>
+            <div class="inner" style="background-image: url(/images/sandiego/1.jpg);"></div>
         </div>
         <img class="logo" src="/images/sandiego/logo-01.png">
     </div>
@@ -16,6 +16,10 @@
             <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
                 <p>Condominio con 2 etapas de 40 inmuebles cada una, Amplios espacios y zonas comunes compuestas por salón social, zona para gimnasio y parque infantil.
                 </p>
+                <ul>
+                    <li>Etapa 1 Finalizado en Enero de 2009</li>
+                    <li>Etapa 2 finalizado en Noviembre de 2010</li>
+                </ul>
             </div>
         </div>
         <div class="row">
@@ -45,18 +49,15 @@
                 </div>
                 <div class="gallery-item he3"><a href="/images/sandiego/5.jpg" style="background-image: url(/images/sandiego/5.jpg);"></a>
                 </div>
-                <div class="gallery-item he4"><a href="/images/sandiego/1.jpg"
-                        style="background-image: url(/images/sandiego/1.jpg);"></a></div>
+                <div class="gallery-item he4"><a href="/images/sandiego/6.jpg"
+                        style="background-image: url(/images/sandiego/6.jpg);"></a></div>
             </div>
-            <!-- <div class="gallery-hide">
-                <a href="/images/bosque/galeria/10.jpg"></a>
-                <a href="/images/bosque/galeria/8.jpg"></a>
-                <a href="/images/bosque/galeria/1.jpg"></a>
-                <a href="/images/bosque/galeria/9.jpg"></a>
-                <a href="/images/bosque/galeria/11.jpg"></a>
-                <a href="/images/bosque/galeria/12.jpg"></a>
-                <a href="/images/bosque/galeria/13.jpg"></a>
-            </div> -->
+            <div class="gallery-hide">
+                <a href="/images/sandiego/7.jpg"></a>
+                <a href="/images/sandiego/8.jpg"></a>
+                <a href="/images/sandiego/9.jpg"></a>
+                
+            </div>
         </div>
 
         

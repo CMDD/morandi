@@ -2,7 +2,7 @@
 @section('content')
     <div class="cover to-left">
         <div class="outer">
-            <div class="inner" style="background-image: url(/images/bambu/banner.jpg);"></div>
+            <div class="inner" style="background-image: url(/images/bambu/3.jpg);"></div>
         </div>
         <img class="logo" src="/images/bambu/logo-01.png">
     </div>
@@ -14,8 +14,23 @@
                 </h3>
             </div>
             <div class="col-lg-5 description" data-aos-delay="200" data-aos="zoom-in-up">
-                <p>Conjunto Residencial de casas en lotes independientes en el que se destacan el diseño de espacios abiertos, con ventilación e iluminación natural, que lo hacen único en el municipio de cajicá.
+                <p>Conjunto Residencial de casas en lotes independientes en el que se destacan el diseño de espacios abiertos, con ventilación e iluminación natural, que lo hacen único en el municipio de Cajicá.
                 </p>
+                <ul>
+                <li>Área Construida: 161 m2</li>
+                <li>54 Casas de 2 pisos con 3 parqueaderos</li>
+                <p>Otras características del proyecto:</p>
+                <li>Piscina: 1 carril de nado</li>
+                <li>Sauna y Turco</li>
+                <li>Salón de eventos</li>
+                <li>Cancha microfútbol sobre cesped *</li>
+                <li>Cancha de Tenis*</li>
+                <li>Zona para gimnasio</li>
+                <li>Amplias zonas verdes</li>
+                <li>Parque infantil</li>
+                <li>Vista a las montañas de Cajicá</li>
+                <li>Finalizado en Junio de 2017</li>
+                </ul>
             </div>
         </div>
         <div class="row">
@@ -53,8 +68,9 @@
                         style="background-image: url(/images/bambu/6.jpg);"></a></div>
             </div>
             <div class="gallery-hide">
-                <a href="/images/bosque/galeria/7.jpg"></a>
-                <a href="/images/bosque/galeria/8.jpg"></a>
+                <a href="/images/bambu/7.jpg"></a>
+                <a href="/images/bambu/8.jpg"></a>
+                <a href="/images/bambu/9.jpg"></a>
                 <!-- <a href="/images/bosque/galeria/1.jpg"></a>
                 <a href="/images/bosque/galeria/9.jpg"></a>
                 <a href="/images/bosque/galeria/11.jpg"></a>

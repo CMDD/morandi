@@ -266,7 +266,7 @@
                         </table>
                     </div>
                     <div id="urbanismo" class="tab-content">
-                        <img src="/images/senior/urbanismo_Senior_Suites.png">
+                        <img src="/images/senior/ss_urbanismo.png">
                         <table>
                             <tr>
                                 <td>4 Torres - 288 Suites</td>

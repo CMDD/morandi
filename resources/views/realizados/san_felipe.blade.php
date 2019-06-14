@@ -2,7 +2,7 @@
 @section('content')
     <div class="cover to-left">
         <div class="outer">
-            <div class="inner" style="background-image: url(/images/sanfelipe/banner.jpg);"></div>
+            <div class="inner" style="background-image: url(/images/sanfelipe/3.jpg);"></div>
         </div>
         <img class="logo" src="/images/sanfelipe/logo-01.png">
     </div>
@@ -18,6 +18,9 @@
                     que permiten disfrutar del paisaje alrededor, cuenta con club house 
                     dotado con sauna, turco, zona para imnasio, salón social y canchaa multiple.
                 </p>
+                <ul>
+                <li>Finalizado en Noviembre de 2010</li>
+                </ul>
             </div>
         </div>
         <div class="row">
@@ -51,7 +54,10 @@
                         style="background-image: url(/images/sanfelipe/6.jpg);"></a></div>
             </div>
             <div class="gallery-hide">
-                <a href="/images/bosque/galeria/7.jpg"></a>
+                <a href="/images/sanfelipe/7.jpg"></a>
+                <a href="/images/sanfelipe/8.jpg"></a>
+                <a href="/images/sanfelipe/9.jpg"></a>
+                <a href="/images/sanfelipe/10.jpg"></a>
                 <!-- <a href="/images/bosque/galeria/8.jpg"></a> -->
                 <!-- <a href="/images/bosque/galeria/1.jpg"></a>
                 <a href="/images/bosque/galeria/9.jpg"></a>
