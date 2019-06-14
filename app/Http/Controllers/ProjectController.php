@@ -113,6 +113,7 @@ class ProjectController extends Controller
 
         Mail::to('jhon54plex@hotmail.com','Notificacion')
         ->send(new ProyectoEmail($request));
+        
         $cliente = new Cliente();
         $cliente->nombre = $request->nombre;
         $cliente->email = $request->email;
